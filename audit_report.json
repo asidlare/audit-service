@@ -1,0 +1,647 @@
+{
+  "timestamp": "2026-04-19T15:13:07.648028",
+  "environment": "Docker-Cassandra-Cluster-5.0",
+  "summary": {
+    "passed": 3,
+    "failed": 0,
+    "errors": 0
+  },
+  "details": [
+    {
+      "scenario": "Audit by Person",
+      "endpoint": "/api_v1/audit/person/82af8a30-de79-420c-8803-32ee56ce952e",
+      "status": "PASSED",
+      "http_status": 200,
+      "results_count": 10,
+      "latency_ms": 29.69,
+      "response_data": [
+        {
+          "event_time": "319dc4ce-3bfb-11f1-aa0f-62e0f0c6e9a6",
+          "event_type": "CHANGE",
+          "institution_id": "b54c2a65-94fe-40ff-89d6-2c0b7e56c6dd",
+          "human_time": "2026-04-19T14:22:28.044923",
+          "change_code": "EMAIL_CHANGE",
+          "change_json": {
+            "old_email": "old_492@example.com",
+            "new_email": "new_492@example.com",
+            "verified": false
+          }
+        },
+        {
+          "event_time": "3184e03a-3bfb-11f1-aa0f-62e0f0c6e9a6",
+          "event_type": "CHANGE",
+          "institution_id": "b7cbd81c-20f8-41e6-911d-3266afc42969",
+          "human_time": "2026-04-19T14:22:27.881785",
+          "change_code": "PASSWORD_RESET",
+          "change_json": {
+            "new_password_hash": "hash_b9d729c590d54a08",
+            "reset_by": "support",
+            "timestamp": "2026-04-19T08:18:26.206526"
+          }
+        },
+        {
+          "event_time": "318385fa-3bfb-11f1-aa0f-62e0f0c6e9a6",
+          "event_type": "CHANGE",
+          "institution_id": "b74eeeb5-dfb4-4a91-a165-f856a892adcc",
+          "human_time": "2026-04-19T14:22:27.872921",
+          "change_code": "LIMIT_INCREASE",
+          "change_json": {
+            "old_limit": 1736,
+            "new_limit": 4870,
+            "currency": "PLN",
+            "approved_by": "system"
+          }
+        },
+        {
+          "event_time": "31774150-3bfb-11f1-aa0f-62e0f0c6e9a6",
+          "event_type": "CHANGE",
+          "institution_id": "11bf7cce-1591-4fcc-b36c-127e9b6532d8",
+          "human_time": "2026-04-19T14:22:27.792520",
+          "change_code": "PASSWORD_RESET",
+          "change_json": {
+            "new_password_hash": "hash_58cb885544494ad7",
+            "reset_by": "self",
+            "timestamp": "2026-04-19T08:18:26.206195"
+          }
+        },
+        {
+          "event_time": "315f702a-3bfb-11f1-aa0f-62e0f0c6e9a6",
+          "event_type": "CHANGE",
+          "institution_id": "b7cbd81c-20f8-41e6-911d-3266afc42969",
+          "human_time": "2026-04-19T14:22:27.636433",
+          "change_code": "PERMISSION_GRANT",
+          "change_json": {
+            "permission": "delete",
+            "granted_by": "admin",
+            "scope": "limited"
+          }
+        },
+        {
+          "event_time": "313b4aec-3bfb-11f1-aa0f-62e0f0c6e9a6",
+          "event_type": "CHANGE",
+          "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+          "human_time": "2026-04-19T14:22:27.399550",
+          "change_code": "ADDRESS_UPDATE",
+          "change_json": {
+            "street": "732 Oak St",
+            "city": "Krakow",
+            "zip": "40-435"
+          }
+        },
+        {
+          "event_time": "3118f780-3bfb-11f1-aa0f-62e0f0c6e9a6",
+          "event_type": "CHANGE",
+          "institution_id": "11bf7cce-1591-4fcc-b36c-127e9b6532d8",
+          "human_time": "2026-04-19T14:22:27.174592",
+          "change_code": "ADDRESS_UPDATE",
+          "change_json": {
+            "street": "403 Pine St",
+            "city": "Poznan",
+            "zip": "76-031"
+          }
+        },
+        {
+          "event_time": "3015036a-3bfb-11f1-aa0f-62e0f0c6e9a6",
+          "event_type": "CHANGE",
+          "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+          "human_time": "2026-04-19T14:22:25.470961",
+          "change_code": "PERMISSION_GRANT",
+          "change_json": {
+            "permission": "admin",
+            "granted_by": "manager",
+            "scope": "temporary"
+          }
+        },
+        {
+          "event_time": "7d59a972-3bd9-11f1-af52-62e0f0c6e9a6",
+          "event_type": "CHANGE",
+          "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+          "human_time": "2026-04-19T10:21:12.216613",
+          "change_code": "PERMISSION_GRANT",
+          "change_json": {
+            "permission": "admin",
+            "granted_by": "manager",
+            "scope": "temporary"
+          }
+        },
+        {
+          "event_time": "3260ae2a-3bd9-11f1-910f-62e0f0c6e9a6",
+          "event_type": "CHANGE",
+          "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+          "human_time": "2026-04-19T10:19:06.433489",
+          "change_code": "PERMISSION_GRANT",
+          "change_json": {
+            "permission": "admin",
+            "granted_by": "manager",
+            "scope": "temporary"
+          }
+        }
+      ],
+      "error": null
+    },
+    {
+      "scenario": "Audit by Institution",
+      "endpoint": "/api_v1/audit/institution/239e11a4-048d-4c7e-ae85-9113466fabff",
+      "status": "PASSED",
+      "http_status": 200,
+      "results_count": 20,
+      "latency_ms": 16.88,
+      "response_data": [
+        {
+          "event_time": "3196b59e-3bfb-11f1-aa0f-62e0f0c6e9a6",
+          "event_type": "CHANGE",
+          "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+          "human_time": "2026-04-19T14:22:27.998659",
+          "change_code": "PASSWORD_RESET",
+          "change_json": {
+            "new_password_hash": "hash_f77d3e1d3d42459f",
+            "reset_by": "admin",
+            "timestamp": "2026-04-19T08:18:26.207033"
+          }
+        },
+        {
+          "event_time": "3193ba88-3bfb-11f1-aa0f-62e0f0c6e9a6",
+          "event_type": "CHANGE",
+          "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+          "human_time": "2026-04-19T14:22:27.979124",
+          "change_code": "ADDRESS_UPDATE",
+          "change_json": {
+            "street": "104 Oak St",
+            "city": "Poznan",
+            "zip": "51-362"
+          }
+        },
+        {
+          "event_time": "3188aaf8-3bfb-11f1-aa0f-62e0f0c6e9a6",
+          "event_type": "CHANGE",
+          "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+          "human_time": "2026-04-19T14:22:27.906636",
+          "change_code": "PERMISSION_GRANT",
+          "change_json": {
+            "permission": "admin",
+            "granted_by": "admin",
+            "scope": "temporary"
+          }
+        },
+        {
+          "event_time": "3187fd4c-3bfb-11f1-aa0f-62e0f0c6e9a6",
+          "event_type": "CHANGE",
+          "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+          "human_time": "2026-04-19T14:22:27.902190",
+          "change_code": "EMAIL_CHANGE",
+          "change_json": {
+            "old_email": "old_431@example.com",
+            "new_email": "new_431@example.com",
+            "verified": true
+          }
+        },
+        {
+          "event_time": "3184d202-3bfb-11f1-aa0f-62e0f0c6e9a6",
+          "event_type": "CHANGE",
+          "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+          "human_time": "2026-04-19T14:22:27.881421",
+          "change_code": "EMAIL_CHANGE",
+          "change_json": {
+            "old_email": "old_414@example.com",
+            "new_email": "new_414@example.com",
+            "verified": true
+          }
+        },
+        {
+          "event_time": "31787a5c-3bfb-11f1-aa0f-62e0f0c6e9a6",
+          "event_type": "CHANGE",
+          "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+          "human_time": "2026-04-19T14:22:27.800534",
+          "change_code": "PASSWORD_RESET",
+          "change_json": {
+            "new_password_hash": "hash_aadafa31ea2c4b9b",
+            "reset_by": "self",
+            "timestamp": "2026-04-19T08:18:26.206348"
+          }
+        },
+        {
+          "event_time": "31766028-3bfb-11f1-aa0f-62e0f0c6e9a6",
+          "event_type": "CHANGE",
+          "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+          "human_time": "2026-04-19T14:22:27.786756",
+          "change_code": "PASSWORD_RESET",
+          "change_json": {
+            "new_password_hash": "hash_8053723f5b054eb9",
+            "reset_by": "admin",
+            "timestamp": "2026-04-19T08:18:26.206099"
+          }
+        },
+        {
+          "event_time": "317594e0-3bfb-11f1-aa0f-62e0f0c6e9a6",
+          "event_type": "CHANGE",
+          "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+          "human_time": "2026-04-19T14:22:27.781552",
+          "change_code": "EMAIL_CHANGE",
+          "change_json": {
+            "old_email": "old_362@example.com",
+            "new_email": "new_362@example.com",
+            "verified": true
+          }
+        },
+        {
+          "event_time": "316f9f2c-3bfb-11f1-aa0f-62e0f0c6e9a6",
+          "event_type": "CHANGE",
+          "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+          "human_time": "2026-04-19T14:22:27.742494",
+          "change_code": "ADDRESS_UPDATE",
+          "change_json": {
+            "street": "66 Pine St",
+            "city": "Krakow",
+            "zip": "04-219"
+          }
+        },
+        {
+          "event_time": "316e7e44-3bfb-11f1-aa0f-62e0f0c6e9a6",
+          "event_type": "CHANGE",
+          "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+          "human_time": "2026-04-19T14:22:27.735098",
+          "change_code": "STATUS_INACTIVE",
+          "change_json": {
+            "reason": "suspended",
+            "date": "2025-05-25T08:18:26.205788",
+            "reversible": true
+          }
+        },
+        {
+          "event_time": "316e6f4e-3bfb-11f1-aa0f-62e0f0c6e9a6",
+          "event_type": "CHANGE",
+          "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+          "human_time": "2026-04-19T14:22:27.734715",
+          "change_code": "PERMISSION_GRANT",
+          "change_json": {
+            "permission": "admin",
+            "granted_by": "system",
+            "scope": "limited"
+          }
+        },
+        {
+          "event_time": "315fd7fe-3bfb-11f1-aa0f-62e0f0c6e9a6",
+          "event_type": "CHANGE",
+          "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+          "human_time": "2026-04-19T14:22:27.639091",
+          "change_code": "LIMIT_INCREASE",
+          "change_json": {
+            "old_limit": 4109,
+            "new_limit": 6245,
+            "currency": "PLN",
+            "approved_by": "system"
+          }
+        },
+        {
+          "event_time": "315e5ffa-3bfb-11f1-aa0f-62e0f0c6e9a6",
+          "event_type": "CHANGE",
+          "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+          "human_time": "2026-04-19T14:22:27.629465",
+          "change_code": "PASSWORD_RESET",
+          "change_json": {
+            "new_password_hash": "hash_94915b04bcf44ed5",
+            "reset_by": "admin",
+            "timestamp": "2026-04-19T08:18:26.204997"
+          }
+        },
+        {
+          "event_time": "31528ebe-3bfb-11f1-aa0f-62e0f0c6e9a6",
+          "event_type": "CHANGE",
+          "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+          "human_time": "2026-04-19T14:22:27.552019",
+          "change_code": "STATUS_INACTIVE",
+          "change_json": {
+            "reason": "on_leave",
+            "date": "2025-06-05T08:18:26.204464",
+            "reversible": true
+          }
+        },
+        {
+          "event_time": "3151db2c-3bfb-11f1-aa0f-62e0f0c6e9a6",
+          "event_type": "CHANGE",
+          "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+          "human_time": "2026-04-19T14:22:27.547422",
+          "change_code": "EMAIL_CHANGE",
+          "change_json": {
+            "old_email": "old_229@example.com",
+            "new_email": "new_229@example.com",
+            "verified": false
+          }
+        },
+        {
+          "event_time": "314f90ba-3bfb-11f1-aa0f-62e0f0c6e9a6",
+          "event_type": "CHANGE",
+          "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+          "human_time": "2026-04-19T14:22:27.532409",
+          "change_code": "PERMISSION_GRANT",
+          "change_json": {
+            "permission": "read",
+            "granted_by": "system",
+            "scope": "temporary"
+          }
+        },
+        {
+          "event_time": "3144485e-3bfb-11f1-aa0f-62e0f0c6e9a6",
+          "event_type": "CHANGE",
+          "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+          "human_time": "2026-04-19T14:22:27.458467",
+          "change_code": "PASSWORD_RESET",
+          "change_json": {
+            "new_password_hash": "hash_ea8d010f3aa346f3",
+            "reset_by": "self",
+            "timestamp": "2026-04-19T08:18:26.203389"
+          }
+        },
+        {
+          "event_time": "313b4aec-3bfb-11f1-aa0f-62e0f0c6e9a6",
+          "event_type": "CHANGE",
+          "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+          "human_time": "2026-04-19T14:22:27.399550",
+          "change_code": "ADDRESS_UPDATE",
+          "change_json": {
+            "street": "732 Oak St",
+            "city": "Krakow",
+            "zip": "40-435"
+          }
+        },
+        {
+          "event_time": "311ddd90-3bfb-11f1-aa0f-62e0f0c6e9a6",
+          "event_type": "CHANGE",
+          "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+          "human_time": "2026-04-19T14:22:27.206696",
+          "change_code": "ADDRESS_UPDATE",
+          "change_json": {
+            "street": "530 Maple St",
+            "city": "Krakow",
+            "zip": "25-303"
+          }
+        },
+        {
+          "event_time": "311b6ad8-3bfb-11f1-aa0f-62e0f0c6e9a6",
+          "event_type": "CHANGE",
+          "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+          "human_time": "2026-04-19T14:22:27.190652",
+          "change_code": "LIMIT_INCREASE",
+          "change_json": {
+            "old_limit": 1163,
+            "new_limit": 4283,
+            "currency": "PLN",
+            "approved_by": "director"
+          }
+        }
+      ],
+      "error": null
+    },
+    {
+      "scenario": "Audit by Change Code",
+      "endpoint": "/api_v1/audit/code/PERMISSION_GRANT",
+      "status": "PASSED",
+      "http_status": 200,
+      "results_count": 20,
+      "latency_ms": 32.77,
+      "response_data": [
+        {
+          "event_time": "319de0b2-3bfb-11f1-aa0f-62e0f0c6e9a6",
+          "event_type": "CHANGE",
+          "institution_id": "f53d6228-05c3-40da-a1ee-6860eabf8580",
+          "human_time": "2026-04-19T14:22:28.045637",
+          "change_code": "PERMISSION_GRANT",
+          "change_json": {
+            "permission": "write",
+            "granted_by": "system",
+            "scope": "limited"
+          }
+        },
+        {
+          "event_time": "319dd4e6-3bfb-11f1-aa0f-62e0f0c6e9a6",
+          "event_type": "CHANGE",
+          "institution_id": "b74eeeb5-dfb4-4a91-a165-f856a892adcc",
+          "human_time": "2026-04-19T14:22:28.045335",
+          "change_code": "PERMISSION_GRANT",
+          "change_json": {
+            "permission": "admin",
+            "granted_by": "manager",
+            "scope": "full"
+          }
+        },
+        {
+          "event_time": "319bcd9a-3bfb-11f1-aa0f-62e0f0c6e9a6",
+          "event_type": "CHANGE",
+          "institution_id": "21a4cc0e-dcae-49bb-afbe-47eb85feb309",
+          "human_time": "2026-04-19T14:22:28.032041",
+          "change_code": "PERMISSION_GRANT",
+          "change_json": {
+            "permission": "admin",
+            "granted_by": "manager",
+            "scope": "limited"
+          }
+        },
+        {
+          "event_time": "319ae092-3bfb-11f1-aa0f-62e0f0c6e9a6",
+          "event_type": "CHANGE",
+          "institution_id": "fa0a8b57-0d0b-4359-8f37-e51ea50a3692",
+          "human_time": "2026-04-19T14:22:28.025973",
+          "change_code": "PERMISSION_GRANT",
+          "change_json": {
+            "permission": "export",
+            "granted_by": "admin",
+            "scope": "full"
+          }
+        },
+        {
+          "event_time": "3198f002-3bfb-11f1-aa0f-62e0f0c6e9a6",
+          "event_type": "CHANGE",
+          "institution_id": "11bf7cce-1591-4fcc-b36c-127e9b6532d8",
+          "human_time": "2026-04-19T14:22:28.013261",
+          "change_code": "PERMISSION_GRANT",
+          "change_json": {
+            "permission": "admin",
+            "granted_by": "manager",
+            "scope": "full"
+          }
+        },
+        {
+          "event_time": "3198d860-3bfb-11f1-aa0f-62e0f0c6e9a6",
+          "event_type": "CHANGE",
+          "institution_id": "b7cbd81c-20f8-41e6-911d-3266afc42969",
+          "human_time": "2026-04-19T14:22:28.012656",
+          "change_code": "PERMISSION_GRANT",
+          "change_json": {
+            "permission": "read",
+            "granted_by": "system",
+            "scope": "full"
+          }
+        },
+        {
+          "event_time": "31972c04-3bfb-11f1-aa0f-62e0f0c6e9a6",
+          "event_type": "CHANGE",
+          "institution_id": "a0a67bcd-b98c-409e-9b17-8acaf16861f7",
+          "human_time": "2026-04-19T14:22:28.001690",
+          "change_code": "PERMISSION_GRANT",
+          "change_json": {
+            "permission": "admin",
+            "granted_by": "manager",
+            "scope": "temporary"
+          }
+        },
+        {
+          "event_time": "3196e9f6-3bfb-11f1-aa0f-62e0f0c6e9a6",
+          "event_type": "CHANGE",
+          "institution_id": "63d6aa1f-df67-431d-9cea-6caaa790c8c4",
+          "human_time": "2026-04-19T14:22:27.999999",
+          "change_code": "PERMISSION_GRANT",
+          "change_json": {
+            "permission": "admin",
+            "granted_by": "manager",
+            "scope": "temporary"
+          }
+        },
+        {
+          "event_time": "3196e35c-3bfb-11f1-aa0f-62e0f0c6e9a6",
+          "event_type": "CHANGE",
+          "institution_id": "fa0a8b57-0d0b-4359-8f37-e51ea50a3692",
+          "human_time": "2026-04-19T14:22:27.999830",
+          "change_code": "PERMISSION_GRANT",
+          "change_json": {
+            "permission": "delete",
+            "granted_by": "manager",
+            "scope": "limited"
+          }
+        },
+        {
+          "event_time": "3196a11c-3bfb-11f1-aa0f-62e0f0c6e9a6",
+          "event_type": "CHANGE",
+          "institution_id": "b7cbd81c-20f8-41e6-911d-3266afc42969",
+          "human_time": "2026-04-19T14:22:27.998134",
+          "change_code": "PERMISSION_GRANT",
+          "change_json": {
+            "permission": "delete",
+            "granted_by": "manager",
+            "scope": "full"
+          }
+        },
+        {
+          "event_time": "3193c820-3bfb-11f1-aa0f-62e0f0c6e9a6",
+          "event_type": "CHANGE",
+          "institution_id": "8c52affa-7352-44ba-9c13-051e21ec965f",
+          "human_time": "2026-04-19T14:22:27.979472",
+          "change_code": "PERMISSION_GRANT",
+          "change_json": {
+            "permission": "write",
+            "granted_by": "system",
+            "scope": "full"
+          }
+        },
+        {
+          "event_time": "3188aaf8-3bfb-11f1-aa0f-62e0f0c6e9a6",
+          "event_type": "CHANGE",
+          "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+          "human_time": "2026-04-19T14:22:27.906636",
+          "change_code": "PERMISSION_GRANT",
+          "change_json": {
+            "permission": "admin",
+            "granted_by": "admin",
+            "scope": "temporary"
+          }
+        },
+        {
+          "event_time": "318890f4-3bfb-11f1-aa0f-62e0f0c6e9a6",
+          "event_type": "CHANGE",
+          "institution_id": "8c52affa-7352-44ba-9c13-051e21ec965f",
+          "human_time": "2026-04-19T14:22:27.905970",
+          "change_code": "PERMISSION_GRANT",
+          "change_json": {
+            "permission": "read",
+            "granted_by": "admin",
+            "scope": "temporary"
+          }
+        },
+        {
+          "event_time": "31886dd6-3bfb-11f1-aa0f-62e0f0c6e9a6",
+          "event_type": "CHANGE",
+          "institution_id": "2fa03dfe-cc10-435d-82a3-bc986ee6fcd4",
+          "human_time": "2026-04-19T14:22:27.905071",
+          "change_code": "PERMISSION_GRANT",
+          "change_json": {
+            "permission": "read",
+            "granted_by": "manager",
+            "scope": "full"
+          }
+        },
+        {
+          "event_time": "31880634-3bfb-11f1-aa0f-62e0f0c6e9a6",
+          "event_type": "CHANGE",
+          "institution_id": "ddf8f657-5da2-4135-98c1-f8d42148cc22",
+          "human_time": "2026-04-19T14:22:27.902418",
+          "change_code": "PERMISSION_GRANT",
+          "change_json": {
+            "permission": "export",
+            "granted_by": "admin",
+            "scope": "limited"
+          }
+        },
+        {
+          "event_time": "318801c0-3bfb-11f1-aa0f-62e0f0c6e9a6",
+          "event_type": "CHANGE",
+          "institution_id": "14766765-2fa0-42a9-92a9-55bb584002ae",
+          "human_time": "2026-04-19T14:22:27.902304",
+          "change_code": "PERMISSION_GRANT",
+          "change_json": {
+            "permission": "write",
+            "granted_by": "manager",
+            "scope": "temporary"
+          }
+        },
+        {
+          "event_time": "3187ed7a-3bfb-11f1-aa0f-62e0f0c6e9a6",
+          "event_type": "CHANGE",
+          "institution_id": "da741a09-f0b5-410f-8524-d5077cdec263",
+          "human_time": "2026-04-19T14:22:27.901785",
+          "change_code": "PERMISSION_GRANT",
+          "change_json": {
+            "permission": "read",
+            "granted_by": "system",
+            "scope": "limited"
+          }
+        },
+        {
+          "event_time": "3185f9a2-3bfb-11f1-aa0f-62e0f0c6e9a6",
+          "event_type": "CHANGE",
+          "institution_id": "11bf7cce-1591-4fcc-b36c-127e9b6532d8",
+          "human_time": "2026-04-19T14:22:27.888989",
+          "change_code": "PERMISSION_GRANT",
+          "change_json": {
+            "permission": "read",
+            "granted_by": "manager",
+            "scope": "limited"
+          }
+        },
+        {
+          "event_time": "3184d69e-3bfb-11f1-aa0f-62e0f0c6e9a6",
+          "event_type": "CHANGE",
+          "institution_id": "fa0a8b57-0d0b-4359-8f37-e51ea50a3692",
+          "human_time": "2026-04-19T14:22:27.881539",
+          "change_code": "PERMISSION_GRANT",
+          "change_json": {
+            "permission": "export",
+            "granted_by": "admin",
+            "scope": "temporary"
+          }
+        },
+        {
+          "event_time": "31847762-3bfb-11f1-aa0f-62e0f0c6e9a6",
+          "event_type": "CHANGE",
+          "institution_id": "b54c2a65-94fe-40ff-89d6-2c0b7e56c6dd",
+          "human_time": "2026-04-19T14:22:27.879101",
+          "change_code": "PERMISSION_GRANT",
+          "change_json": {
+            "permission": "delete",
+            "granted_by": "admin",
+            "scope": "full"
+          }
+        }
+      ],
+      "error": null
+    }
+  ]
+}

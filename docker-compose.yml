@@ -1,0 +1,98 @@
+services:
+  cassandra-1:
+    image: cassandra:4.1
+    container_name: cassandra-1
+    hostname: cassandra-1
+    environment:
+      - CASSANDRA_CLUSTER_NAME=AuditCluster
+      - JVM_OPTS=-Dcassandra.initial_token=0
+    volumes:
+      - type: tmpfs
+        target: /var/lib/cassandra
+        tmpfs:
+          size: 2G
+    healthcheck:
+      test: ["CMD-SHELL", "cqlsh -e 'SELECT now() FROM system.local' || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 30
+      start_period: 120s
+    networks:
+      - audit_net
+
+  cassandra-2:
+    image: cassandra:4.1
+    container_name: cassandra-2
+    hostname: cassandra-2
+    environment:
+      - CASSANDRA_CLUSTER_NAME=AuditCluster
+      - CASSANDRA_SEEDS=cassandra-1
+      - JVM_OPTS=-Dcassandra.initial_token=5534023222112865484
+    volumes:
+      - type: tmpfs
+        target: /var/lib/cassandra
+        tmpfs:
+          size: 2G
+    healthcheck:
+      test: ["CMD-SHELL", "cqlsh -e 'SELECT now() FROM system.local' || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 30
+      start_period: 180s
+    depends_on:
+      cassandra-1:
+        condition: service_healthy
+    networks:
+      - audit_net
+
+  cassandra-3:
+    image: cassandra:4.1
+    container_name: cassandra-3
+    hostname: cassandra-3
+    environment:
+      - CASSANDRA_CLUSTER_NAME=AuditCluster
+      - CASSANDRA_SEEDS=cassandra-1
+      - JVM_OPTS=-Dcassandra.initial_token=-5534023222112865485
+    volumes:
+      - type: tmpfs
+        target: /var/lib/cassandra
+        tmpfs:
+          size: 2G
+    healthcheck:
+      test: ["CMD-SHELL", "cqlsh -e 'SELECT now() FROM system.local' || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 30
+      start_period: 240s
+    depends_on:
+      cassandra-1:
+        condition: service_healthy
+      cassandra-2:
+        condition: service_healthy
+    networks:
+      - audit_net
+
+  audit_api:
+    build: .
+    container_name: audit_api
+    command: python -m uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+    volumes:
+      - .:/code
+    ports:
+      - "8000:8000"
+    environment:
+      - CASSANDRA_HOSTS=cassandra-1,cassandra-2,cassandra-3
+    depends_on:
+      cassandra-1:
+        condition: service_healthy
+      cassandra-2:
+        condition: service_healthy
+      cassandra-3:
+        condition: service_healthy
+    restart: on-failure:10
+    networks:
+      - audit_net
+
+networks:
+  audit_net:
+    driver: bridge

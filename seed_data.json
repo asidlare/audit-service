@@ -1,0 +1,6095 @@
+{
+  "institutions": [
+    {
+      "id": "21a4cc0e-dcae-49bb-afbe-47eb85feb309",
+      "name": "Institution 0",
+      "type": "Bank"
+    },
+    {
+      "id": "a0a67bcd-b98c-409e-9b17-8acaf16861f7",
+      "name": "Institution 1",
+      "type": "Hospital"
+    },
+    {
+      "id": "b74eeeb5-dfb4-4a91-a165-f856a892adcc",
+      "name": "Institution 2",
+      "type": "Government"
+    },
+    {
+      "id": "da741a09-f0b5-410f-8524-d5077cdec263",
+      "name": "Institution 3",
+      "type": "Government"
+    },
+    {
+      "id": "63d6aa1f-df67-431d-9cea-6caaa790c8c4",
+      "name": "Institution 4",
+      "type": "Enterprise"
+    },
+    {
+      "id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+      "name": "Institution 5",
+      "type": "Bank"
+    },
+    {
+      "id": "b7cbd81c-20f8-41e6-911d-3266afc42969",
+      "name": "Institution 6",
+      "type": "Government"
+    },
+    {
+      "id": "f53d6228-05c3-40da-a1ee-6860eabf8580",
+      "name": "Institution 7",
+      "type": "Government"
+    },
+    {
+      "id": "2fa03dfe-cc10-435d-82a3-bc986ee6fcd4",
+      "name": "Institution 8",
+      "type": "University"
+    },
+    {
+      "id": "14766765-2fa0-42a9-92a9-55bb584002ae",
+      "name": "Institution 9",
+      "type": "Bank"
+    },
+    {
+      "id": "6166ddcb-eb2a-4a82-9655-72eab915581c",
+      "name": "Institution 10",
+      "type": "Government"
+    },
+    {
+      "id": "baf6ee36-f8ed-4104-8192-220234fe94b5",
+      "name": "Institution 11",
+      "type": "Enterprise"
+    },
+    {
+      "id": "b54c2a65-94fe-40ff-89d6-2c0b7e56c6dd",
+      "name": "Institution 12",
+      "type": "Enterprise"
+    },
+    {
+      "id": "f3d467b7-11ca-4e85-a5bf-19043c080c30",
+      "name": "Institution 13",
+      "type": "Hospital"
+    },
+    {
+      "id": "11bf7cce-1591-4fcc-b36c-127e9b6532d8",
+      "name": "Institution 14",
+      "type": "Enterprise"
+    },
+    {
+      "id": "fa0a8b57-0d0b-4359-8f37-e51ea50a3692",
+      "name": "Institution 15",
+      "type": "Bank"
+    },
+    {
+      "id": "ddf8f657-5da2-4135-98c1-f8d42148cc22",
+      "name": "Institution 16",
+      "type": "Bank"
+    },
+    {
+      "id": "8c52affa-7352-44ba-9c13-051e21ec965f",
+      "name": "Institution 17",
+      "type": "Bank"
+    },
+    {
+      "id": "383e4d62-eafe-4f95-a3a0-0cecf401bacb",
+      "name": "Institution 18",
+      "type": "Enterprise"
+    },
+    {
+      "id": "132a807d-d941-4172-9b2a-b9f9205f60df",
+      "name": "Institution 19",
+      "type": "Hospital"
+    }
+  ],
+  "persons": [
+    {
+      "id": "91a40bec-16a5-4e3c-bab7-c1690cf43307",
+      "name": "Person 0",
+      "email": "person0@example.com"
+    },
+    {
+      "id": "37f21468-1691-4d07-b923-80bbde06685d",
+      "name": "Person 1",
+      "email": "person1@example.com"
+    },
+    {
+      "id": "b5667383-90bf-4011-9c70-b59ee1e4535e",
+      "name": "Person 2",
+      "email": "person2@example.com"
+    },
+    {
+      "id": "b48890fe-c87a-4d22-8f88-a75b20f6d50d",
+      "name": "Person 3",
+      "email": "person3@example.com"
+    },
+    {
+      "id": "c69cedb5-7e2d-4700-933b-b5eac03b5d67",
+      "name": "Person 4",
+      "email": "person4@example.com"
+    },
+    {
+      "id": "76858655-9d6c-483c-a0a8-cf6eb703eff2",
+      "name": "Person 5",
+      "email": "person5@example.com"
+    },
+    {
+      "id": "68cd0797-2c0e-47b8-b541-ec3211391ec3",
+      "name": "Person 6",
+      "email": "person6@example.com"
+    },
+    {
+      "id": "172615b0-6ec5-4e1b-a304-b4e93daf20ab",
+      "name": "Person 7",
+      "email": "person7@example.com"
+    },
+    {
+      "id": "9cba232b-6bf0-45b4-b3c4-38aa5fc474f9",
+      "name": "Person 8",
+      "email": "person8@example.com"
+    },
+    {
+      "id": "38dc08e4-4fe5-4803-9a00-54340c066982",
+      "name": "Person 9",
+      "email": "person9@example.com"
+    },
+    {
+      "id": "82af8a30-de79-420c-8803-32ee56ce952e",
+      "name": "Person 10",
+      "email": "person10@example.com"
+    },
+    {
+      "id": "349158ab-01f4-435d-a609-84fda1e9c5c8",
+      "name": "Person 11",
+      "email": "person11@example.com"
+    },
+    {
+      "id": "bc0e5f2f-15c7-4c15-bcfd-4d829ab35b9b",
+      "name": "Person 12",
+      "email": "person12@example.com"
+    },
+    {
+      "id": "b1366cea-11d5-47f9-8b50-1fa9aa45a356",
+      "name": "Person 13",
+      "email": "person13@example.com"
+    },
+    {
+      "id": "d46164b4-3c71-4f00-b253-487f3f665c1c",
+      "name": "Person 14",
+      "email": "person14@example.com"
+    },
+    {
+      "id": "e23760b1-1b10-4ce5-a83c-b7b74fca7c9e",
+      "name": "Person 15",
+      "email": "person15@example.com"
+    },
+    {
+      "id": "2e3c937a-ee61-423d-a9c6-7821d1b18189",
+      "name": "Person 16",
+      "email": "person16@example.com"
+    },
+    {
+      "id": "6fda54e6-2b70-41f5-ad2e-fc98bb73f407",
+      "name": "Person 17",
+      "email": "person17@example.com"
+    },
+    {
+      "id": "07c50cf3-2ad1-4884-a3ab-ffb785892c6c",
+      "name": "Person 18",
+      "email": "person18@example.com"
+    },
+    {
+      "id": "aaf8d09c-fc13-46a5-bec9-5e4b948707e1",
+      "name": "Person 19",
+      "email": "person19@example.com"
+    },
+    {
+      "id": "ecd7296c-3c2b-4ad1-ba52-5a4186899594",
+      "name": "Person 20",
+      "email": "person20@example.com"
+    },
+    {
+      "id": "3bf59e7d-d5c3-4103-9cd1-485924b2dacc",
+      "name": "Person 21",
+      "email": "person21@example.com"
+    },
+    {
+      "id": "a2fe53fb-1e73-42c1-b7bc-bb74523b4af1",
+      "name": "Person 22",
+      "email": "person22@example.com"
+    },
+    {
+      "id": "6da90a05-8b7b-46e2-a430-6e413de5770b",
+      "name": "Person 23",
+      "email": "person23@example.com"
+    },
+    {
+      "id": "e31f7e1f-b8a6-4cce-a567-0a4920058e7c",
+      "name": "Person 24",
+      "email": "person24@example.com"
+    },
+    {
+      "id": "61b4521b-48f7-4822-b575-f8e8a07bd189",
+      "name": "Person 25",
+      "email": "person25@example.com"
+    },
+    {
+      "id": "712565f0-74f8-4540-84e6-454c785966ec",
+      "name": "Person 26",
+      "email": "person26@example.com"
+    },
+    {
+      "id": "e2ccf878-a8e9-4bc6-898a-af803b7b869e",
+      "name": "Person 27",
+      "email": "person27@example.com"
+    },
+    {
+      "id": "f95354ff-593e-4576-ae02-24b1df1175ae",
+      "name": "Person 28",
+      "email": "person28@example.com"
+    },
+    {
+      "id": "256adf46-21c2-4668-9659-6952438f1e7e",
+      "name": "Person 29",
+      "email": "person29@example.com"
+    },
+    {
+      "id": "e57c2e1e-f20c-4584-b416-dedfa07434a9",
+      "name": "Person 30",
+      "email": "person30@example.com"
+    },
+    {
+      "id": "d10c87c1-6055-4e91-910d-e2c5a655f048",
+      "name": "Person 31",
+      "email": "person31@example.com"
+    },
+    {
+      "id": "5d79e46a-4af1-4cd9-913c-e1b7e991445e",
+      "name": "Person 32",
+      "email": "person32@example.com"
+    },
+    {
+      "id": "5838770d-434e-4614-b67a-eb74e6a7d79a",
+      "name": "Person 33",
+      "email": "person33@example.com"
+    },
+    {
+      "id": "4631fbc6-69a1-432a-932a-e02da7dd203f",
+      "name": "Person 34",
+      "email": "person34@example.com"
+    },
+    {
+      "id": "143936d4-c86e-4446-98fa-813d8f8b6229",
+      "name": "Person 35",
+      "email": "person35@example.com"
+    },
+    {
+      "id": "1851d911-1bb2-4685-9157-8d801590d2fa",
+      "name": "Person 36",
+      "email": "person36@example.com"
+    },
+    {
+      "id": "0cb5dfe5-2311-43c7-b56c-c9497d584fc4",
+      "name": "Person 37",
+      "email": "person37@example.com"
+    },
+    {
+      "id": "64c777d6-1eee-40d8-936d-b81067c576d4",
+      "name": "Person 38",
+      "email": "person38@example.com"
+    },
+    {
+      "id": "e8aa3c79-3f88-4af4-987e-98200b637776",
+      "name": "Person 39",
+      "email": "person39@example.com"
+    },
+    {
+      "id": "e0ce1b3d-9e19-4fcd-b922-3b908f92d77f",
+      "name": "Person 40",
+      "email": "person40@example.com"
+    },
+    {
+      "id": "1c48d351-8144-4a0b-aec8-b5ac44f226fd",
+      "name": "Person 41",
+      "email": "person41@example.com"
+    },
+    {
+      "id": "8de7a940-ce11-49e4-9781-07a8a683afd9",
+      "name": "Person 42",
+      "email": "person42@example.com"
+    },
+    {
+      "id": "622e3317-b6a5-480e-b6fa-8684fc1e9ac2",
+      "name": "Person 43",
+      "email": "person43@example.com"
+    },
+    {
+      "id": "3e35a75c-e19b-4b5c-b179-ce408a87bb54",
+      "name": "Person 44",
+      "email": "person44@example.com"
+    },
+    {
+      "id": "1b659548-e07f-4431-80e1-24c1aa34ff54",
+      "name": "Person 45",
+      "email": "person45@example.com"
+    },
+    {
+      "id": "96c40673-ffb7-4d2f-8b8c-5271187dabd0",
+      "name": "Person 46",
+      "email": "person46@example.com"
+    },
+    {
+      "id": "0bf3cc73-d41d-4cb8-b83f-c77028ede55f",
+      "name": "Person 47",
+      "email": "person47@example.com"
+    },
+    {
+      "id": "f8eeeec7-1fbd-4a2c-93a7-3c4f506efa5b",
+      "name": "Person 48",
+      "email": "person48@example.com"
+    },
+    {
+      "id": "7ef5ec51-422f-457a-88cf-2c9dd6d214d0",
+      "name": "Person 49",
+      "email": "person49@example.com"
+    },
+    {
+      "id": "116c71c9-aa72-478e-a98e-73a98271c6dd",
+      "name": "Person 50",
+      "email": "person50@example.com"
+    },
+    {
+      "id": "b0e8a432-5fc1-480f-8c58-e2b63b2da6ea",
+      "name": "Person 51",
+      "email": "person51@example.com"
+    },
+    {
+      "id": "c0ab9e53-1ee5-49b5-b5f8-cc72bd4c02ec",
+      "name": "Person 52",
+      "email": "person52@example.com"
+    },
+    {
+      "id": "a386c674-5d97-4877-9891-7a9b10c779e9",
+      "name": "Person 53",
+      "email": "person53@example.com"
+    },
+    {
+      "id": "56070ab6-c84d-4919-b5c9-e992f4f1b321",
+      "name": "Person 54",
+      "email": "person54@example.com"
+    },
+    {
+      "id": "043305b1-029a-4512-b19b-a6b5baf85fe6",
+      "name": "Person 55",
+      "email": "person55@example.com"
+    },
+    {
+      "id": "7b2dceef-a6b5-46f7-8ce0-015a199b6e03",
+      "name": "Person 56",
+      "email": "person56@example.com"
+    },
+    {
+      "id": "72412fd1-069e-42a0-9de0-df8f0f289333",
+      "name": "Person 57",
+      "email": "person57@example.com"
+    },
+    {
+      "id": "85024574-eec1-4427-8677-22b3931fea82",
+      "name": "Person 58",
+      "email": "person58@example.com"
+    },
+    {
+      "id": "767f57ba-2e37-405e-971c-2dd02b55d2c3",
+      "name": "Person 59",
+      "email": "person59@example.com"
+    },
+    {
+      "id": "eb7b22ed-c5c8-42bd-8cd8-90b9adee3982",
+      "name": "Person 60",
+      "email": "person60@example.com"
+    },
+    {
+      "id": "995210a7-ee88-428a-9859-d956cb91fd9c",
+      "name": "Person 61",
+      "email": "person61@example.com"
+    },
+    {
+      "id": "01287494-73a5-45c2-8063-ce9bae1cac30",
+      "name": "Person 62",
+      "email": "person62@example.com"
+    },
+    {
+      "id": "d02b0089-4323-4956-b08b-c1c86944fb2b",
+      "name": "Person 63",
+      "email": "person63@example.com"
+    },
+    {
+      "id": "59e15d64-3b82-4cf2-a34e-dbd1578937f8",
+      "name": "Person 64",
+      "email": "person64@example.com"
+    },
+    {
+      "id": "3c3b8562-f2ed-465a-bfc2-0495fc90183c",
+      "name": "Person 65",
+      "email": "person65@example.com"
+    },
+    {
+      "id": "7d09d74b-b857-4263-ad46-77665a596264",
+      "name": "Person 66",
+      "email": "person66@example.com"
+    },
+    {
+      "id": "641a722f-5eb9-4513-a4d1-ac6c1209a1e2",
+      "name": "Person 67",
+      "email": "person67@example.com"
+    },
+    {
+      "id": "290204f4-533c-44e9-8dcb-a3b8fc0a0f9d",
+      "name": "Person 68",
+      "email": "person68@example.com"
+    },
+    {
+      "id": "af68fd5a-17be-4b6a-a930-4a293d852064",
+      "name": "Person 69",
+      "email": "person69@example.com"
+    },
+    {
+      "id": "08681301-40de-4270-8ffe-2bb5bdf36225",
+      "name": "Person 70",
+      "email": "person70@example.com"
+    },
+    {
+      "id": "98b7882d-c524-4b80-b4ee-056bba62bce2",
+      "name": "Person 71",
+      "email": "person71@example.com"
+    },
+    {
+      "id": "3b47f4d4-cb6c-42de-9fca-935773182387",
+      "name": "Person 72",
+      "email": "person72@example.com"
+    },
+    {
+      "id": "50afb8af-7e9f-4242-b76d-0fbe590ad687",
+      "name": "Person 73",
+      "email": "person73@example.com"
+    },
+    {
+      "id": "43b7b6cc-e669-413b-b323-4b4474deee25",
+      "name": "Person 74",
+      "email": "person74@example.com"
+    },
+    {
+      "id": "9b9b9952-6f3d-47dd-9c1d-3e208bf31992",
+      "name": "Person 75",
+      "email": "person75@example.com"
+    },
+    {
+      "id": "242bcd9c-fd47-4b46-a308-fc33e0d6c090",
+      "name": "Person 76",
+      "email": "person76@example.com"
+    },
+    {
+      "id": "c30cdbad-b13d-4f0c-b362-9be653f4280d",
+      "name": "Person 77",
+      "email": "person77@example.com"
+    },
+    {
+      "id": "20421b65-53fb-4d0f-8712-58d4113e09a0",
+      "name": "Person 78",
+      "email": "person78@example.com"
+    },
+    {
+      "id": "e04fee6f-789a-44eb-8ab6-f8183b33ee69",
+      "name": "Person 79",
+      "email": "person79@example.com"
+    },
+    {
+      "id": "82b8a850-376c-4057-9791-0271a76707fb",
+      "name": "Person 80",
+      "email": "person80@example.com"
+    },
+    {
+      "id": "77028427-184e-44bc-88c1-c6d827fc1e11",
+      "name": "Person 81",
+      "email": "person81@example.com"
+    },
+    {
+      "id": "4033d994-daf4-42f9-b377-6987f04785ae",
+      "name": "Person 82",
+      "email": "person82@example.com"
+    },
+    {
+      "id": "553295bd-7254-4865-b7f4-09e588248c8f",
+      "name": "Person 83",
+      "email": "person83@example.com"
+    },
+    {
+      "id": "c0cdc7a3-3269-46db-bcec-34eae6036337",
+      "name": "Person 84",
+      "email": "person84@example.com"
+    },
+    {
+      "id": "300dd0b8-2e5c-4915-8aa0-a9a87a8e5b5a",
+      "name": "Person 85",
+      "email": "person85@example.com"
+    },
+    {
+      "id": "0228c2a6-e7ef-432a-996d-cb5c59aeb213",
+      "name": "Person 86",
+      "email": "person86@example.com"
+    },
+    {
+      "id": "718787ba-5077-4043-9f96-d2695d1c5e12",
+      "name": "Person 87",
+      "email": "person87@example.com"
+    },
+    {
+      "id": "a10f6f43-1336-4efe-8780-cdc8c3edd253",
+      "name": "Person 88",
+      "email": "person88@example.com"
+    },
+    {
+      "id": "ef2bbe96-3ee1-4c10-adff-29861fd1f737",
+      "name": "Person 89",
+      "email": "person89@example.com"
+    },
+    {
+      "id": "622453f9-6198-4538-9a11-a58aa77573b9",
+      "name": "Person 90",
+      "email": "person90@example.com"
+    },
+    {
+      "id": "af0716ea-8441-4273-9478-b6aaf40835d5",
+      "name": "Person 91",
+      "email": "person91@example.com"
+    },
+    {
+      "id": "6dfafabe-cad6-43a2-8da4-6462bae89e4a",
+      "name": "Person 92",
+      "email": "person92@example.com"
+    },
+    {
+      "id": "59917b7a-dd3f-43ce-8479-3124339a6e9d",
+      "name": "Person 93",
+      "email": "person93@example.com"
+    },
+    {
+      "id": "c4476832-25c3-413d-94fa-908cbc1b0ef3",
+      "name": "Person 94",
+      "email": "person94@example.com"
+    },
+    {
+      "id": "55bc7bcf-03d3-4f18-bc72-685c212672d8",
+      "name": "Person 95",
+      "email": "person95@example.com"
+    },
+    {
+      "id": "2f1d34e8-7831-4f3d-af60-ccdf06915fd6",
+      "name": "Person 96",
+      "email": "person96@example.com"
+    },
+    {
+      "id": "6ad43911-c92f-4ff7-84f3-3668371d586c",
+      "name": "Person 97",
+      "email": "person97@example.com"
+    },
+    {
+      "id": "4279591e-f704-4a41-87b3-958f86833a4f",
+      "name": "Person 98",
+      "email": "person98@example.com"
+    },
+    {
+      "id": "4262213f-6fae-407b-9f78-a9bb1b097254",
+      "name": "Person 99",
+      "email": "person99@example.com"
+    }
+  ],
+  "events": {
+    "reads": [
+      {
+        "institution_id": "383e4d62-eafe-4f95-a3a0-0cecf401bacb",
+        "person_ids": [
+          "b48890fe-c87a-4d22-8f88-a75b20f6d50d",
+          "622453f9-6198-4538-9a11-a58aa77573b9"
+        ]
+      },
+      {
+        "institution_id": "f3d467b7-11ca-4e85-a5bf-19043c080c30",
+        "person_ids": [
+          "56070ab6-c84d-4919-b5c9-e992f4f1b321",
+          "aaf8d09c-fc13-46a5-bec9-5e4b948707e1",
+          "767f57ba-2e37-405e-971c-2dd02b55d2c3",
+          "553295bd-7254-4865-b7f4-09e588248c8f"
+        ]
+      },
+      {
+        "institution_id": "fa0a8b57-0d0b-4359-8f37-e51ea50a3692",
+        "person_ids": [
+          "59917b7a-dd3f-43ce-8479-3124339a6e9d",
+          "ef2bbe96-3ee1-4c10-adff-29861fd1f737",
+          "c69cedb5-7e2d-4700-933b-b5eac03b5d67",
+          "7ef5ec51-422f-457a-88cf-2c9dd6d214d0",
+          "50afb8af-7e9f-4242-b76d-0fbe590ad687"
+        ]
+      },
+      {
+        "institution_id": "8c52affa-7352-44ba-9c13-051e21ec965f",
+        "person_ids": [
+          "143936d4-c86e-4446-98fa-813d8f8b6229",
+          "1c48d351-8144-4a0b-aec8-b5ac44f226fd",
+          "b1366cea-11d5-47f9-8b50-1fa9aa45a356"
+        ]
+      },
+      {
+        "institution_id": "ddf8f657-5da2-4135-98c1-f8d42148cc22",
+        "person_ids": [
+          "61b4521b-48f7-4822-b575-f8e8a07bd189",
+          "043305b1-029a-4512-b19b-a6b5baf85fe6",
+          "8de7a940-ce11-49e4-9781-07a8a683afd9",
+          "553295bd-7254-4865-b7f4-09e588248c8f"
+        ]
+      },
+      {
+        "institution_id": "f3d467b7-11ca-4e85-a5bf-19043c080c30",
+        "person_ids": [
+          "712565f0-74f8-4540-84e6-454c785966ec",
+          "d10c87c1-6055-4e91-910d-e2c5a655f048",
+          "f95354ff-593e-4576-ae02-24b1df1175ae",
+          "91a40bec-16a5-4e3c-bab7-c1690cf43307"
+        ]
+      },
+      {
+        "institution_id": "63d6aa1f-df67-431d-9cea-6caaa790c8c4",
+        "person_ids": [
+          "c69cedb5-7e2d-4700-933b-b5eac03b5d67"
+        ]
+      },
+      {
+        "institution_id": "f53d6228-05c3-40da-a1ee-6860eabf8580",
+        "person_ids": [
+          "e04fee6f-789a-44eb-8ab6-f8183b33ee69",
+          "af68fd5a-17be-4b6a-a930-4a293d852064"
+        ]
+      },
+      {
+        "institution_id": "132a807d-d941-4172-9b2a-b9f9205f60df",
+        "person_ids": [
+          "c30cdbad-b13d-4f0c-b362-9be653f4280d",
+          "7b2dceef-a6b5-46f7-8ce0-015a199b6e03"
+        ]
+      },
+      {
+        "institution_id": "baf6ee36-f8ed-4104-8192-220234fe94b5",
+        "person_ids": [
+          "8de7a940-ce11-49e4-9781-07a8a683afd9"
+        ]
+      },
+      {
+        "institution_id": "2fa03dfe-cc10-435d-82a3-bc986ee6fcd4",
+        "person_ids": [
+          "c69cedb5-7e2d-4700-933b-b5eac03b5d67"
+        ]
+      },
+      {
+        "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+        "person_ids": [
+          "01287494-73a5-45c2-8063-ce9bae1cac30",
+          "b1366cea-11d5-47f9-8b50-1fa9aa45a356",
+          "c69cedb5-7e2d-4700-933b-b5eac03b5d67",
+          "76858655-9d6c-483c-a0a8-cf6eb703eff2"
+        ]
+      },
+      {
+        "institution_id": "383e4d62-eafe-4f95-a3a0-0cecf401bacb",
+        "person_ids": [
+          "d46164b4-3c71-4f00-b253-487f3f665c1c",
+          "61b4521b-48f7-4822-b575-f8e8a07bd189",
+          "61b4521b-48f7-4822-b575-f8e8a07bd189",
+          "4262213f-6fae-407b-9f78-a9bb1b097254",
+          "718787ba-5077-4043-9f96-d2695d1c5e12"
+        ]
+      },
+      {
+        "institution_id": "b7cbd81c-20f8-41e6-911d-3266afc42969",
+        "person_ids": [
+          "c0ab9e53-1ee5-49b5-b5f8-cc72bd4c02ec",
+          "300dd0b8-2e5c-4915-8aa0-a9a87a8e5b5a",
+          "3b47f4d4-cb6c-42de-9fca-935773182387",
+          "8de7a940-ce11-49e4-9781-07a8a683afd9"
+        ]
+      },
+      {
+        "institution_id": "b54c2a65-94fe-40ff-89d6-2c0b7e56c6dd",
+        "person_ids": [
+          "a10f6f43-1336-4efe-8780-cdc8c3edd253",
+          "af0716ea-8441-4273-9478-b6aaf40835d5",
+          "9b9b9952-6f3d-47dd-9c1d-3e208bf31992",
+          "242bcd9c-fd47-4b46-a308-fc33e0d6c090",
+          "e0ce1b3d-9e19-4fcd-b922-3b908f92d77f"
+        ]
+      },
+      {
+        "institution_id": "14766765-2fa0-42a9-92a9-55bb584002ae",
+        "person_ids": [
+          "e2ccf878-a8e9-4bc6-898a-af803b7b869e"
+        ]
+      },
+      {
+        "institution_id": "6166ddcb-eb2a-4a82-9655-72eab915581c",
+        "person_ids": [
+          "43b7b6cc-e669-413b-b323-4b4474deee25",
+          "0bf3cc73-d41d-4cb8-b83f-c77028ede55f",
+          "6fda54e6-2b70-41f5-ad2e-fc98bb73f407",
+          "9b9b9952-6f3d-47dd-9c1d-3e208bf31992",
+          "ecd7296c-3c2b-4ad1-ba52-5a4186899594"
+        ]
+      },
+      {
+        "institution_id": "8c52affa-7352-44ba-9c13-051e21ec965f",
+        "person_ids": [
+          "995210a7-ee88-428a-9859-d956cb91fd9c",
+          "76858655-9d6c-483c-a0a8-cf6eb703eff2",
+          "eb7b22ed-c5c8-42bd-8cd8-90b9adee3982"
+        ]
+      },
+      {
+        "institution_id": "132a807d-d941-4172-9b2a-b9f9205f60df",
+        "person_ids": [
+          "38dc08e4-4fe5-4803-9a00-54340c066982"
+        ]
+      },
+      {
+        "institution_id": "383e4d62-eafe-4f95-a3a0-0cecf401bacb",
+        "person_ids": [
+          "07c50cf3-2ad1-4884-a3ab-ffb785892c6c",
+          "242bcd9c-fd47-4b46-a308-fc33e0d6c090",
+          "7d09d74b-b857-4263-ad46-77665a596264"
+        ]
+      },
+      {
+        "institution_id": "11bf7cce-1591-4fcc-b36c-127e9b6532d8",
+        "person_ids": [
+          "b0e8a432-5fc1-480f-8c58-e2b63b2da6ea",
+          "b0e8a432-5fc1-480f-8c58-e2b63b2da6ea"
+        ]
+      },
+      {
+        "institution_id": "b7cbd81c-20f8-41e6-911d-3266afc42969",
+        "person_ids": [
+          "e2ccf878-a8e9-4bc6-898a-af803b7b869e",
+          "3c3b8562-f2ed-465a-bfc2-0495fc90183c"
+        ]
+      },
+      {
+        "institution_id": "da741a09-f0b5-410f-8524-d5077cdec263",
+        "person_ids": [
+          "20421b65-53fb-4d0f-8712-58d4113e09a0",
+          "043305b1-029a-4512-b19b-a6b5baf85fe6",
+          "68cd0797-2c0e-47b8-b541-ec3211391ec3",
+          "8de7a940-ce11-49e4-9781-07a8a683afd9"
+        ]
+      },
+      {
+        "institution_id": "383e4d62-eafe-4f95-a3a0-0cecf401bacb",
+        "person_ids": [
+          "9cba232b-6bf0-45b4-b3c4-38aa5fc474f9",
+          "64c777d6-1eee-40d8-936d-b81067c576d4",
+          "4631fbc6-69a1-432a-932a-e02da7dd203f"
+        ]
+      },
+      {
+        "institution_id": "11bf7cce-1591-4fcc-b36c-127e9b6532d8",
+        "person_ids": [
+          "55bc7bcf-03d3-4f18-bc72-685c212672d8",
+          "76858655-9d6c-483c-a0a8-cf6eb703eff2",
+          "622e3317-b6a5-480e-b6fa-8684fc1e9ac2",
+          "b1366cea-11d5-47f9-8b50-1fa9aa45a356",
+          "1c48d351-8144-4a0b-aec8-b5ac44f226fd"
+        ]
+      },
+      {
+        "institution_id": "14766765-2fa0-42a9-92a9-55bb584002ae",
+        "person_ids": [
+          "622e3317-b6a5-480e-b6fa-8684fc1e9ac2",
+          "c69cedb5-7e2d-4700-933b-b5eac03b5d67",
+          "0cb5dfe5-2311-43c7-b56c-c9497d584fc4",
+          "20421b65-53fb-4d0f-8712-58d4113e09a0"
+        ]
+      },
+      {
+        "institution_id": "fa0a8b57-0d0b-4359-8f37-e51ea50a3692",
+        "person_ids": [
+          "c0ab9e53-1ee5-49b5-b5f8-cc72bd4c02ec"
+        ]
+      },
+      {
+        "institution_id": "da741a09-f0b5-410f-8524-d5077cdec263",
+        "person_ids": [
+          "9b9b9952-6f3d-47dd-9c1d-3e208bf31992",
+          "72412fd1-069e-42a0-9de0-df8f0f289333",
+          "b1366cea-11d5-47f9-8b50-1fa9aa45a356"
+        ]
+      },
+      {
+        "institution_id": "b7cbd81c-20f8-41e6-911d-3266afc42969",
+        "person_ids": [
+          "e31f7e1f-b8a6-4cce-a567-0a4920058e7c",
+          "bc0e5f2f-15c7-4c15-bcfd-4d829ab35b9b"
+        ]
+      },
+      {
+        "institution_id": "2fa03dfe-cc10-435d-82a3-bc986ee6fcd4",
+        "person_ids": [
+          "96c40673-ffb7-4d2f-8b8c-5271187dabd0",
+          "07c50cf3-2ad1-4884-a3ab-ffb785892c6c"
+        ]
+      },
+      {
+        "institution_id": "f3d467b7-11ca-4e85-a5bf-19043c080c30",
+        "person_ids": [
+          "5d79e46a-4af1-4cd9-913c-e1b7e991445e",
+          "6dfafabe-cad6-43a2-8da4-6462bae89e4a",
+          "bc0e5f2f-15c7-4c15-bcfd-4d829ab35b9b",
+          "300dd0b8-2e5c-4915-8aa0-a9a87a8e5b5a",
+          "e0ce1b3d-9e19-4fcd-b922-3b908f92d77f"
+        ]
+      },
+      {
+        "institution_id": "ddf8f657-5da2-4135-98c1-f8d42148cc22",
+        "person_ids": [
+          "e2ccf878-a8e9-4bc6-898a-af803b7b869e",
+          "6fda54e6-2b70-41f5-ad2e-fc98bb73f407",
+          "56070ab6-c84d-4919-b5c9-e992f4f1b321",
+          "8de7a940-ce11-49e4-9781-07a8a683afd9"
+        ]
+      },
+      {
+        "institution_id": "14766765-2fa0-42a9-92a9-55bb584002ae",
+        "person_ids": [
+          "043305b1-029a-4512-b19b-a6b5baf85fe6",
+          "64c777d6-1eee-40d8-936d-b81067c576d4",
+          "3c3b8562-f2ed-465a-bfc2-0495fc90183c",
+          "242bcd9c-fd47-4b46-a308-fc33e0d6c090",
+          "5d79e46a-4af1-4cd9-913c-e1b7e991445e"
+        ]
+      },
+      {
+        "institution_id": "b7cbd81c-20f8-41e6-911d-3266afc42969",
+        "person_ids": [
+          "ecd7296c-3c2b-4ad1-ba52-5a4186899594",
+          "e57c2e1e-f20c-4584-b416-dedfa07434a9",
+          "1851d911-1bb2-4685-9157-8d801590d2fa",
+          "43b7b6cc-e669-413b-b323-4b4474deee25"
+        ]
+      },
+      {
+        "institution_id": "2fa03dfe-cc10-435d-82a3-bc986ee6fcd4",
+        "person_ids": [
+          "2e3c937a-ee61-423d-a9c6-7821d1b18189"
+        ]
+      },
+      {
+        "institution_id": "14766765-2fa0-42a9-92a9-55bb584002ae",
+        "person_ids": [
+          "f8eeeec7-1fbd-4a2c-93a7-3c4f506efa5b",
+          "c4476832-25c3-413d-94fa-908cbc1b0ef3",
+          "622453f9-6198-4538-9a11-a58aa77573b9",
+          "712565f0-74f8-4540-84e6-454c785966ec",
+          "98b7882d-c524-4b80-b4ee-056bba62bce2"
+        ]
+      },
+      {
+        "institution_id": "fa0a8b57-0d0b-4359-8f37-e51ea50a3692",
+        "person_ids": [
+          "91a40bec-16a5-4e3c-bab7-c1690cf43307",
+          "553295bd-7254-4865-b7f4-09e588248c8f",
+          "7b2dceef-a6b5-46f7-8ce0-015a199b6e03",
+          "82af8a30-de79-420c-8803-32ee56ce952e",
+          "f8eeeec7-1fbd-4a2c-93a7-3c4f506efa5b"
+        ]
+      },
+      {
+        "institution_id": "b7cbd81c-20f8-41e6-911d-3266afc42969",
+        "person_ids": [
+          "0bf3cc73-d41d-4cb8-b83f-c77028ede55f",
+          "4279591e-f704-4a41-87b3-958f86833a4f",
+          "9cba232b-6bf0-45b4-b3c4-38aa5fc474f9"
+        ]
+      },
+      {
+        "institution_id": "fa0a8b57-0d0b-4359-8f37-e51ea50a3692",
+        "person_ids": [
+          "aaf8d09c-fc13-46a5-bec9-5e4b948707e1",
+          "622453f9-6198-4538-9a11-a58aa77573b9",
+          "68cd0797-2c0e-47b8-b541-ec3211391ec3"
+        ]
+      },
+      {
+        "institution_id": "f3d467b7-11ca-4e85-a5bf-19043c080c30",
+        "person_ids": [
+          "b5667383-90bf-4011-9c70-b59ee1e4535e",
+          "3bf59e7d-d5c3-4103-9cd1-485924b2dacc",
+          "a10f6f43-1336-4efe-8780-cdc8c3edd253",
+          "96c40673-ffb7-4d2f-8b8c-5271187dabd0",
+          "f8eeeec7-1fbd-4a2c-93a7-3c4f506efa5b"
+        ]
+      },
+      {
+        "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+        "person_ids": [
+          "b1366cea-11d5-47f9-8b50-1fa9aa45a356",
+          "116c71c9-aa72-478e-a98e-73a98271c6dd"
+        ]
+      },
+      {
+        "institution_id": "2fa03dfe-cc10-435d-82a3-bc986ee6fcd4",
+        "person_ids": [
+          "2e3c937a-ee61-423d-a9c6-7821d1b18189",
+          "07c50cf3-2ad1-4884-a3ab-ffb785892c6c"
+        ]
+      },
+      {
+        "institution_id": "2fa03dfe-cc10-435d-82a3-bc986ee6fcd4",
+        "person_ids": [
+          "6fda54e6-2b70-41f5-ad2e-fc98bb73f407"
+        ]
+      },
+      {
+        "institution_id": "fa0a8b57-0d0b-4359-8f37-e51ea50a3692",
+        "person_ids": [
+          "ef2bbe96-3ee1-4c10-adff-29861fd1f737",
+          "d46164b4-3c71-4f00-b253-487f3f665c1c",
+          "85024574-eec1-4427-8677-22b3931fea82",
+          "64c777d6-1eee-40d8-936d-b81067c576d4",
+          "68cd0797-2c0e-47b8-b541-ec3211391ec3"
+        ]
+      },
+      {
+        "institution_id": "b54c2a65-94fe-40ff-89d6-2c0b7e56c6dd",
+        "person_ids": [
+          "4631fbc6-69a1-432a-932a-e02da7dd203f"
+        ]
+      },
+      {
+        "institution_id": "f3d467b7-11ca-4e85-a5bf-19043c080c30",
+        "person_ids": [
+          "bc0e5f2f-15c7-4c15-bcfd-4d829ab35b9b",
+          "7d09d74b-b857-4263-ad46-77665a596264",
+          "c0ab9e53-1ee5-49b5-b5f8-cc72bd4c02ec",
+          "e8aa3c79-3f88-4af4-987e-98200b637776"
+        ]
+      },
+      {
+        "institution_id": "baf6ee36-f8ed-4104-8192-220234fe94b5",
+        "person_ids": [
+          "116c71c9-aa72-478e-a98e-73a98271c6dd",
+          "b0e8a432-5fc1-480f-8c58-e2b63b2da6ea",
+          "641a722f-5eb9-4513-a4d1-ac6c1209a1e2",
+          "0cb5dfe5-2311-43c7-b56c-c9497d584fc4",
+          "e23760b1-1b10-4ce5-a83c-b7b74fca7c9e"
+        ]
+      },
+      {
+        "institution_id": "b74eeeb5-dfb4-4a91-a165-f856a892adcc",
+        "person_ids": [
+          "59917b7a-dd3f-43ce-8479-3124339a6e9d"
+        ]
+      },
+      {
+        "institution_id": "383e4d62-eafe-4f95-a3a0-0cecf401bacb",
+        "person_ids": [
+          "b5667383-90bf-4011-9c70-b59ee1e4535e",
+          "712565f0-74f8-4540-84e6-454c785966ec",
+          "e31f7e1f-b8a6-4cce-a567-0a4920058e7c",
+          "59917b7a-dd3f-43ce-8479-3124339a6e9d",
+          "d46164b4-3c71-4f00-b253-487f3f665c1c"
+        ]
+      },
+      {
+        "institution_id": "b7cbd81c-20f8-41e6-911d-3266afc42969",
+        "person_ids": [
+          "e8aa3c79-3f88-4af4-987e-98200b637776",
+          "290204f4-533c-44e9-8dcb-a3b8fc0a0f9d"
+        ]
+      }
+    ],
+    "changes": [
+      {
+        "person_id": "82af8a30-de79-420c-8803-32ee56ce952e",
+        "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "admin",
+          "granted_by": "manager",
+          "scope": "temporary"
+        }
+      },
+      {
+        "person_id": "7d09d74b-b857-4263-ad46-77665a596264",
+        "institution_id": "f3d467b7-11ca-4e85-a5bf-19043c080c30",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "161 Pine St",
+          "city": "Krakow",
+          "zip": "89-174"
+        }
+      },
+      {
+        "person_id": "995210a7-ee88-428a-9859-d956cb91fd9c",
+        "institution_id": "8c52affa-7352-44ba-9c13-051e21ec965f",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_d7d0f0af68024135",
+          "reset_by": "admin",
+          "timestamp": "2026-04-19T08:18:26.199952"
+        }
+      },
+      {
+        "person_id": "c0ab9e53-1ee5-49b5-b5f8-cc72bd4c02ec",
+        "institution_id": "63d6aa1f-df67-431d-9cea-6caaa790c8c4",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "retired",
+          "date": "2025-06-08T08:18:26.199968",
+          "reversible": true
+        }
+      },
+      {
+        "person_id": "3bf59e7d-d5c3-4103-9cd1-485924b2dacc",
+        "institution_id": "b74eeeb5-dfb4-4a91-a165-f856a892adcc",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_f144a0134892405d",
+          "reset_by": "self",
+          "timestamp": "2026-04-19T08:18:26.199975"
+        }
+      },
+      {
+        "person_id": "07c50cf3-2ad1-4884-a3ab-ffb785892c6c",
+        "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_5@example.com",
+          "new_email": "new_5@example.com",
+          "verified": true
+        }
+      },
+      {
+        "person_id": "3bf59e7d-d5c3-4103-9cd1-485924b2dacc",
+        "institution_id": "b54c2a65-94fe-40ff-89d6-2c0b7e56c6dd",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 3979,
+          "new_limit": 5667,
+          "currency": "PLN",
+          "approved_by": "manager"
+        }
+      },
+      {
+        "person_id": "aaf8d09c-fc13-46a5-bec9-5e4b948707e1",
+        "institution_id": "b54c2a65-94fe-40ff-89d6-2c0b7e56c6dd",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "admin",
+          "granted_by": "manager",
+          "scope": "temporary"
+        }
+      },
+      {
+        "person_id": "3b47f4d4-cb6c-42de-9fca-935773182387",
+        "institution_id": "21a4cc0e-dcae-49bb-afbe-47eb85feb309",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 4034,
+          "new_limit": 8423,
+          "currency": "PLN",
+          "approved_by": "system"
+        }
+      },
+      {
+        "person_id": "0228c2a6-e7ef-432a-996d-cb5c59aeb213",
+        "institution_id": "11bf7cce-1591-4fcc-b36c-127e9b6532d8",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 2536,
+          "new_limit": 7211,
+          "currency": "PLN",
+          "approved_by": "manager"
+        }
+      },
+      {
+        "person_id": "553295bd-7254-4865-b7f4-09e588248c8f",
+        "institution_id": "b7cbd81c-20f8-41e6-911d-3266afc42969",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "on_leave",
+          "date": "2025-07-08T08:18:26.200043",
+          "reversible": false
+        }
+      },
+      {
+        "person_id": "ef2bbe96-3ee1-4c10-adff-29861fd1f737",
+        "institution_id": "b74eeeb5-dfb4-4a91-a165-f856a892adcc",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_11@example.com",
+          "new_email": "new_11@example.com",
+          "verified": true
+        }
+      },
+      {
+        "person_id": "2f1d34e8-7831-4f3d-af60-ccdf06915fd6",
+        "institution_id": "14766765-2fa0-42a9-92a9-55bb584002ae",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_5ff49098d6e14d7a",
+          "reset_by": "support",
+          "timestamp": "2026-04-19T08:18:26.200059"
+        }
+      },
+      {
+        "person_id": "08681301-40de-4270-8ffe-2bb5bdf36225",
+        "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 1024,
+          "new_limit": 4924,
+          "currency": "PLN",
+          "approved_by": "director"
+        }
+      },
+      {
+        "person_id": "4631fbc6-69a1-432a-932a-e02da7dd203f",
+        "institution_id": "383e4d62-eafe-4f95-a3a0-0cecf401bacb",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "on_leave",
+          "date": "2026-01-16T08:18:26.200083",
+          "reversible": false
+        }
+      },
+      {
+        "person_id": "043305b1-029a-4512-b19b-a6b5baf85fe6",
+        "institution_id": "a0a67bcd-b98c-409e-9b17-8acaf16861f7",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_e3b94a7379904cd6",
+          "reset_by": "admin",
+          "timestamp": "2026-04-19T08:18:26.200089"
+        }
+      },
+      {
+        "person_id": "172615b0-6ec5-4e1b-a304-b4e93daf20ab",
+        "institution_id": "8c52affa-7352-44ba-9c13-051e21ec965f",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 4816,
+          "new_limit": 7203,
+          "currency": "PLN",
+          "approved_by": "director"
+        }
+      },
+      {
+        "person_id": "b5667383-90bf-4011-9c70-b59ee1e4535e",
+        "institution_id": "6166ddcb-eb2a-4a82-9655-72eab915581c",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_17@example.com",
+          "new_email": "new_17@example.com",
+          "verified": false
+        }
+      },
+      {
+        "person_id": "43b7b6cc-e669-413b-b323-4b4474deee25",
+        "institution_id": "14766765-2fa0-42a9-92a9-55bb584002ae",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "suspended",
+          "date": "2025-04-27T08:18:26.200123",
+          "reversible": false
+        }
+      },
+      {
+        "person_id": "c0cdc7a3-3269-46db-bcec-34eae6036337",
+        "institution_id": "b54c2a65-94fe-40ff-89d6-2c0b7e56c6dd",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_19@example.com",
+          "new_email": "new_19@example.com",
+          "verified": true
+        }
+      },
+      {
+        "person_id": "0228c2a6-e7ef-432a-996d-cb5c59aeb213",
+        "institution_id": "a0a67bcd-b98c-409e-9b17-8acaf16861f7",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "79 Main St",
+          "city": "Poznan",
+          "zip": "24-946"
+        }
+      },
+      {
+        "person_id": "6dfafabe-cad6-43a2-8da4-6462bae89e4a",
+        "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "947 Main St",
+          "city": "Krakow",
+          "zip": "01-618"
+        }
+      },
+      {
+        "person_id": "e8aa3c79-3f88-4af4-987e-98200b637776",
+        "institution_id": "da741a09-f0b5-410f-8524-d5077cdec263",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 1326,
+          "new_limit": 3886,
+          "currency": "PLN",
+          "approved_by": "manager"
+        }
+      },
+      {
+        "person_id": "e23760b1-1b10-4ce5-a83c-b7b74fca7c9e",
+        "institution_id": "f53d6228-05c3-40da-a1ee-6860eabf8580",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "on_leave",
+          "date": "2025-05-16T08:18:26.200176",
+          "reversible": false
+        }
+      },
+      {
+        "person_id": "85024574-eec1-4427-8677-22b3931fea82",
+        "institution_id": "14766765-2fa0-42a9-92a9-55bb584002ae",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "218 Main St",
+          "city": "Wroclaw",
+          "zip": "47-852"
+        }
+      },
+      {
+        "person_id": "c69cedb5-7e2d-4700-933b-b5eac03b5d67",
+        "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_253c02fb934742b7",
+          "reset_by": "support",
+          "timestamp": "2026-04-19T08:18:26.200193"
+        }
+      },
+      {
+        "person_id": "2e3c937a-ee61-423d-a9c6-7821d1b18189",
+        "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "export",
+          "granted_by": "admin",
+          "scope": "limited"
+        }
+      },
+      {
+        "person_id": "96c40673-ffb7-4d2f-8b8c-5271187dabd0",
+        "institution_id": "132a807d-d941-4172-9b2a-b9f9205f60df",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "retired",
+          "date": "2025-12-09T08:18:26.200218",
+          "reversible": false
+        }
+      },
+      {
+        "person_id": "6ad43911-c92f-4ff7-84f3-3668371d586c",
+        "institution_id": "8c52affa-7352-44ba-9c13-051e21ec965f",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 4423,
+          "new_limit": 7266,
+          "currency": "PLN",
+          "approved_by": "system"
+        }
+      },
+      {
+        "person_id": "3e35a75c-e19b-4b5c-b179-ce408a87bb54",
+        "institution_id": "b7cbd81c-20f8-41e6-911d-3266afc42969",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "write",
+          "granted_by": "system",
+          "scope": "full"
+        }
+      },
+      {
+        "person_id": "300dd0b8-2e5c-4915-8aa0-a9a87a8e5b5a",
+        "institution_id": "b74eeeb5-dfb4-4a91-a165-f856a892adcc",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 2704,
+          "new_limit": 4031,
+          "currency": "PLN",
+          "approved_by": "manager"
+        }
+      },
+      {
+        "person_id": "f95354ff-593e-4576-ae02-24b1df1175ae",
+        "institution_id": "da741a09-f0b5-410f-8524-d5077cdec263",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "992 Oak St",
+          "city": "Wroclaw",
+          "zip": "86-525"
+        }
+      },
+      {
+        "person_id": "242bcd9c-fd47-4b46-a308-fc33e0d6c090",
+        "institution_id": "2fa03dfe-cc10-435d-82a3-bc986ee6fcd4",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_ae363d6dc2884d4d",
+          "reset_by": "admin",
+          "timestamp": "2026-04-19T08:18:26.200264"
+        }
+      },
+      {
+        "person_id": "56070ab6-c84d-4919-b5c9-e992f4f1b321",
+        "institution_id": "b74eeeb5-dfb4-4a91-a165-f856a892adcc",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "admin",
+          "granted_by": "admin",
+          "scope": "full"
+        }
+      },
+      {
+        "person_id": "a386c674-5d97-4877-9891-7a9b10c779e9",
+        "institution_id": "da741a09-f0b5-410f-8524-d5077cdec263",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 4982,
+          "new_limit": 7758,
+          "currency": "PLN",
+          "approved_by": "system"
+        }
+      },
+      {
+        "person_id": "4279591e-f704-4a41-87b3-958f86833a4f",
+        "institution_id": "b74eeeb5-dfb4-4a91-a165-f856a892adcc",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_c4310669871b4d0b",
+          "reset_by": "self",
+          "timestamp": "2026-04-19T08:18:26.200296"
+        }
+      },
+      {
+        "person_id": "712565f0-74f8-4540-84e6-454c785966ec",
+        "institution_id": "383e4d62-eafe-4f95-a3a0-0cecf401bacb",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "755 Oak St",
+          "city": "Warsaw",
+          "zip": "11-776"
+        }
+      },
+      {
+        "person_id": "3c3b8562-f2ed-465a-bfc2-0495fc90183c",
+        "institution_id": "2fa03dfe-cc10-435d-82a3-bc986ee6fcd4",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "retired",
+          "date": "2025-10-05T08:18:26.200321",
+          "reversible": true
+        }
+      },
+      {
+        "person_id": "77028427-184e-44bc-88c1-c6d827fc1e11",
+        "institution_id": "b74eeeb5-dfb4-4a91-a165-f856a892adcc",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_38@example.com",
+          "new_email": "new_38@example.com",
+          "verified": false
+        }
+      },
+      {
+        "person_id": "6fda54e6-2b70-41f5-ad2e-fc98bb73f407",
+        "institution_id": "14766765-2fa0-42a9-92a9-55bb584002ae",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_39@example.com",
+          "new_email": "new_39@example.com",
+          "verified": true
+        }
+      },
+      {
+        "person_id": "6ad43911-c92f-4ff7-84f3-3668371d586c",
+        "institution_id": "f53d6228-05c3-40da-a1ee-6860eabf8580",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "suspended",
+          "date": "2026-01-02T08:18:26.200351",
+          "reversible": false
+        }
+      },
+      {
+        "person_id": "56070ab6-c84d-4919-b5c9-e992f4f1b321",
+        "institution_id": "6166ddcb-eb2a-4a82-9655-72eab915581c",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_1e0899ae86e14202",
+          "reset_by": "support",
+          "timestamp": "2026-04-19T08:18:26.200357"
+        }
+      },
+      {
+        "person_id": "7d09d74b-b857-4263-ad46-77665a596264",
+        "institution_id": "ddf8f657-5da2-4135-98c1-f8d42148cc22",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "write",
+          "granted_by": "admin",
+          "scope": "temporary"
+        }
+      },
+      {
+        "person_id": "043305b1-029a-4512-b19b-a6b5baf85fe6",
+        "institution_id": "a0a67bcd-b98c-409e-9b17-8acaf16861f7",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 4224,
+          "new_limit": 5515,
+          "currency": "PLN",
+          "approved_by": "manager"
+        }
+      },
+      {
+        "person_id": "6da90a05-8b7b-46e2-a430-6e413de5770b",
+        "institution_id": "14766765-2fa0-42a9-92a9-55bb584002ae",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "891 Main St",
+          "city": "Gdansk",
+          "zip": "04-674"
+        }
+      },
+      {
+        "person_id": "59e15d64-3b82-4cf2-a34e-dbd1578937f8",
+        "institution_id": "b54c2a65-94fe-40ff-89d6-2c0b7e56c6dd",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "855 Main St",
+          "city": "Poznan",
+          "zip": "05-882"
+        }
+      },
+      {
+        "person_id": "0228c2a6-e7ef-432a-996d-cb5c59aeb213",
+        "institution_id": "11bf7cce-1591-4fcc-b36c-127e9b6532d8",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_46@example.com",
+          "new_email": "new_46@example.com",
+          "verified": true
+        }
+      },
+      {
+        "person_id": "a386c674-5d97-4877-9891-7a9b10c779e9",
+        "institution_id": "b74eeeb5-dfb4-4a91-a165-f856a892adcc",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 1700,
+          "new_limit": 5840,
+          "currency": "PLN",
+          "approved_by": "system"
+        }
+      },
+      {
+        "person_id": "4033d994-daf4-42f9-b377-6987f04785ae",
+        "institution_id": "a0a67bcd-b98c-409e-9b17-8acaf16861f7",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "admin",
+          "granted_by": "manager",
+          "scope": "limited"
+        }
+      },
+      {
+        "person_id": "c30cdbad-b13d-4f0c-b362-9be653f4280d",
+        "institution_id": "6166ddcb-eb2a-4a82-9655-72eab915581c",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "read",
+          "granted_by": "manager",
+          "scope": "full"
+        }
+      },
+      {
+        "person_id": "6dfafabe-cad6-43a2-8da4-6462bae89e4a",
+        "institution_id": "a0a67bcd-b98c-409e-9b17-8acaf16861f7",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_b1e780a773814a9d",
+          "reset_by": "support",
+          "timestamp": "2026-04-19T08:18:26.200451"
+        }
+      },
+      {
+        "person_id": "0bf3cc73-d41d-4cb8-b83f-c77028ede55f",
+        "institution_id": "baf6ee36-f8ed-4104-8192-220234fe94b5",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "read",
+          "granted_by": "manager",
+          "scope": "limited"
+        }
+      },
+      {
+        "person_id": "641a722f-5eb9-4513-a4d1-ac6c1209a1e2",
+        "institution_id": "f53d6228-05c3-40da-a1ee-6860eabf8580",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "read",
+          "granted_by": "system",
+          "scope": "temporary"
+        }
+      },
+      {
+        "person_id": "4033d994-daf4-42f9-b377-6987f04785ae",
+        "institution_id": "2fa03dfe-cc10-435d-82a3-bc986ee6fcd4",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "retired",
+          "date": "2026-04-03T08:18:26.200486",
+          "reversible": false
+        }
+      },
+      {
+        "person_id": "bc0e5f2f-15c7-4c15-bcfd-4d829ab35b9b",
+        "institution_id": "f3d467b7-11ca-4e85-a5bf-19043c080c30",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 1607,
+          "new_limit": 4933,
+          "currency": "PLN",
+          "approved_by": "director"
+        }
+      },
+      {
+        "person_id": "e0ce1b3d-9e19-4fcd-b922-3b908f92d77f",
+        "institution_id": "baf6ee36-f8ed-4104-8192-220234fe94b5",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 4642,
+          "new_limit": 9218,
+          "currency": "PLN",
+          "approved_by": "system"
+        }
+      },
+      {
+        "person_id": "38dc08e4-4fe5-4803-9a00-54340c066982",
+        "institution_id": "b74eeeb5-dfb4-4a91-a165-f856a892adcc",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_eaccea66e79d44a8",
+          "reset_by": "support",
+          "timestamp": "2026-04-19T08:18:26.200514"
+        }
+      },
+      {
+        "person_id": "f95354ff-593e-4576-ae02-24b1df1175ae",
+        "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "export",
+          "granted_by": "admin",
+          "scope": "limited"
+        }
+      },
+      {
+        "person_id": "96c40673-ffb7-4d2f-8b8c-5271187dabd0",
+        "institution_id": "ddf8f657-5da2-4135-98c1-f8d42148cc22",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_58@example.com",
+          "new_email": "new_58@example.com",
+          "verified": false
+        }
+      },
+      {
+        "person_id": "4631fbc6-69a1-432a-932a-e02da7dd203f",
+        "institution_id": "baf6ee36-f8ed-4104-8192-220234fe94b5",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "139 Maple St",
+          "city": "Wroclaw",
+          "zip": "06-451"
+        }
+      },
+      {
+        "person_id": "20421b65-53fb-4d0f-8712-58d4113e09a0",
+        "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_60@example.com",
+          "new_email": "new_60@example.com",
+          "verified": false
+        }
+      },
+      {
+        "person_id": "61b4521b-48f7-4822-b575-f8e8a07bd189",
+        "institution_id": "b74eeeb5-dfb4-4a91-a165-f856a892adcc",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_61@example.com",
+          "new_email": "new_61@example.com",
+          "verified": true
+        }
+      },
+      {
+        "person_id": "143936d4-c86e-4446-98fa-813d8f8b6229",
+        "institution_id": "6166ddcb-eb2a-4a82-9655-72eab915581c",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "329 Main St",
+          "city": "Wroclaw",
+          "zip": "21-040"
+        }
+      },
+      {
+        "person_id": "d02b0089-4323-4956-b08b-c1c86944fb2b",
+        "institution_id": "b7cbd81c-20f8-41e6-911d-3266afc42969",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_670e341b01ff4175",
+          "reset_by": "admin",
+          "timestamp": "2026-04-19T08:18:26.200586"
+        }
+      },
+      {
+        "person_id": "af68fd5a-17be-4b6a-a930-4a293d852064",
+        "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_0637f515f6124b57",
+          "reset_by": "support",
+          "timestamp": "2026-04-19T08:18:26.200596"
+        }
+      },
+      {
+        "person_id": "d10c87c1-6055-4e91-910d-e2c5a655f048",
+        "institution_id": "8c52affa-7352-44ba-9c13-051e21ec965f",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "delete",
+          "granted_by": "system",
+          "scope": "limited"
+        }
+      },
+      {
+        "person_id": "a10f6f43-1336-4efe-8780-cdc8c3edd253",
+        "institution_id": "132a807d-d941-4172-9b2a-b9f9205f60df",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "753 Pine St",
+          "city": "Wroclaw",
+          "zip": "03-396"
+        }
+      },
+      {
+        "person_id": "718787ba-5077-4043-9f96-d2695d1c5e12",
+        "institution_id": "132a807d-d941-4172-9b2a-b9f9205f60df",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "741 Oak St",
+          "city": "Wroclaw",
+          "zip": "95-547"
+        }
+      },
+      {
+        "person_id": "7d09d74b-b857-4263-ad46-77665a596264",
+        "institution_id": "63d6aa1f-df67-431d-9cea-6caaa790c8c4",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_46109e0613ee4aed",
+          "reset_by": "support",
+          "timestamp": "2026-04-19T08:18:26.200900"
+        }
+      },
+      {
+        "person_id": "4033d994-daf4-42f9-b377-6987f04785ae",
+        "institution_id": "b74eeeb5-dfb4-4a91-a165-f856a892adcc",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "terminated",
+          "date": "2026-01-31T08:18:26.201049",
+          "reversible": false
+        }
+      },
+      {
+        "person_id": "242bcd9c-fd47-4b46-a308-fc33e0d6c090",
+        "institution_id": "f3d467b7-11ca-4e85-a5bf-19043c080c30",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "129 Oak St",
+          "city": "Krakow",
+          "zip": "64-418"
+        }
+      },
+      {
+        "person_id": "af68fd5a-17be-4b6a-a930-4a293d852064",
+        "institution_id": "21a4cc0e-dcae-49bb-afbe-47eb85feb309",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "on_leave",
+          "date": "2026-01-10T08:18:26.201088",
+          "reversible": false
+        }
+      },
+      {
+        "person_id": "a386c674-5d97-4877-9891-7a9b10c779e9",
+        "institution_id": "383e4d62-eafe-4f95-a3a0-0cecf401bacb",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "read",
+          "granted_by": "system",
+          "scope": "temporary"
+        }
+      },
+      {
+        "person_id": "e8aa3c79-3f88-4af4-987e-98200b637776",
+        "institution_id": "63d6aa1f-df67-431d-9cea-6caaa790c8c4",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "19 Maple St",
+          "city": "Poznan",
+          "zip": "27-778"
+        }
+      },
+      {
+        "person_id": "59917b7a-dd3f-43ce-8479-3124339a6e9d",
+        "institution_id": "132a807d-d941-4172-9b2a-b9f9205f60df",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "suspended",
+          "date": "2026-01-26T08:18:26.201741",
+          "reversible": false
+        }
+      },
+      {
+        "person_id": "af0716ea-8441-4273-9478-b6aaf40835d5",
+        "institution_id": "21a4cc0e-dcae-49bb-afbe-47eb85feb309",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "delete",
+          "granted_by": "admin",
+          "scope": "full"
+        }
+      },
+      {
+        "person_id": "a2fe53fb-1e73-42c1-b7bc-bb74523b4af1",
+        "institution_id": "8c52affa-7352-44ba-9c13-051e21ec965f",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "read",
+          "granted_by": "system",
+          "scope": "limited"
+        }
+      },
+      {
+        "person_id": "d02b0089-4323-4956-b08b-c1c86944fb2b",
+        "institution_id": "21a4cc0e-dcae-49bb-afbe-47eb85feb309",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "admin",
+          "granted_by": "system",
+          "scope": "temporary"
+        }
+      },
+      {
+        "person_id": "91a40bec-16a5-4e3c-bab7-c1690cf43307",
+        "institution_id": "b74eeeb5-dfb4-4a91-a165-f856a892adcc",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "delete",
+          "granted_by": "admin",
+          "scope": "full"
+        }
+      },
+      {
+        "person_id": "143936d4-c86e-4446-98fa-813d8f8b6229",
+        "institution_id": "a0a67bcd-b98c-409e-9b17-8acaf16861f7",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_97739d1b4594449f",
+          "reset_by": "admin",
+          "timestamp": "2026-04-19T08:18:26.201801"
+        }
+      },
+      {
+        "person_id": "3bf59e7d-d5c3-4103-9cd1-485924b2dacc",
+        "institution_id": "8c52affa-7352-44ba-9c13-051e21ec965f",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "190 Pine St",
+          "city": "Poznan",
+          "zip": "53-678"
+        }
+      },
+      {
+        "person_id": "3c3b8562-f2ed-465a-bfc2-0495fc90183c",
+        "institution_id": "21a4cc0e-dcae-49bb-afbe-47eb85feb309",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_81@example.com",
+          "new_email": "new_81@example.com",
+          "verified": true
+        }
+      },
+      {
+        "person_id": "61b4521b-48f7-4822-b575-f8e8a07bd189",
+        "institution_id": "11bf7cce-1591-4fcc-b36c-127e9b6532d8",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 3689,
+          "new_limit": 7818,
+          "currency": "PLN",
+          "approved_by": "manager"
+        }
+      },
+      {
+        "person_id": "37f21468-1691-4d07-b923-80bbde06685d",
+        "institution_id": "b54c2a65-94fe-40ff-89d6-2c0b7e56c6dd",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "admin",
+          "granted_by": "admin",
+          "scope": "limited"
+        }
+      },
+      {
+        "person_id": "1b659548-e07f-4431-80e1-24c1aa34ff54",
+        "institution_id": "b54c2a65-94fe-40ff-89d6-2c0b7e56c6dd",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "retired",
+          "date": "2025-07-22T08:18:26.201859",
+          "reversible": false
+        }
+      },
+      {
+        "person_id": "bc0e5f2f-15c7-4c15-bcfd-4d829ab35b9b",
+        "institution_id": "63d6aa1f-df67-431d-9cea-6caaa790c8c4",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "write",
+          "granted_by": "manager",
+          "scope": "full"
+        }
+      },
+      {
+        "person_id": "43b7b6cc-e669-413b-b323-4b4474deee25",
+        "institution_id": "fa0a8b57-0d0b-4359-8f37-e51ea50a3692",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "920 Main St",
+          "city": "Poznan",
+          "zip": "01-699"
+        }
+      },
+      {
+        "person_id": "4033d994-daf4-42f9-b377-6987f04785ae",
+        "institution_id": "ddf8f657-5da2-4135-98c1-f8d42148cc22",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_367322770f57454d",
+          "reset_by": "support",
+          "timestamp": "2026-04-19T08:18:26.201886"
+        }
+      },
+      {
+        "person_id": "c30cdbad-b13d-4f0c-b362-9be653f4280d",
+        "institution_id": "f53d6228-05c3-40da-a1ee-6860eabf8580",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "terminated",
+          "date": "2025-05-27T08:18:26.201901",
+          "reversible": true
+        }
+      },
+      {
+        "person_id": "01287494-73a5-45c2-8063-ce9bae1cac30",
+        "institution_id": "21a4cc0e-dcae-49bb-afbe-47eb85feb309",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_524e9dcb8fa9446b",
+          "reset_by": "self",
+          "timestamp": "2026-04-19T08:18:26.201907"
+        }
+      },
+      {
+        "person_id": "85024574-eec1-4427-8677-22b3931fea82",
+        "institution_id": "ddf8f657-5da2-4135-98c1-f8d42148cc22",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "export",
+          "granted_by": "system",
+          "scope": "full"
+        }
+      },
+      {
+        "person_id": "6da90a05-8b7b-46e2-a430-6e413de5770b",
+        "institution_id": "63d6aa1f-df67-431d-9cea-6caaa790c8c4",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_4dfba11aedf64cb8",
+          "reset_by": "admin",
+          "timestamp": "2026-04-19T08:18:26.201928"
+        }
+      },
+      {
+        "person_id": "0228c2a6-e7ef-432a-996d-cb5c59aeb213",
+        "institution_id": "2fa03dfe-cc10-435d-82a3-bc986ee6fcd4",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "write",
+          "granted_by": "manager",
+          "scope": "temporary"
+        }
+      },
+      {
+        "person_id": "5d79e46a-4af1-4cd9-913c-e1b7e991445e",
+        "institution_id": "a0a67bcd-b98c-409e-9b17-8acaf16861f7",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_93@example.com",
+          "new_email": "new_93@example.com",
+          "verified": false
+        }
+      },
+      {
+        "person_id": "6da90a05-8b7b-46e2-a430-6e413de5770b",
+        "institution_id": "8c52affa-7352-44ba-9c13-051e21ec965f",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_94@example.com",
+          "new_email": "new_94@example.com",
+          "verified": false
+        }
+      },
+      {
+        "person_id": "37f21468-1691-4d07-b923-80bbde06685d",
+        "institution_id": "11bf7cce-1591-4fcc-b36c-127e9b6532d8",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_547280c760484dc9",
+          "reset_by": "self",
+          "timestamp": "2026-04-19T08:18:26.201970"
+        }
+      },
+      {
+        "person_id": "d46164b4-3c71-4f00-b253-487f3f665c1c",
+        "institution_id": "b74eeeb5-dfb4-4a91-a165-f856a892adcc",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_96@example.com",
+          "new_email": "new_96@example.com",
+          "verified": true
+        }
+      },
+      {
+        "person_id": "08681301-40de-4270-8ffe-2bb5bdf36225",
+        "institution_id": "14766765-2fa0-42a9-92a9-55bb584002ae",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_97@example.com",
+          "new_email": "new_97@example.com",
+          "verified": false
+        }
+      },
+      {
+        "person_id": "9b9b9952-6f3d-47dd-9c1d-3e208bf31992",
+        "institution_id": "fa0a8b57-0d0b-4359-8f37-e51ea50a3692",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "3 Oak St",
+          "city": "Krakow",
+          "zip": "26-529"
+        }
+      },
+      {
+        "person_id": "56070ab6-c84d-4919-b5c9-e992f4f1b321",
+        "institution_id": "383e4d62-eafe-4f95-a3a0-0cecf401bacb",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "840 Pine St",
+          "city": "Wroclaw",
+          "zip": "02-577"
+        }
+      },
+      {
+        "person_id": "6ad43911-c92f-4ff7-84f3-3668371d586c",
+        "institution_id": "11bf7cce-1591-4fcc-b36c-127e9b6532d8",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_100@example.com",
+          "new_email": "new_100@example.com",
+          "verified": true
+        }
+      },
+      {
+        "person_id": "aaf8d09c-fc13-46a5-bec9-5e4b948707e1",
+        "institution_id": "21a4cc0e-dcae-49bb-afbe-47eb85feb309",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "admin",
+          "granted_by": "system",
+          "scope": "limited"
+        }
+      },
+      {
+        "person_id": "82b8a850-376c-4057-9791-0271a76707fb",
+        "institution_id": "11bf7cce-1591-4fcc-b36c-127e9b6532d8",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 4729,
+          "new_limit": 6685,
+          "currency": "PLN",
+          "approved_by": "system"
+        }
+      },
+      {
+        "person_id": "e23760b1-1b10-4ce5-a83c-b7b74fca7c9e",
+        "institution_id": "f3d467b7-11ca-4e85-a5bf-19043c080c30",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_103@example.com",
+          "new_email": "new_103@example.com",
+          "verified": false
+        }
+      },
+      {
+        "person_id": "d02b0089-4323-4956-b08b-c1c86944fb2b",
+        "institution_id": "8c52affa-7352-44ba-9c13-051e21ec965f",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_229d3fab729a4fde",
+          "reset_by": "admin",
+          "timestamp": "2026-04-19T08:18:26.202061"
+        }
+      },
+      {
+        "person_id": "37f21468-1691-4d07-b923-80bbde06685d",
+        "institution_id": "b74eeeb5-dfb4-4a91-a165-f856a892adcc",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "592 Oak St",
+          "city": "Krakow",
+          "zip": "43-092"
+        }
+      },
+      {
+        "person_id": "ecd7296c-3c2b-4ad1-ba52-5a4186899594",
+        "institution_id": "baf6ee36-f8ed-4104-8192-220234fe94b5",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "terminated",
+          "date": "2026-03-19T08:18:26.202085",
+          "reversible": false
+        }
+      },
+      {
+        "person_id": "e23760b1-1b10-4ce5-a83c-b7b74fca7c9e",
+        "institution_id": "21a4cc0e-dcae-49bb-afbe-47eb85feb309",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 2981,
+          "new_limit": 6938,
+          "currency": "PLN",
+          "approved_by": "system"
+        }
+      },
+      {
+        "person_id": "1851d911-1bb2-4685-9157-8d801590d2fa",
+        "institution_id": "b54c2a65-94fe-40ff-89d6-2c0b7e56c6dd",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "terminated",
+          "date": "2025-06-09T08:18:26.202104",
+          "reversible": false
+        }
+      },
+      {
+        "person_id": "59917b7a-dd3f-43ce-8479-3124339a6e9d",
+        "institution_id": "14766765-2fa0-42a9-92a9-55bb584002ae",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 4924,
+          "new_limit": 7374,
+          "currency": "PLN",
+          "approved_by": "director"
+        }
+      },
+      {
+        "person_id": "e23760b1-1b10-4ce5-a83c-b7b74fca7c9e",
+        "institution_id": "b54c2a65-94fe-40ff-89d6-2c0b7e56c6dd",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "admin",
+          "granted_by": "admin",
+          "scope": "limited"
+        }
+      },
+      {
+        "person_id": "d10c87c1-6055-4e91-910d-e2c5a655f048",
+        "institution_id": "fa0a8b57-0d0b-4359-8f37-e51ea50a3692",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "delete",
+          "granted_by": "manager",
+          "scope": "full"
+        }
+      },
+      {
+        "person_id": "622453f9-6198-4538-9a11-a58aa77573b9",
+        "institution_id": "ddf8f657-5da2-4135-98c1-f8d42148cc22",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "terminated",
+          "date": "2025-09-05T08:18:26.202145",
+          "reversible": false
+        }
+      },
+      {
+        "person_id": "85024574-eec1-4427-8677-22b3931fea82",
+        "institution_id": "63d6aa1f-df67-431d-9cea-6caaa790c8c4",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_662e0dc8c01549e2",
+          "reset_by": "support",
+          "timestamp": "2026-04-19T08:18:26.202151"
+        }
+      },
+      {
+        "person_id": "55bc7bcf-03d3-4f18-bc72-685c212672d8",
+        "institution_id": "b74eeeb5-dfb4-4a91-a165-f856a892adcc",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "874 Pine St",
+          "city": "Gdansk",
+          "zip": "64-661"
+        }
+      },
+      {
+        "person_id": "96c40673-ffb7-4d2f-8b8c-5271187dabd0",
+        "institution_id": "6166ddcb-eb2a-4a82-9655-72eab915581c",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "write",
+          "granted_by": "manager",
+          "scope": "limited"
+        }
+      },
+      {
+        "person_id": "6dfafabe-cad6-43a2-8da4-6462bae89e4a",
+        "institution_id": "132a807d-d941-4172-9b2a-b9f9205f60df",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "admin",
+          "granted_by": "manager",
+          "scope": "full"
+        }
+      },
+      {
+        "person_id": "1b659548-e07f-4431-80e1-24c1aa34ff54",
+        "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_117@example.com",
+          "new_email": "new_117@example.com",
+          "verified": false
+        }
+      },
+      {
+        "person_id": "c0ab9e53-1ee5-49b5-b5f8-cc72bd4c02ec",
+        "institution_id": "6166ddcb-eb2a-4a82-9655-72eab915581c",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_b4ac43fe961f4df5",
+          "reset_by": "self",
+          "timestamp": "2026-04-19T08:18:26.202202"
+        }
+      },
+      {
+        "person_id": "d10c87c1-6055-4e91-910d-e2c5a655f048",
+        "institution_id": "da741a09-f0b5-410f-8524-d5077cdec263",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "suspended",
+          "date": "2026-03-24T08:18:26.202217",
+          "reversible": false
+        }
+      },
+      {
+        "person_id": "aaf8d09c-fc13-46a5-bec9-5e4b948707e1",
+        "institution_id": "11bf7cce-1591-4fcc-b36c-127e9b6532d8",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "read",
+          "granted_by": "manager",
+          "scope": "full"
+        }
+      },
+      {
+        "person_id": "641a722f-5eb9-4513-a4d1-ac6c1209a1e2",
+        "institution_id": "8c52affa-7352-44ba-9c13-051e21ec965f",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 3843,
+          "new_limit": 7801,
+          "currency": "PLN",
+          "approved_by": "system"
+        }
+      },
+      {
+        "person_id": "08681301-40de-4270-8ffe-2bb5bdf36225",
+        "institution_id": "21a4cc0e-dcae-49bb-afbe-47eb85feb309",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_d814dd104d504598",
+          "reset_by": "support",
+          "timestamp": "2026-04-19T08:18:26.202244"
+        }
+      },
+      {
+        "person_id": "043305b1-029a-4512-b19b-a6b5baf85fe6",
+        "institution_id": "b74eeeb5-dfb4-4a91-a165-f856a892adcc",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_ccd2a6476ca34cec",
+          "reset_by": "support",
+          "timestamp": "2026-04-19T08:18:26.202254"
+        }
+      },
+      {
+        "person_id": "6fda54e6-2b70-41f5-ad2e-fc98bb73f407",
+        "institution_id": "fa0a8b57-0d0b-4359-8f37-e51ea50a3692",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "864 Maple St",
+          "city": "Wroclaw",
+          "zip": "75-389"
+        }
+      },
+      {
+        "person_id": "d10c87c1-6055-4e91-910d-e2c5a655f048",
+        "institution_id": "b74eeeb5-dfb4-4a91-a165-f856a892adcc",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_125@example.com",
+          "new_email": "new_125@example.com",
+          "verified": true
+        }
+      },
+      {
+        "person_id": "3e35a75c-e19b-4b5c-b179-ce408a87bb54",
+        "institution_id": "21a4cc0e-dcae-49bb-afbe-47eb85feb309",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_5be2366bde8c41d7",
+          "reset_by": "self",
+          "timestamp": "2026-04-19T08:18:26.202285"
+        }
+      },
+      {
+        "person_id": "3bf59e7d-d5c3-4103-9cd1-485924b2dacc",
+        "institution_id": "b7cbd81c-20f8-41e6-911d-3266afc42969",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "on_leave",
+          "date": "2025-06-17T08:18:26.202299",
+          "reversible": false
+        }
+      },
+      {
+        "person_id": "43b7b6cc-e669-413b-b323-4b4474deee25",
+        "institution_id": "fa0a8b57-0d0b-4359-8f37-e51ea50a3692",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "write",
+          "granted_by": "system",
+          "scope": "full"
+        }
+      },
+      {
+        "person_id": "e0ce1b3d-9e19-4fcd-b922-3b908f92d77f",
+        "institution_id": "f53d6228-05c3-40da-a1ee-6860eabf8580",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "on_leave",
+          "date": "2026-03-12T08:18:26.202319",
+          "reversible": false
+        }
+      },
+      {
+        "person_id": "2e3c937a-ee61-423d-a9c6-7821d1b18189",
+        "institution_id": "14766765-2fa0-42a9-92a9-55bb584002ae",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "141 Maple St",
+          "city": "Wroclaw",
+          "zip": "84-616"
+        }
+      },
+      {
+        "person_id": "b5667383-90bf-4011-9c70-b59ee1e4535e",
+        "institution_id": "f53d6228-05c3-40da-a1ee-6860eabf8580",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "235 Pine St",
+          "city": "Wroclaw",
+          "zip": "44-100"
+        }
+      },
+      {
+        "person_id": "8de7a940-ce11-49e4-9781-07a8a683afd9",
+        "institution_id": "b54c2a65-94fe-40ff-89d6-2c0b7e56c6dd",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 4065,
+          "new_limit": 6340,
+          "currency": "PLN",
+          "approved_by": "manager"
+        }
+      },
+      {
+        "person_id": "7b2dceef-a6b5-46f7-8ce0-015a199b6e03",
+        "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "retired",
+          "date": "2025-04-30T08:18:26.202360",
+          "reversible": true
+        }
+      },
+      {
+        "person_id": "d46164b4-3c71-4f00-b253-487f3f665c1c",
+        "institution_id": "da741a09-f0b5-410f-8524-d5077cdec263",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_132ff2be1f224b9e",
+          "reset_by": "self",
+          "timestamp": "2026-04-19T08:18:26.202370"
+        }
+      },
+      {
+        "person_id": "07c50cf3-2ad1-4884-a3ab-ffb785892c6c",
+        "institution_id": "2fa03dfe-cc10-435d-82a3-bc986ee6fcd4",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 2037,
+          "new_limit": 5521,
+          "currency": "PLN",
+          "approved_by": "system"
+        }
+      },
+      {
+        "person_id": "37f21468-1691-4d07-b923-80bbde06685d",
+        "institution_id": "63d6aa1f-df67-431d-9cea-6caaa790c8c4",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "terminated",
+          "date": "2026-03-10T08:18:26.202394",
+          "reversible": true
+        }
+      },
+      {
+        "person_id": "aaf8d09c-fc13-46a5-bec9-5e4b948707e1",
+        "institution_id": "da741a09-f0b5-410f-8524-d5077cdec263",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_137@example.com",
+          "new_email": "new_137@example.com",
+          "verified": false
+        }
+      },
+      {
+        "person_id": "349158ab-01f4-435d-a609-84fda1e9c5c8",
+        "institution_id": "63d6aa1f-df67-431d-9cea-6caaa790c8c4",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "suspended",
+          "date": "2025-11-21T08:18:26.202414",
+          "reversible": false
+        }
+      },
+      {
+        "person_id": "d10c87c1-6055-4e91-910d-e2c5a655f048",
+        "institution_id": "baf6ee36-f8ed-4104-8192-220234fe94b5",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_139@example.com",
+          "new_email": "new_139@example.com",
+          "verified": false
+        }
+      },
+      {
+        "person_id": "82af8a30-de79-420c-8803-32ee56ce952e",
+        "institution_id": "11bf7cce-1591-4fcc-b36c-127e9b6532d8",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "403 Pine St",
+          "city": "Poznan",
+          "zip": "76-031"
+        }
+      },
+      {
+        "person_id": "6da90a05-8b7b-46e2-a430-6e413de5770b",
+        "institution_id": "f53d6228-05c3-40da-a1ee-6860eabf8580",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "admin",
+          "granted_by": "admin",
+          "scope": "full"
+        }
+      },
+      {
+        "person_id": "bc0e5f2f-15c7-4c15-bcfd-4d829ab35b9b",
+        "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 1163,
+          "new_limit": 4283,
+          "currency": "PLN",
+          "approved_by": "director"
+        }
+      },
+      {
+        "person_id": "59e15d64-3b82-4cf2-a34e-dbd1578937f8",
+        "institution_id": "b74eeeb5-dfb4-4a91-a165-f856a892adcc",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_143@example.com",
+          "new_email": "new_143@example.com",
+          "verified": true
+        }
+      },
+      {
+        "person_id": "712565f0-74f8-4540-84e6-454c785966ec",
+        "institution_id": "baf6ee36-f8ed-4104-8192-220234fe94b5",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 4244,
+          "new_limit": 8653,
+          "currency": "PLN",
+          "approved_by": "system"
+        }
+      },
+      {
+        "person_id": "6da90a05-8b7b-46e2-a430-6e413de5770b",
+        "institution_id": "a0a67bcd-b98c-409e-9b17-8acaf16861f7",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 3943,
+          "new_limit": 7544,
+          "currency": "PLN",
+          "approved_by": "director"
+        }
+      },
+      {
+        "person_id": "6dfafabe-cad6-43a2-8da4-6462bae89e4a",
+        "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "530 Maple St",
+          "city": "Krakow",
+          "zip": "25-303"
+        }
+      },
+      {
+        "person_id": "e23760b1-1b10-4ce5-a83c-b7b74fca7c9e",
+        "institution_id": "383e4d62-eafe-4f95-a3a0-0cecf401bacb",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_147@example.com",
+          "new_email": "new_147@example.com",
+          "verified": true
+        }
+      },
+      {
+        "person_id": "96c40673-ffb7-4d2f-8b8c-5271187dabd0",
+        "institution_id": "6166ddcb-eb2a-4a82-9655-72eab915581c",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_148@example.com",
+          "new_email": "new_148@example.com",
+          "verified": true
+        }
+      },
+      {
+        "person_id": "e8aa3c79-3f88-4af4-987e-98200b637776",
+        "institution_id": "8c52affa-7352-44ba-9c13-051e21ec965f",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "delete",
+          "granted_by": "manager",
+          "scope": "temporary"
+        }
+      },
+      {
+        "person_id": "b48890fe-c87a-4d22-8f88-a75b20f6d50d",
+        "institution_id": "ddf8f657-5da2-4135-98c1-f8d42148cc22",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "261 Maple St",
+          "city": "Poznan",
+          "zip": "55-294"
+        }
+      },
+      {
+        "person_id": "2e3c937a-ee61-423d-a9c6-7821d1b18189",
+        "institution_id": "fa0a8b57-0d0b-4359-8f37-e51ea50a3692",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "admin",
+          "granted_by": "system",
+          "scope": "limited"
+        }
+      },
+      {
+        "person_id": "72412fd1-069e-42a0-9de0-df8f0f289333",
+        "institution_id": "63d6aa1f-df67-431d-9cea-6caaa790c8c4",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "read",
+          "granted_by": "system",
+          "scope": "full"
+        }
+      },
+      {
+        "person_id": "256adf46-21c2-4668-9659-6952438f1e7e",
+        "institution_id": "fa0a8b57-0d0b-4359-8f37-e51ea50a3692",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 3916,
+          "new_limit": 6126,
+          "currency": "PLN",
+          "approved_by": "system"
+        }
+      },
+      {
+        "person_id": "f8eeeec7-1fbd-4a2c-93a7-3c4f506efa5b",
+        "institution_id": "63d6aa1f-df67-431d-9cea-6caaa790c8c4",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "434 Main St",
+          "city": "Warsaw",
+          "zip": "50-463"
+        }
+      },
+      {
+        "person_id": "7d09d74b-b857-4263-ad46-77665a596264",
+        "institution_id": "da741a09-f0b5-410f-8524-d5077cdec263",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "delete",
+          "granted_by": "admin",
+          "scope": "full"
+        }
+      },
+      {
+        "person_id": "98b7882d-c524-4b80-b4ee-056bba62bce2",
+        "institution_id": "f53d6228-05c3-40da-a1ee-6860eabf8580",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_156@example.com",
+          "new_email": "new_156@example.com",
+          "verified": false
+        }
+      },
+      {
+        "person_id": "e23760b1-1b10-4ce5-a83c-b7b74fca7c9e",
+        "institution_id": "11bf7cce-1591-4fcc-b36c-127e9b6532d8",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "359 Oak St",
+          "city": "Poznan",
+          "zip": "98-614"
+        }
+      },
+      {
+        "person_id": "08681301-40de-4270-8ffe-2bb5bdf36225",
+        "institution_id": "6166ddcb-eb2a-4a82-9655-72eab915581c",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "read",
+          "granted_by": "system",
+          "scope": "full"
+        }
+      },
+      {
+        "person_id": "6dfafabe-cad6-43a2-8da4-6462bae89e4a",
+        "institution_id": "14766765-2fa0-42a9-92a9-55bb584002ae",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_159@example.com",
+          "new_email": "new_159@example.com",
+          "verified": false
+        }
+      },
+      {
+        "person_id": "3b47f4d4-cb6c-42de-9fca-935773182387",
+        "institution_id": "a0a67bcd-b98c-409e-9b17-8acaf16861f7",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_160@example.com",
+          "new_email": "new_160@example.com",
+          "verified": true
+        }
+      },
+      {
+        "person_id": "68cd0797-2c0e-47b8-b541-ec3211391ec3",
+        "institution_id": "21a4cc0e-dcae-49bb-afbe-47eb85feb309",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 2105,
+          "new_limit": 3351,
+          "currency": "PLN",
+          "approved_by": "director"
+        }
+      },
+      {
+        "person_id": "f95354ff-593e-4576-ae02-24b1df1175ae",
+        "institution_id": "fa0a8b57-0d0b-4359-8f37-e51ea50a3692",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "on_leave",
+          "date": "2025-10-31T08:18:26.202920",
+          "reversible": false
+        }
+      },
+      {
+        "person_id": "043305b1-029a-4512-b19b-a6b5baf85fe6",
+        "institution_id": "fa0a8b57-0d0b-4359-8f37-e51ea50a3692",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_163@example.com",
+          "new_email": "new_163@example.com",
+          "verified": false
+        }
+      },
+      {
+        "person_id": "7ef5ec51-422f-457a-88cf-2c9dd6d214d0",
+        "institution_id": "ddf8f657-5da2-4135-98c1-f8d42148cc22",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "721 Pine St",
+          "city": "Poznan",
+          "zip": "05-508"
+        }
+      },
+      {
+        "person_id": "5d79e46a-4af1-4cd9-913c-e1b7e991445e",
+        "institution_id": "8c52affa-7352-44ba-9c13-051e21ec965f",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_1c55bbdcc5724337",
+          "reset_by": "support",
+          "timestamp": "2026-04-19T08:18:26.202949"
+        }
+      },
+      {
+        "person_id": "c30cdbad-b13d-4f0c-b362-9be653f4280d",
+        "institution_id": "2fa03dfe-cc10-435d-82a3-bc986ee6fcd4",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_166@example.com",
+          "new_email": "new_166@example.com",
+          "verified": true
+        }
+      },
+      {
+        "person_id": "72412fd1-069e-42a0-9de0-df8f0f289333",
+        "institution_id": "b54c2a65-94fe-40ff-89d6-2c0b7e56c6dd",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "suspended",
+          "date": "2025-10-20T08:18:26.202983",
+          "reversible": true
+        }
+      },
+      {
+        "person_id": "c0ab9e53-1ee5-49b5-b5f8-cc72bd4c02ec",
+        "institution_id": "14766765-2fa0-42a9-92a9-55bb584002ae",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_168@example.com",
+          "new_email": "new_168@example.com",
+          "verified": true
+        }
+      },
+      {
+        "person_id": "43b7b6cc-e669-413b-b323-4b4474deee25",
+        "institution_id": "21a4cc0e-dcae-49bb-afbe-47eb85feb309",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "write",
+          "granted_by": "manager",
+          "scope": "limited"
+        }
+      },
+      {
+        "person_id": "e8aa3c79-3f88-4af4-987e-98200b637776",
+        "institution_id": "2fa03dfe-cc10-435d-82a3-bc986ee6fcd4",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_170@example.com",
+          "new_email": "new_170@example.com",
+          "verified": true
+        }
+      },
+      {
+        "person_id": "85024574-eec1-4427-8677-22b3931fea82",
+        "institution_id": "11bf7cce-1591-4fcc-b36c-127e9b6532d8",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 4182,
+          "new_limit": 6873,
+          "currency": "PLN",
+          "approved_by": "system"
+        }
+      },
+      {
+        "person_id": "0228c2a6-e7ef-432a-996d-cb5c59aeb213",
+        "institution_id": "f3d467b7-11ca-4e85-a5bf-19043c080c30",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "suspended",
+          "date": "2026-02-26T08:18:26.203067",
+          "reversible": true
+        }
+      },
+      {
+        "person_id": "bc0e5f2f-15c7-4c15-bcfd-4d829ab35b9b",
+        "institution_id": "b7cbd81c-20f8-41e6-911d-3266afc42969",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "810 Main St",
+          "city": "Krakow",
+          "zip": "40-674"
+        }
+      },
+      {
+        "person_id": "641a722f-5eb9-4513-a4d1-ac6c1209a1e2",
+        "institution_id": "6166ddcb-eb2a-4a82-9655-72eab915581c",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 3139,
+          "new_limit": 7822,
+          "currency": "PLN",
+          "approved_by": "manager"
+        }
+      },
+      {
+        "person_id": "82af8a30-de79-420c-8803-32ee56ce952e",
+        "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "732 Oak St",
+          "city": "Krakow",
+          "zip": "40-435"
+        }
+      },
+      {
+        "person_id": "6fda54e6-2b70-41f5-ad2e-fc98bb73f407",
+        "institution_id": "baf6ee36-f8ed-4104-8192-220234fe94b5",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "terminated",
+          "date": "2025-06-21T08:18:26.203112",
+          "reversible": true
+        }
+      },
+      {
+        "person_id": "b5667383-90bf-4011-9c70-b59ee1e4535e",
+        "institution_id": "132a807d-d941-4172-9b2a-b9f9205f60df",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 1419,
+          "new_limit": 3119,
+          "currency": "PLN",
+          "approved_by": "director"
+        }
+      },
+      {
+        "person_id": "c69cedb5-7e2d-4700-933b-b5eac03b5d67",
+        "institution_id": "fa0a8b57-0d0b-4359-8f37-e51ea50a3692",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "999 Main St",
+          "city": "Gdansk",
+          "zip": "26-381"
+        }
+      },
+      {
+        "person_id": "3b47f4d4-cb6c-42de-9fca-935773182387",
+        "institution_id": "11bf7cce-1591-4fcc-b36c-127e9b6532d8",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "delete",
+          "granted_by": "manager",
+          "scope": "temporary"
+        }
+      },
+      {
+        "person_id": "300dd0b8-2e5c-4915-8aa0-a9a87a8e5b5a",
+        "institution_id": "b54c2a65-94fe-40ff-89d6-2c0b7e56c6dd",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "read",
+          "granted_by": "manager",
+          "scope": "temporary"
+        }
+      },
+      {
+        "person_id": "a386c674-5d97-4877-9891-7a9b10c779e9",
+        "institution_id": "f3d467b7-11ca-4e85-a5bf-19043c080c30",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "199 Maple St",
+          "city": "Poznan",
+          "zip": "22-046"
+        }
+      },
+      {
+        "person_id": "4033d994-daf4-42f9-b377-6987f04785ae",
+        "institution_id": "ddf8f657-5da2-4135-98c1-f8d42148cc22",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "suspended",
+          "date": "2026-03-30T08:18:26.203223",
+          "reversible": true
+        }
+      },
+      {
+        "person_id": "718787ba-5077-4043-9f96-d2695d1c5e12",
+        "institution_id": "2fa03dfe-cc10-435d-82a3-bc986ee6fcd4",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_c78c90531b004e93",
+          "reset_by": "self",
+          "timestamp": "2026-04-19T08:18:26.203230"
+        }
+      },
+      {
+        "person_id": "172615b0-6ec5-4e1b-a304-b4e93daf20ab",
+        "institution_id": "6166ddcb-eb2a-4a82-9655-72eab915581c",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 1214,
+          "new_limit": 4163,
+          "currency": "PLN",
+          "approved_by": "manager"
+        }
+      },
+      {
+        "person_id": "c69cedb5-7e2d-4700-933b-b5eac03b5d67",
+        "institution_id": "f3d467b7-11ca-4e85-a5bf-19043c080c30",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_185@example.com",
+          "new_email": "new_185@example.com",
+          "verified": true
+        }
+      },
+      {
+        "person_id": "0228c2a6-e7ef-432a-996d-cb5c59aeb213",
+        "institution_id": "63d6aa1f-df67-431d-9cea-6caaa790c8c4",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_45285ac574434f6f",
+          "reset_by": "admin",
+          "timestamp": "2026-04-19T08:18:26.203264"
+        }
+      },
+      {
+        "person_id": "96c40673-ffb7-4d2f-8b8c-5271187dabd0",
+        "institution_id": "f53d6228-05c3-40da-a1ee-6860eabf8580",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "704 Oak St",
+          "city": "Poznan",
+          "zip": "59-180"
+        }
+      },
+      {
+        "person_id": "143936d4-c86e-4446-98fa-813d8f8b6229",
+        "institution_id": "11bf7cce-1591-4fcc-b36c-127e9b6532d8",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "admin",
+          "granted_by": "manager",
+          "scope": "limited"
+        }
+      },
+      {
+        "person_id": "290204f4-533c-44e9-8dcb-a3b8fc0a0f9d",
+        "institution_id": "132a807d-d941-4172-9b2a-b9f9205f60df",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "terminated",
+          "date": "2025-05-20T08:18:26.203299",
+          "reversible": false
+        }
+      },
+      {
+        "person_id": "76858655-9d6c-483c-a0a8-cf6eb703eff2",
+        "institution_id": "b7cbd81c-20f8-41e6-911d-3266afc42969",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 1685,
+          "new_limit": 3110,
+          "currency": "PLN",
+          "approved_by": "manager"
+        }
+      },
+      {
+        "person_id": "91a40bec-16a5-4e3c-bab7-c1690cf43307",
+        "institution_id": "6166ddcb-eb2a-4a82-9655-72eab915581c",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "suspended",
+          "date": "2025-05-09T08:18:26.203321",
+          "reversible": true
+        }
+      },
+      {
+        "person_id": "d10c87c1-6055-4e91-910d-e2c5a655f048",
+        "institution_id": "8c52affa-7352-44ba-9c13-051e21ec965f",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_4eadb54ebe654d1c",
+          "reset_by": "support",
+          "timestamp": "2026-04-19T08:18:26.203328"
+        }
+      },
+      {
+        "person_id": "995210a7-ee88-428a-9859-d956cb91fd9c",
+        "institution_id": "383e4d62-eafe-4f95-a3a0-0cecf401bacb",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "suspended",
+          "date": "2025-12-28T08:18:26.203342",
+          "reversible": true
+        }
+      },
+      {
+        "person_id": "d02b0089-4323-4956-b08b-c1c86944fb2b",
+        "institution_id": "f3d467b7-11ca-4e85-a5bf-19043c080c30",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "terminated",
+          "date": "2026-03-30T08:18:26.203352",
+          "reversible": false
+        }
+      },
+      {
+        "person_id": "37f21468-1691-4d07-b923-80bbde06685d",
+        "institution_id": "f53d6228-05c3-40da-a1ee-6860eabf8580",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "710 Maple St",
+          "city": "Wroclaw",
+          "zip": "59-104"
+        }
+      },
+      {
+        "person_id": "e57c2e1e-f20c-4584-b416-dedfa07434a9",
+        "institution_id": "da741a09-f0b5-410f-8524-d5077cdec263",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_eccd3cf7de91439f",
+          "reset_by": "admin",
+          "timestamp": "2026-04-19T08:18:26.203368"
+        }
+      },
+      {
+        "person_id": "ef2bbe96-3ee1-4c10-adff-29861fd1f737",
+        "institution_id": "2fa03dfe-cc10-435d-82a3-bc986ee6fcd4",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "delete",
+          "granted_by": "system",
+          "scope": "temporary"
+        }
+      },
+      {
+        "person_id": "af0716ea-8441-4273-9478-b6aaf40835d5",
+        "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_ea8d010f3aa346f3",
+          "reset_by": "self",
+          "timestamp": "2026-04-19T08:18:26.203389"
+        }
+      },
+      {
+        "person_id": "6ad43911-c92f-4ff7-84f3-3668371d586c",
+        "institution_id": "fa0a8b57-0d0b-4359-8f37-e51ea50a3692",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 2181,
+          "new_limit": 4439,
+          "currency": "PLN",
+          "approved_by": "system"
+        }
+      },
+      {
+        "person_id": "4033d994-daf4-42f9-b377-6987f04785ae",
+        "institution_id": "b74eeeb5-dfb4-4a91-a165-f856a892adcc",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "export",
+          "granted_by": "manager",
+          "scope": "full"
+        }
+      },
+      {
+        "person_id": "e2ccf878-a8e9-4bc6-898a-af803b7b869e",
+        "institution_id": "ddf8f657-5da2-4135-98c1-f8d42148cc22",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "888 Main St",
+          "city": "Warsaw",
+          "zip": "54-283"
+        }
+      },
+      {
+        "person_id": "b5667383-90bf-4011-9c70-b59ee1e4535e",
+        "institution_id": "fa0a8b57-0d0b-4359-8f37-e51ea50a3692",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "on_leave",
+          "date": "2025-11-30T08:18:26.203435",
+          "reversible": false
+        }
+      },
+      {
+        "person_id": "e2ccf878-a8e9-4bc6-898a-af803b7b869e",
+        "institution_id": "8c52affa-7352-44ba-9c13-051e21ec965f",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "645 Maple St",
+          "city": "Krakow",
+          "zip": "34-332"
+        }
+      },
+      {
+        "person_id": "ef2bbe96-3ee1-4c10-adff-29861fd1f737",
+        "institution_id": "63d6aa1f-df67-431d-9cea-6caaa790c8c4",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_204@example.com",
+          "new_email": "new_204@example.com",
+          "verified": true
+        }
+      },
+      {
+        "person_id": "77028427-184e-44bc-88c1-c6d827fc1e11",
+        "institution_id": "f3d467b7-11ca-4e85-a5bf-19043c080c30",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "delete",
+          "granted_by": "manager",
+          "scope": "full"
+        }
+      },
+      {
+        "person_id": "3b47f4d4-cb6c-42de-9fca-935773182387",
+        "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "read",
+          "granted_by": "system",
+          "scope": "temporary"
+        }
+      },
+      {
+        "person_id": "e31f7e1f-b8a6-4cce-a567-0a4920058e7c",
+        "institution_id": "fa0a8b57-0d0b-4359-8f37-e51ea50a3692",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "delete",
+          "granted_by": "admin",
+          "scope": "full"
+        }
+      },
+      {
+        "person_id": "0bf3cc73-d41d-4cb8-b83f-c77028ede55f",
+        "institution_id": "b54c2a65-94fe-40ff-89d6-2c0b7e56c6dd",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_3b958306be1b4f3e",
+          "reset_by": "self",
+          "timestamp": "2026-04-19T08:18:26.203493"
+        }
+      },
+      {
+        "person_id": "290204f4-533c-44e9-8dcb-a3b8fc0a0f9d",
+        "institution_id": "a0a67bcd-b98c-409e-9b17-8acaf16861f7",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "on_leave",
+          "date": "2025-04-25T08:18:26.203507",
+          "reversible": true
+        }
+      },
+      {
+        "person_id": "c69cedb5-7e2d-4700-933b-b5eac03b5d67",
+        "institution_id": "14766765-2fa0-42a9-92a9-55bb584002ae",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "857 Main St",
+          "city": "Poznan",
+          "zip": "19-538"
+        }
+      },
+      {
+        "person_id": "767f57ba-2e37-405e-971c-2dd02b55d2c3",
+        "institution_id": "f53d6228-05c3-40da-a1ee-6860eabf8580",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "969 Maple St",
+          "city": "Wroclaw",
+          "zip": "39-223"
+        }
+      },
+      {
+        "person_id": "7d09d74b-b857-4263-ad46-77665a596264",
+        "institution_id": "6166ddcb-eb2a-4a82-9655-72eab915581c",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "admin",
+          "granted_by": "system",
+          "scope": "limited"
+        }
+      },
+      {
+        "person_id": "56070ab6-c84d-4919-b5c9-e992f4f1b321",
+        "institution_id": "2fa03dfe-cc10-435d-82a3-bc986ee6fcd4",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "158 Pine St",
+          "city": "Warsaw",
+          "zip": "21-783"
+        }
+      },
+      {
+        "person_id": "d02b0089-4323-4956-b08b-c1c86944fb2b",
+        "institution_id": "8c52affa-7352-44ba-9c13-051e21ec965f",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_5f88107b476c4a94",
+          "reset_by": "self",
+          "timestamp": "2026-04-19T08:18:26.203553"
+        }
+      },
+      {
+        "person_id": "6dfafabe-cad6-43a2-8da4-6462bae89e4a",
+        "institution_id": "8c52affa-7352-44ba-9c13-051e21ec965f",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "export",
+          "granted_by": "admin",
+          "scope": "full"
+        }
+      },
+      {
+        "person_id": "1851d911-1bb2-4685-9157-8d801590d2fa",
+        "institution_id": "21a4cc0e-dcae-49bb-afbe-47eb85feb309",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "605 Maple St",
+          "city": "Krakow",
+          "zip": "26-453"
+        }
+      },
+      {
+        "person_id": "50afb8af-7e9f-4242-b76d-0fbe590ad687",
+        "institution_id": "a0a67bcd-b98c-409e-9b17-8acaf16861f7",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "481 Main St",
+          "city": "Poznan",
+          "zip": "13-044"
+        }
+      },
+      {
+        "person_id": "7ef5ec51-422f-457a-88cf-2c9dd6d214d0",
+        "institution_id": "132a807d-d941-4172-9b2a-b9f9205f60df",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_0de6402227364125",
+          "reset_by": "support",
+          "timestamp": "2026-04-19T08:18:26.203977"
+        }
+      },
+      {
+        "person_id": "bc0e5f2f-15c7-4c15-bcfd-4d829ab35b9b",
+        "institution_id": "8c52affa-7352-44ba-9c13-051e21ec965f",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "on_leave",
+          "date": "2025-12-09T08:18:26.204060",
+          "reversible": false
+        }
+      },
+      {
+        "person_id": "43b7b6cc-e669-413b-b323-4b4474deee25",
+        "institution_id": "2fa03dfe-cc10-435d-82a3-bc986ee6fcd4",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_220@example.com",
+          "new_email": "new_220@example.com",
+          "verified": true
+        }
+      },
+      {
+        "person_id": "59e15d64-3b82-4cf2-a34e-dbd1578937f8",
+        "institution_id": "132a807d-d941-4172-9b2a-b9f9205f60df",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "read",
+          "granted_by": "system",
+          "scope": "temporary"
+        }
+      },
+      {
+        "person_id": "91a40bec-16a5-4e3c-bab7-c1690cf43307",
+        "institution_id": "b7cbd81c-20f8-41e6-911d-3266afc42969",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_222@example.com",
+          "new_email": "new_222@example.com",
+          "verified": true
+        }
+      },
+      {
+        "person_id": "718787ba-5077-4043-9f96-d2695d1c5e12",
+        "institution_id": "6166ddcb-eb2a-4a82-9655-72eab915581c",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_11400c0ba4974832",
+          "reset_by": "self",
+          "timestamp": "2026-04-19T08:18:26.204178"
+        }
+      },
+      {
+        "person_id": "b0e8a432-5fc1-480f-8c58-e2b63b2da6ea",
+        "institution_id": "f3d467b7-11ca-4e85-a5bf-19043c080c30",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "terminated",
+          "date": "2025-08-26T08:18:26.204194",
+          "reversible": false
+        }
+      },
+      {
+        "person_id": "b5667383-90bf-4011-9c70-b59ee1e4535e",
+        "institution_id": "f3d467b7-11ca-4e85-a5bf-19043c080c30",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_103098dce59b4d94",
+          "reset_by": "self",
+          "timestamp": "2026-04-19T08:18:26.204200"
+        }
+      },
+      {
+        "person_id": "07c50cf3-2ad1-4884-a3ab-ffb785892c6c",
+        "institution_id": "a0a67bcd-b98c-409e-9b17-8acaf16861f7",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 3590,
+          "new_limit": 7845,
+          "currency": "PLN",
+          "approved_by": "director"
+        }
+      },
+      {
+        "person_id": "77028427-184e-44bc-88c1-c6d827fc1e11",
+        "institution_id": "14766765-2fa0-42a9-92a9-55bb584002ae",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "on_leave",
+          "date": "2025-08-29T08:18:26.204226",
+          "reversible": false
+        }
+      },
+      {
+        "person_id": "37f21468-1691-4d07-b923-80bbde06685d",
+        "institution_id": "21a4cc0e-dcae-49bb-afbe-47eb85feb309",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "delete",
+          "granted_by": "system",
+          "scope": "full"
+        }
+      },
+      {
+        "person_id": "f8eeeec7-1fbd-4a2c-93a7-3c4f506efa5b",
+        "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_229@example.com",
+          "new_email": "new_229@example.com",
+          "verified": false
+        }
+      },
+      {
+        "person_id": "2f1d34e8-7831-4f3d-af60-ccdf06915fd6",
+        "institution_id": "11bf7cce-1591-4fcc-b36c-127e9b6532d8",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_230@example.com",
+          "new_email": "new_230@example.com",
+          "verified": true
+        }
+      },
+      {
+        "person_id": "5d79e46a-4af1-4cd9-913c-e1b7e991445e",
+        "institution_id": "63d6aa1f-df67-431d-9cea-6caaa790c8c4",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "delete",
+          "granted_by": "manager",
+          "scope": "limited"
+        }
+      },
+      {
+        "person_id": "4262213f-6fae-407b-9f78-a9bb1b097254",
+        "institution_id": "8c52affa-7352-44ba-9c13-051e21ec965f",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "retired",
+          "date": "2026-04-01T08:18:26.204368",
+          "reversible": false
+        }
+      },
+      {
+        "person_id": "af68fd5a-17be-4b6a-a930-4a293d852064",
+        "institution_id": "baf6ee36-f8ed-4104-8192-220234fe94b5",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "write",
+          "granted_by": "system",
+          "scope": "limited"
+        }
+      },
+      {
+        "person_id": "a2fe53fb-1e73-42c1-b7bc-bb74523b4af1",
+        "institution_id": "63d6aa1f-df67-431d-9cea-6caaa790c8c4",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "export",
+          "granted_by": "system",
+          "scope": "full"
+        }
+      },
+      {
+        "person_id": "d10c87c1-6055-4e91-910d-e2c5a655f048",
+        "institution_id": "f3d467b7-11ca-4e85-a5bf-19043c080c30",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_4a3222ba21d84f3f",
+          "reset_by": "admin",
+          "timestamp": "2026-04-19T08:18:26.204397"
+        }
+      },
+      {
+        "person_id": "c69cedb5-7e2d-4700-933b-b5eac03b5d67",
+        "institution_id": "8c52affa-7352-44ba-9c13-051e21ec965f",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_99cb16179e654580",
+          "reset_by": "self",
+          "timestamp": "2026-04-19T08:18:26.204408"
+        }
+      },
+      {
+        "person_id": "622453f9-6198-4538-9a11-a58aa77573b9",
+        "institution_id": "a0a67bcd-b98c-409e-9b17-8acaf16861f7",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 3884,
+          "new_limit": 6197,
+          "currency": "PLN",
+          "approved_by": "system"
+        }
+      },
+      {
+        "person_id": "20421b65-53fb-4d0f-8712-58d4113e09a0",
+        "institution_id": "b7cbd81c-20f8-41e6-911d-3266afc42969",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "export",
+          "granted_by": "system",
+          "scope": "temporary"
+        }
+      },
+      {
+        "person_id": "e31f7e1f-b8a6-4cce-a567-0a4920058e7c",
+        "institution_id": "11bf7cce-1591-4fcc-b36c-127e9b6532d8",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "816 Oak St",
+          "city": "Wroclaw",
+          "zip": "49-561"
+        }
+      },
+      {
+        "person_id": "ef2bbe96-3ee1-4c10-adff-29861fd1f737",
+        "institution_id": "fa0a8b57-0d0b-4359-8f37-e51ea50a3692",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "suspended",
+          "date": "2026-02-21T08:18:26.204454",
+          "reversible": true
+        }
+      },
+      {
+        "person_id": "143936d4-c86e-4446-98fa-813d8f8b6229",
+        "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "on_leave",
+          "date": "2025-06-05T08:18:26.204464",
+          "reversible": true
+        }
+      },
+      {
+        "person_id": "91a40bec-16a5-4e3c-bab7-c1690cf43307",
+        "institution_id": "11bf7cce-1591-4fcc-b36c-127e9b6532d8",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "export",
+          "granted_by": "admin",
+          "scope": "temporary"
+        }
+      },
+      {
+        "person_id": "61b4521b-48f7-4822-b575-f8e8a07bd189",
+        "institution_id": "6166ddcb-eb2a-4a82-9655-72eab915581c",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 1899,
+          "new_limit": 6620,
+          "currency": "PLN",
+          "approved_by": "manager"
+        }
+      },
+      {
+        "person_id": "3bf59e7d-d5c3-4103-9cd1-485924b2dacc",
+        "institution_id": "8c52affa-7352-44ba-9c13-051e21ec965f",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 2755,
+          "new_limit": 7495,
+          "currency": "PLN",
+          "approved_by": "manager"
+        }
+      },
+      {
+        "person_id": "7b2dceef-a6b5-46f7-8ce0-015a199b6e03",
+        "institution_id": "b54c2a65-94fe-40ff-89d6-2c0b7e56c6dd",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "write",
+          "granted_by": "system",
+          "scope": "limited"
+        }
+      },
+      {
+        "person_id": "242bcd9c-fd47-4b46-a308-fc33e0d6c090",
+        "institution_id": "ddf8f657-5da2-4135-98c1-f8d42148cc22",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_2baba65c99cf45a2",
+          "reset_by": "self",
+          "timestamp": "2026-04-19T08:18:26.204529"
+        }
+      },
+      {
+        "person_id": "172615b0-6ec5-4e1b-a304-b4e93daf20ab",
+        "institution_id": "14766765-2fa0-42a9-92a9-55bb584002ae",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_247@example.com",
+          "new_email": "new_247@example.com",
+          "verified": true
+        }
+      },
+      {
+        "person_id": "116c71c9-aa72-478e-a98e-73a98271c6dd",
+        "institution_id": "baf6ee36-f8ed-4104-8192-220234fe94b5",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "on_leave",
+          "date": "2025-09-11T08:18:26.204610",
+          "reversible": false
+        }
+      },
+      {
+        "person_id": "ef2bbe96-3ee1-4c10-adff-29861fd1f737",
+        "institution_id": "fa0a8b57-0d0b-4359-8f37-e51ea50a3692",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "delete",
+          "granted_by": "manager",
+          "scope": "full"
+        }
+      },
+      {
+        "person_id": "290204f4-533c-44e9-8dcb-a3b8fc0a0f9d",
+        "institution_id": "b7cbd81c-20f8-41e6-911d-3266afc42969",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_250@example.com",
+          "new_email": "new_250@example.com",
+          "verified": false
+        }
+      },
+      {
+        "person_id": "7b2dceef-a6b5-46f7-8ce0-015a199b6e03",
+        "institution_id": "fa0a8b57-0d0b-4359-8f37-e51ea50a3692",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "export",
+          "granted_by": "manager",
+          "scope": "full"
+        }
+      },
+      {
+        "person_id": "1851d911-1bb2-4685-9157-8d801590d2fa",
+        "institution_id": "6166ddcb-eb2a-4a82-9655-72eab915581c",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 3841,
+          "new_limit": 7729,
+          "currency": "PLN",
+          "approved_by": "director"
+        }
+      },
+      {
+        "person_id": "c30cdbad-b13d-4f0c-b362-9be653f4280d",
+        "institution_id": "6166ddcb-eb2a-4a82-9655-72eab915581c",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "120 Main St",
+          "city": "Krakow",
+          "zip": "87-024"
+        }
+      },
+      {
+        "person_id": "043305b1-029a-4512-b19b-a6b5baf85fe6",
+        "institution_id": "6166ddcb-eb2a-4a82-9655-72eab915581c",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "975 Oak St",
+          "city": "Wroclaw",
+          "zip": "11-763"
+        }
+      },
+      {
+        "person_id": "c69cedb5-7e2d-4700-933b-b5eac03b5d67",
+        "institution_id": "fa0a8b57-0d0b-4359-8f37-e51ea50a3692",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_6886ebc3bb074ce0",
+          "reset_by": "admin",
+          "timestamp": "2026-04-19T08:18:26.204701"
+        }
+      },
+      {
+        "person_id": "622e3317-b6a5-480e-b6fa-8684fc1e9ac2",
+        "institution_id": "f3d467b7-11ca-4e85-a5bf-19043c080c30",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_a6f16c4cd4c94c9a",
+          "reset_by": "admin",
+          "timestamp": "2026-04-19T08:18:26.204711"
+        }
+      },
+      {
+        "person_id": "622e3317-b6a5-480e-b6fa-8684fc1e9ac2",
+        "institution_id": "b54c2a65-94fe-40ff-89d6-2c0b7e56c6dd",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "694 Oak St",
+          "city": "Warsaw",
+          "zip": "37-126"
+        }
+      },
+      {
+        "person_id": "5838770d-434e-4614-b67a-eb74e6a7d79a",
+        "institution_id": "21a4cc0e-dcae-49bb-afbe-47eb85feb309",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_258@example.com",
+          "new_email": "new_258@example.com",
+          "verified": true
+        }
+      },
+      {
+        "person_id": "e04fee6f-789a-44eb-8ab6-f8183b33ee69",
+        "institution_id": "14766765-2fa0-42a9-92a9-55bb584002ae",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 2302,
+          "new_limit": 4359,
+          "currency": "PLN",
+          "approved_by": "system"
+        }
+      },
+      {
+        "person_id": "7ef5ec51-422f-457a-88cf-2c9dd6d214d0",
+        "institution_id": "f3d467b7-11ca-4e85-a5bf-19043c080c30",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_90f6086f5737494b",
+          "reset_by": "self",
+          "timestamp": "2026-04-19T08:18:26.204754"
+        }
+      },
+      {
+        "person_id": "91a40bec-16a5-4e3c-bab7-c1690cf43307",
+        "institution_id": "a0a67bcd-b98c-409e-9b17-8acaf16861f7",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "delete",
+          "granted_by": "system",
+          "scope": "limited"
+        }
+      },
+      {
+        "person_id": "7b2dceef-a6b5-46f7-8ce0-015a199b6e03",
+        "institution_id": "21a4cc0e-dcae-49bb-afbe-47eb85feb309",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "terminated",
+          "date": "2025-06-18T08:18:26.204816",
+          "reversible": true
+        }
+      },
+      {
+        "person_id": "a386c674-5d97-4877-9891-7a9b10c779e9",
+        "institution_id": "f53d6228-05c3-40da-a1ee-6860eabf8580",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 3065,
+          "new_limit": 4618,
+          "currency": "PLN",
+          "approved_by": "manager"
+        }
+      },
+      {
+        "person_id": "e57c2e1e-f20c-4584-b416-dedfa07434a9",
+        "institution_id": "f53d6228-05c3-40da-a1ee-6860eabf8580",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 1026,
+          "new_limit": 2037,
+          "currency": "PLN",
+          "approved_by": "system"
+        }
+      },
+      {
+        "person_id": "91a40bec-16a5-4e3c-bab7-c1690cf43307",
+        "institution_id": "ddf8f657-5da2-4135-98c1-f8d42148cc22",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "terminated",
+          "date": "2025-10-22T08:18:26.204887",
+          "reversible": false
+        }
+      },
+      {
+        "person_id": "f8eeeec7-1fbd-4a2c-93a7-3c4f506efa5b",
+        "institution_id": "fa0a8b57-0d0b-4359-8f37-e51ea50a3692",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "delete",
+          "granted_by": "admin",
+          "scope": "limited"
+        }
+      },
+      {
+        "person_id": "e57c2e1e-f20c-4584-b416-dedfa07434a9",
+        "institution_id": "11bf7cce-1591-4fcc-b36c-127e9b6532d8",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "export",
+          "granted_by": "admin",
+          "scope": "limited"
+        }
+      },
+      {
+        "person_id": "718787ba-5077-4043-9f96-d2695d1c5e12",
+        "institution_id": "b54c2a65-94fe-40ff-89d6-2c0b7e56c6dd",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "delete",
+          "granted_by": "manager",
+          "scope": "temporary"
+        }
+      },
+      {
+        "person_id": "290204f4-533c-44e9-8dcb-a3b8fc0a0f9d",
+        "institution_id": "132a807d-d941-4172-9b2a-b9f9205f60df",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "suspended",
+          "date": "2025-06-13T08:18:26.204929",
+          "reversible": false
+        }
+      },
+      {
+        "person_id": "5838770d-434e-4614-b67a-eb74e6a7d79a",
+        "institution_id": "14766765-2fa0-42a9-92a9-55bb584002ae",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "7 Pine St",
+          "city": "Krakow",
+          "zip": "13-426"
+        }
+      },
+      {
+        "person_id": "4631fbc6-69a1-432a-932a-e02da7dd203f",
+        "institution_id": "383e4d62-eafe-4f95-a3a0-0cecf401bacb",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_1823db25a3dd4a8c",
+          "reset_by": "support",
+          "timestamp": "2026-04-19T08:18:26.204945"
+        }
+      },
+      {
+        "person_id": "4033d994-daf4-42f9-b377-6987f04785ae",
+        "institution_id": "21a4cc0e-dcae-49bb-afbe-47eb85feb309",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "export",
+          "granted_by": "manager",
+          "scope": "full"
+        }
+      },
+      {
+        "person_id": "622e3317-b6a5-480e-b6fa-8684fc1e9ac2",
+        "institution_id": "2fa03dfe-cc10-435d-82a3-bc986ee6fcd4",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 2354,
+          "new_limit": 5643,
+          "currency": "PLN",
+          "approved_by": "director"
+        }
+      },
+      {
+        "person_id": "50afb8af-7e9f-4242-b76d-0fbe590ad687",
+        "institution_id": "b7cbd81c-20f8-41e6-911d-3266afc42969",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_274@example.com",
+          "new_email": "new_274@example.com",
+          "verified": false
+        }
+      },
+      {
+        "person_id": "a10f6f43-1336-4efe-8780-cdc8c3edd253",
+        "institution_id": "a0a67bcd-b98c-409e-9b17-8acaf16861f7",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_cd3c8fa962914a7a",
+          "reset_by": "self",
+          "timestamp": "2026-04-19T08:18:26.204987"
+        }
+      },
+      {
+        "person_id": "e8aa3c79-3f88-4af4-987e-98200b637776",
+        "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_94915b04bcf44ed5",
+          "reset_by": "admin",
+          "timestamp": "2026-04-19T08:18:26.204997"
+        }
+      },
+      {
+        "person_id": "59e15d64-3b82-4cf2-a34e-dbd1578937f8",
+        "institution_id": "ddf8f657-5da2-4135-98c1-f8d42148cc22",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_cf5c744f2afc477e",
+          "reset_by": "admin",
+          "timestamp": "2026-04-19T08:18:26.205007"
+        }
+      },
+      {
+        "person_id": "bc0e5f2f-15c7-4c15-bcfd-4d829ab35b9b",
+        "institution_id": "fa0a8b57-0d0b-4359-8f37-e51ea50a3692",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "read",
+          "granted_by": "manager",
+          "scope": "full"
+        }
+      },
+      {
+        "person_id": "68cd0797-2c0e-47b8-b541-ec3211391ec3",
+        "institution_id": "b7cbd81c-20f8-41e6-911d-3266afc42969",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_279@example.com",
+          "new_email": "new_279@example.com",
+          "verified": true
+        }
+      },
+      {
+        "person_id": "1b659548-e07f-4431-80e1-24c1aa34ff54",
+        "institution_id": "11bf7cce-1591-4fcc-b36c-127e9b6532d8",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "retired",
+          "date": "2026-01-14T08:18:26.205041",
+          "reversible": false
+        }
+      },
+      {
+        "person_id": "43b7b6cc-e669-413b-b323-4b4474deee25",
+        "institution_id": "b7cbd81c-20f8-41e6-911d-3266afc42969",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 3009,
+          "new_limit": 5313,
+          "currency": "PLN",
+          "approved_by": "director"
+        }
+      },
+      {
+        "person_id": "82af8a30-de79-420c-8803-32ee56ce952e",
+        "institution_id": "b7cbd81c-20f8-41e6-911d-3266afc42969",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "delete",
+          "granted_by": "admin",
+          "scope": "limited"
+        }
+      },
+      {
+        "person_id": "a10f6f43-1336-4efe-8780-cdc8c3edd253",
+        "institution_id": "da741a09-f0b5-410f-8524-d5077cdec263",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "107 Pine St",
+          "city": "Krakow",
+          "zip": "22-937"
+        }
+      },
+      {
+        "person_id": "96c40673-ffb7-4d2f-8b8c-5271187dabd0",
+        "institution_id": "baf6ee36-f8ed-4104-8192-220234fe94b5",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_2d5c78a4f1e94add",
+          "reset_by": "admin",
+          "timestamp": "2026-04-19T08:18:26.205077"
+        }
+      },
+      {
+        "person_id": "7ef5ec51-422f-457a-88cf-2c9dd6d214d0",
+        "institution_id": "a0a67bcd-b98c-409e-9b17-8acaf16861f7",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "write",
+          "granted_by": "admin",
+          "scope": "temporary"
+        }
+      },
+      {
+        "person_id": "38dc08e4-4fe5-4803-9a00-54340c066982",
+        "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 4109,
+          "new_limit": 6245,
+          "currency": "PLN",
+          "approved_by": "system"
+        }
+      },
+      {
+        "person_id": "a386c674-5d97-4877-9891-7a9b10c779e9",
+        "institution_id": "2fa03dfe-cc10-435d-82a3-bc986ee6fcd4",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "write",
+          "granted_by": "system",
+          "scope": "limited"
+        }
+      },
+      {
+        "person_id": "0228c2a6-e7ef-432a-996d-cb5c59aeb213",
+        "institution_id": "383e4d62-eafe-4f95-a3a0-0cecf401bacb",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 1480,
+          "new_limit": 3937,
+          "currency": "PLN",
+          "approved_by": "manager"
+        }
+      },
+      {
+        "person_id": "56070ab6-c84d-4919-b5c9-e992f4f1b321",
+        "institution_id": "b54c2a65-94fe-40ff-89d6-2c0b7e56c6dd",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "213 Main St",
+          "city": "Gdansk",
+          "zip": "25-563"
+        }
+      },
+      {
+        "person_id": "3e35a75c-e19b-4b5c-b179-ce408a87bb54",
+        "institution_id": "383e4d62-eafe-4f95-a3a0-0cecf401bacb",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 2506,
+          "new_limit": 5967,
+          "currency": "PLN",
+          "approved_by": "director"
+        }
+      },
+      {
+        "person_id": "8de7a940-ce11-49e4-9781-07a8a683afd9",
+        "institution_id": "b54c2a65-94fe-40ff-89d6-2c0b7e56c6dd",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 2439,
+          "new_limit": 4982,
+          "currency": "PLN",
+          "approved_by": "manager"
+        }
+      },
+      {
+        "person_id": "72412fd1-069e-42a0-9de0-df8f0f289333",
+        "institution_id": "f3d467b7-11ca-4e85-a5bf-19043c080c30",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 3534,
+          "new_limit": 8418,
+          "currency": "PLN",
+          "approved_by": "system"
+        }
+      },
+      {
+        "person_id": "6dfafabe-cad6-43a2-8da4-6462bae89e4a",
+        "institution_id": "baf6ee36-f8ed-4104-8192-220234fe94b5",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "export",
+          "granted_by": "admin",
+          "scope": "temporary"
+        }
+      },
+      {
+        "person_id": "8de7a940-ce11-49e4-9781-07a8a683afd9",
+        "institution_id": "132a807d-d941-4172-9b2a-b9f9205f60df",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "admin",
+          "granted_by": "manager",
+          "scope": "limited"
+        }
+      },
+      {
+        "person_id": "98b7882d-c524-4b80-b4ee-056bba62bce2",
+        "institution_id": "baf6ee36-f8ed-4104-8192-220234fe94b5",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_295@example.com",
+          "new_email": "new_295@example.com",
+          "verified": true
+        }
+      },
+      {
+        "person_id": "7b2dceef-a6b5-46f7-8ce0-015a199b6e03",
+        "institution_id": "383e4d62-eafe-4f95-a3a0-0cecf401bacb",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_296@example.com",
+          "new_email": "new_296@example.com",
+          "verified": false
+        }
+      },
+      {
+        "person_id": "ecd7296c-3c2b-4ad1-ba52-5a4186899594",
+        "institution_id": "14766765-2fa0-42a9-92a9-55bb584002ae",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_297@example.com",
+          "new_email": "new_297@example.com",
+          "verified": true
+        }
+      },
+      {
+        "person_id": "38dc08e4-4fe5-4803-9a00-54340c066982",
+        "institution_id": "ddf8f657-5da2-4135-98c1-f8d42148cc22",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_476e6acb3ae94aea",
+          "reset_by": "support",
+          "timestamp": "2026-04-19T08:18:26.205218"
+        }
+      },
+      {
+        "person_id": "7ef5ec51-422f-457a-88cf-2c9dd6d214d0",
+        "institution_id": "63d6aa1f-df67-431d-9cea-6caaa790c8c4",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_299@example.com",
+          "new_email": "new_299@example.com",
+          "verified": true
+        }
+      },
+      {
+        "person_id": "d02b0089-4323-4956-b08b-c1c86944fb2b",
+        "institution_id": "63d6aa1f-df67-431d-9cea-6caaa790c8c4",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "export",
+          "granted_by": "manager",
+          "scope": "temporary"
+        }
+      },
+      {
+        "person_id": "290204f4-533c-44e9-8dcb-a3b8fc0a0f9d",
+        "institution_id": "a0a67bcd-b98c-409e-9b17-8acaf16861f7",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "643 Oak St",
+          "city": "Krakow",
+          "zip": "71-102"
+        }
+      },
+      {
+        "person_id": "043305b1-029a-4512-b19b-a6b5baf85fe6",
+        "institution_id": "f3d467b7-11ca-4e85-a5bf-19043c080c30",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 1120,
+          "new_limit": 5894,
+          "currency": "PLN",
+          "approved_by": "director"
+        }
+      },
+      {
+        "person_id": "68cd0797-2c0e-47b8-b541-ec3211391ec3",
+        "institution_id": "8c52affa-7352-44ba-9c13-051e21ec965f",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 2744,
+          "new_limit": 6343,
+          "currency": "PLN",
+          "approved_by": "director"
+        }
+      },
+      {
+        "person_id": "290204f4-533c-44e9-8dcb-a3b8fc0a0f9d",
+        "institution_id": "b7cbd81c-20f8-41e6-911d-3266afc42969",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "retired",
+          "date": "2025-11-17T08:18:26.205282",
+          "reversible": false
+        }
+      },
+      {
+        "person_id": "043305b1-029a-4512-b19b-a6b5baf85fe6",
+        "institution_id": "baf6ee36-f8ed-4104-8192-220234fe94b5",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_698f23b91cce4324",
+          "reset_by": "support",
+          "timestamp": "2026-04-19T08:18:26.205288"
+        }
+      },
+      {
+        "person_id": "995210a7-ee88-428a-9859-d956cb91fd9c",
+        "institution_id": "b7cbd81c-20f8-41e6-911d-3266afc42969",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "312 Main St",
+          "city": "Wroclaw",
+          "zip": "03-335"
+        }
+      },
+      {
+        "person_id": "20421b65-53fb-4d0f-8712-58d4113e09a0",
+        "institution_id": "21a4cc0e-dcae-49bb-afbe-47eb85feb309",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "457 Oak St",
+          "city": "Gdansk",
+          "zip": "96-622"
+        }
+      },
+      {
+        "person_id": "256adf46-21c2-4668-9659-6952438f1e7e",
+        "institution_id": "f53d6228-05c3-40da-a1ee-6860eabf8580",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "admin",
+          "granted_by": "system",
+          "scope": "temporary"
+        }
+      },
+      {
+        "person_id": "77028427-184e-44bc-88c1-c6d827fc1e11",
+        "institution_id": "11bf7cce-1591-4fcc-b36c-127e9b6532d8",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "export",
+          "granted_by": "manager",
+          "scope": "temporary"
+        }
+      },
+      {
+        "person_id": "37f21468-1691-4d07-b923-80bbde06685d",
+        "institution_id": "a0a67bcd-b98c-409e-9b17-8acaf16861f7",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "459 Maple St",
+          "city": "Warsaw",
+          "zip": "03-309"
+        }
+      },
+      {
+        "person_id": "f95354ff-593e-4576-ae02-24b1df1175ae",
+        "institution_id": "baf6ee36-f8ed-4104-8192-220234fe94b5",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_311@example.com",
+          "new_email": "new_311@example.com",
+          "verified": false
+        }
+      },
+      {
+        "person_id": "1851d911-1bb2-4685-9157-8d801590d2fa",
+        "institution_id": "14766765-2fa0-42a9-92a9-55bb584002ae",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "773 Main St",
+          "city": "Warsaw",
+          "zip": "77-909"
+        }
+      },
+      {
+        "person_id": "043305b1-029a-4512-b19b-a6b5baf85fe6",
+        "institution_id": "383e4d62-eafe-4f95-a3a0-0cecf401bacb",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_313@example.com",
+          "new_email": "new_313@example.com",
+          "verified": true
+        }
+      },
+      {
+        "person_id": "3bf59e7d-d5c3-4103-9cd1-485924b2dacc",
+        "institution_id": "14766765-2fa0-42a9-92a9-55bb584002ae",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 1580,
+          "new_limit": 3850,
+          "currency": "PLN",
+          "approved_by": "director"
+        }
+      },
+      {
+        "person_id": "5838770d-434e-4614-b67a-eb74e6a7d79a",
+        "institution_id": "f53d6228-05c3-40da-a1ee-6860eabf8580",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "130 Maple St",
+          "city": "Poznan",
+          "zip": "60-268"
+        }
+      },
+      {
+        "person_id": "e23760b1-1b10-4ce5-a83c-b7b74fca7c9e",
+        "institution_id": "f3d467b7-11ca-4e85-a5bf-19043c080c30",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "16 Main St",
+          "city": "Krakow",
+          "zip": "24-721"
+        }
+      },
+      {
+        "person_id": "5d79e46a-4af1-4cd9-913c-e1b7e991445e",
+        "institution_id": "baf6ee36-f8ed-4104-8192-220234fe94b5",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "99 Oak St",
+          "city": "Krakow",
+          "zip": "07-032"
+        }
+      },
+      {
+        "person_id": "712565f0-74f8-4540-84e6-454c785966ec",
+        "institution_id": "b7cbd81c-20f8-41e6-911d-3266afc42969",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "on_leave",
+          "date": "2026-02-27T08:18:26.205423",
+          "reversible": false
+        }
+      },
+      {
+        "person_id": "72412fd1-069e-42a0-9de0-df8f0f289333",
+        "institution_id": "6166ddcb-eb2a-4a82-9655-72eab915581c",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_319@example.com",
+          "new_email": "new_319@example.com",
+          "verified": true
+        }
+      },
+      {
+        "person_id": "0228c2a6-e7ef-432a-996d-cb5c59aeb213",
+        "institution_id": "14766765-2fa0-42a9-92a9-55bb584002ae",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "321 Oak St",
+          "city": "Gdansk",
+          "zip": "63-632"
+        }
+      },
+      {
+        "person_id": "08681301-40de-4270-8ffe-2bb5bdf36225",
+        "institution_id": "63d6aa1f-df67-431d-9cea-6caaa790c8c4",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 3512,
+          "new_limit": 8452,
+          "currency": "PLN",
+          "approved_by": "director"
+        }
+      },
+      {
+        "person_id": "e2ccf878-a8e9-4bc6-898a-af803b7b869e",
+        "institution_id": "baf6ee36-f8ed-4104-8192-220234fe94b5",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "111 Main St",
+          "city": "Wroclaw",
+          "zip": "48-812"
+        }
+      },
+      {
+        "person_id": "d10c87c1-6055-4e91-910d-e2c5a655f048",
+        "institution_id": "63d6aa1f-df67-431d-9cea-6caaa790c8c4",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "export",
+          "granted_by": "system",
+          "scope": "limited"
+        }
+      },
+      {
+        "person_id": "af0716ea-8441-4273-9478-b6aaf40835d5",
+        "institution_id": "da741a09-f0b5-410f-8524-d5077cdec263",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "read",
+          "granted_by": "manager",
+          "scope": "temporary"
+        }
+      },
+      {
+        "person_id": "6fda54e6-2b70-41f5-ad2e-fc98bb73f407",
+        "institution_id": "baf6ee36-f8ed-4104-8192-220234fe94b5",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_03f8e498e4b548e7",
+          "reset_by": "admin",
+          "timestamp": "2026-04-19T08:18:26.205490"
+        }
+      },
+      {
+        "person_id": "91a40bec-16a5-4e3c-bab7-c1690cf43307",
+        "institution_id": "2fa03dfe-cc10-435d-82a3-bc986ee6fcd4",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "admin",
+          "granted_by": "manager",
+          "scope": "full"
+        }
+      },
+      {
+        "person_id": "6fda54e6-2b70-41f5-ad2e-fc98bb73f407",
+        "institution_id": "11bf7cce-1591-4fcc-b36c-127e9b6532d8",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "884 Maple St",
+          "city": "Krakow",
+          "zip": "37-850"
+        }
+      },
+      {
+        "person_id": "af0716ea-8441-4273-9478-b6aaf40835d5",
+        "institution_id": "21a4cc0e-dcae-49bb-afbe-47eb85feb309",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "821 Oak St",
+          "city": "Poznan",
+          "zip": "58-242"
+        }
+      },
+      {
+        "person_id": "59917b7a-dd3f-43ce-8479-3124339a6e9d",
+        "institution_id": "f53d6228-05c3-40da-a1ee-6860eabf8580",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_329@example.com",
+          "new_email": "new_329@example.com",
+          "verified": true
+        }
+      },
+      {
+        "person_id": "0bf3cc73-d41d-4cb8-b83f-c77028ede55f",
+        "institution_id": "6166ddcb-eb2a-4a82-9655-72eab915581c",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "admin",
+          "granted_by": "manager",
+          "scope": "limited"
+        }
+      },
+      {
+        "person_id": "20421b65-53fb-4d0f-8712-58d4113e09a0",
+        "institution_id": "b74eeeb5-dfb4-4a91-a165-f856a892adcc",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "on_leave",
+          "date": "2025-12-05T08:18:26.205553",
+          "reversible": true
+        }
+      },
+      {
+        "person_id": "043305b1-029a-4512-b19b-a6b5baf85fe6",
+        "institution_id": "383e4d62-eafe-4f95-a3a0-0cecf401bacb",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_332@example.com",
+          "new_email": "new_332@example.com",
+          "verified": true
+        }
+      },
+      {
+        "person_id": "20421b65-53fb-4d0f-8712-58d4113e09a0",
+        "institution_id": "b7cbd81c-20f8-41e6-911d-3266afc42969",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_333@example.com",
+          "new_email": "new_333@example.com",
+          "verified": false
+        }
+      },
+      {
+        "person_id": "242bcd9c-fd47-4b46-a308-fc33e0d6c090",
+        "institution_id": "21a4cc0e-dcae-49bb-afbe-47eb85feb309",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "suspended",
+          "date": "2025-07-03T08:18:26.205582",
+          "reversible": true
+        }
+      },
+      {
+        "person_id": "38dc08e4-4fe5-4803-9a00-54340c066982",
+        "institution_id": "f53d6228-05c3-40da-a1ee-6860eabf8580",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "suspended",
+          "date": "2025-08-05T08:18:26.205592",
+          "reversible": false
+        }
+      },
+      {
+        "person_id": "64c777d6-1eee-40d8-936d-b81067c576d4",
+        "institution_id": "2fa03dfe-cc10-435d-82a3-bc986ee6fcd4",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "suspended",
+          "date": "2025-12-12T08:18:26.205602",
+          "reversible": false
+        }
+      },
+      {
+        "person_id": "61b4521b-48f7-4822-b575-f8e8a07bd189",
+        "institution_id": "11bf7cce-1591-4fcc-b36c-127e9b6532d8",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "on_leave",
+          "date": "2025-06-27T08:18:26.205612",
+          "reversible": false
+        }
+      },
+      {
+        "person_id": "290204f4-533c-44e9-8dcb-a3b8fc0a0f9d",
+        "institution_id": "f53d6228-05c3-40da-a1ee-6860eabf8580",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "on_leave",
+          "date": "2025-08-28T08:18:26.205622",
+          "reversible": true
+        }
+      },
+      {
+        "person_id": "d46164b4-3c71-4f00-b253-487f3f665c1c",
+        "institution_id": "f53d6228-05c3-40da-a1ee-6860eabf8580",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_339@example.com",
+          "new_email": "new_339@example.com",
+          "verified": false
+        }
+      },
+      {
+        "person_id": "76858655-9d6c-483c-a0a8-cf6eb703eff2",
+        "institution_id": "63d6aa1f-df67-431d-9cea-6caaa790c8c4",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "read",
+          "granted_by": "admin",
+          "scope": "limited"
+        }
+      },
+      {
+        "person_id": "116c71c9-aa72-478e-a98e-73a98271c6dd",
+        "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "admin",
+          "granted_by": "system",
+          "scope": "limited"
+        }
+      },
+      {
+        "person_id": "a2fe53fb-1e73-42c1-b7bc-bb74523b4af1",
+        "institution_id": "b7cbd81c-20f8-41e6-911d-3266afc42969",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "delete",
+          "granted_by": "admin",
+          "scope": "temporary"
+        }
+      },
+      {
+        "person_id": "3b47f4d4-cb6c-42de-9fca-935773182387",
+        "institution_id": "11bf7cce-1591-4fcc-b36c-127e9b6532d8",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "262 Pine St",
+          "city": "Poznan",
+          "zip": "22-773"
+        }
+      },
+      {
+        "person_id": "59917b7a-dd3f-43ce-8479-3124339a6e9d",
+        "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "suspended",
+          "date": "2025-05-25T08:18:26.205788",
+          "reversible": true
+        }
+      },
+      {
+        "person_id": "6dfafabe-cad6-43a2-8da4-6462bae89e4a",
+        "institution_id": "8c52affa-7352-44ba-9c13-051e21ec965f",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_345@example.com",
+          "new_email": "new_345@example.com",
+          "verified": false
+        }
+      },
+      {
+        "person_id": "c0cdc7a3-3269-46db-bcec-34eae6036337",
+        "institution_id": "b54c2a65-94fe-40ff-89d6-2c0b7e56c6dd",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 4023,
+          "new_limit": 7077,
+          "currency": "PLN",
+          "approved_by": "director"
+        }
+      },
+      {
+        "person_id": "1851d911-1bb2-4685-9157-8d801590d2fa",
+        "institution_id": "fa0a8b57-0d0b-4359-8f37-e51ea50a3692",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_347@example.com",
+          "new_email": "new_347@example.com",
+          "verified": false
+        }
+      },
+      {
+        "person_id": "767f57ba-2e37-405e-971c-2dd02b55d2c3",
+        "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "66 Pine St",
+          "city": "Krakow",
+          "zip": "04-219"
+        }
+      },
+      {
+        "person_id": "641a722f-5eb9-4513-a4d1-ac6c1209a1e2",
+        "institution_id": "8c52affa-7352-44ba-9c13-051e21ec965f",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "terminated",
+          "date": "2026-01-22T08:18:26.205838",
+          "reversible": false
+        }
+      },
+      {
+        "person_id": "5d79e46a-4af1-4cd9-913c-e1b7e991445e",
+        "institution_id": "b74eeeb5-dfb4-4a91-a165-f856a892adcc",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_f53847cc46c34489",
+          "reset_by": "admin",
+          "timestamp": "2026-04-19T08:18:26.205845"
+        }
+      },
+      {
+        "person_id": "6fda54e6-2b70-41f5-ad2e-fc98bb73f407",
+        "institution_id": "383e4d62-eafe-4f95-a3a0-0cecf401bacb",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_6f595a3961d44d70",
+          "reset_by": "support",
+          "timestamp": "2026-04-19T08:18:26.205854"
+        }
+      },
+      {
+        "person_id": "242bcd9c-fd47-4b46-a308-fc33e0d6c090",
+        "institution_id": "a0a67bcd-b98c-409e-9b17-8acaf16861f7",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_352@example.com",
+          "new_email": "new_352@example.com",
+          "verified": true
+        }
+      },
+      {
+        "person_id": "bc0e5f2f-15c7-4c15-bcfd-4d829ab35b9b",
+        "institution_id": "b7cbd81c-20f8-41e6-911d-3266afc42969",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "write",
+          "granted_by": "admin",
+          "scope": "temporary"
+        }
+      },
+      {
+        "person_id": "043305b1-029a-4512-b19b-a6b5baf85fe6",
+        "institution_id": "6166ddcb-eb2a-4a82-9655-72eab915581c",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_eff2665b444f4cef",
+          "reset_by": "admin",
+          "timestamp": "2026-04-19T08:18:26.205885"
+        }
+      },
+      {
+        "person_id": "37f21468-1691-4d07-b923-80bbde06685d",
+        "institution_id": "fa0a8b57-0d0b-4359-8f37-e51ea50a3692",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 1856,
+          "new_limit": 4142,
+          "currency": "PLN",
+          "approved_by": "director"
+        }
+      },
+      {
+        "person_id": "0cb5dfe5-2311-43c7-b56c-c9497d584fc4",
+        "institution_id": "baf6ee36-f8ed-4104-8192-220234fe94b5",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_98e6328361e047fa",
+          "reset_by": "support",
+          "timestamp": "2026-04-19T08:18:26.205906"
+        }
+      },
+      {
+        "person_id": "256adf46-21c2-4668-9659-6952438f1e7e",
+        "institution_id": "14766765-2fa0-42a9-92a9-55bb584002ae",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "terminated",
+          "date": "2025-08-20T08:18:26.205920",
+          "reversible": true
+        }
+      },
+      {
+        "person_id": "349158ab-01f4-435d-a609-84fda1e9c5c8",
+        "institution_id": "8c52affa-7352-44ba-9c13-051e21ec965f",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "export",
+          "granted_by": "manager",
+          "scope": "full"
+        }
+      },
+      {
+        "person_id": "c4476832-25c3-413d-94fa-908cbc1b0ef3",
+        "institution_id": "8c52affa-7352-44ba-9c13-051e21ec965f",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 3894,
+          "new_limit": 8812,
+          "currency": "PLN",
+          "approved_by": "system"
+        }
+      },
+      {
+        "person_id": "a386c674-5d97-4877-9891-7a9b10c779e9",
+        "institution_id": "11bf7cce-1591-4fcc-b36c-127e9b6532d8",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "delete",
+          "granted_by": "admin",
+          "scope": "limited"
+        }
+      },
+      {
+        "person_id": "af0716ea-8441-4273-9478-b6aaf40835d5",
+        "institution_id": "da741a09-f0b5-410f-8524-d5077cdec263",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_c3441450cafa4976",
+          "reset_by": "support",
+          "timestamp": "2026-04-19T08:18:26.205955"
+        }
+      },
+      {
+        "person_id": "2f1d34e8-7831-4f3d-af60-ccdf06915fd6",
+        "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_362@example.com",
+          "new_email": "new_362@example.com",
+          "verified": true
+        }
+      },
+      {
+        "person_id": "61b4521b-48f7-4822-b575-f8e8a07bd189",
+        "institution_id": "a0a67bcd-b98c-409e-9b17-8acaf16861f7",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_363@example.com",
+          "new_email": "new_363@example.com",
+          "verified": false
+        }
+      },
+      {
+        "person_id": "3e35a75c-e19b-4b5c-b179-ce408a87bb54",
+        "institution_id": "b54c2a65-94fe-40ff-89d6-2c0b7e56c6dd",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "write",
+          "granted_by": "admin",
+          "scope": "limited"
+        }
+      },
+      {
+        "person_id": "b5667383-90bf-4011-9c70-b59ee1e4535e",
+        "institution_id": "fa0a8b57-0d0b-4359-8f37-e51ea50a3692",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_27f43ae5d90f47ce",
+          "reset_by": "admin",
+          "timestamp": "2026-04-19T08:18:26.205996"
+        }
+      },
+      {
+        "person_id": "1c48d351-8144-4a0b-aec8-b5ac44f226fd",
+        "institution_id": "b54c2a65-94fe-40ff-89d6-2c0b7e56c6dd",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_366@example.com",
+          "new_email": "new_366@example.com",
+          "verified": true
+        }
+      },
+      {
+        "person_id": "b5667383-90bf-4011-9c70-b59ee1e4535e",
+        "institution_id": "f53d6228-05c3-40da-a1ee-6860eabf8580",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 4163,
+          "new_limit": 6160,
+          "currency": "PLN",
+          "approved_by": "director"
+        }
+      },
+      {
+        "person_id": "4279591e-f704-4a41-87b3-958f86833a4f",
+        "institution_id": "da741a09-f0b5-410f-8524-d5077cdec263",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_368@example.com",
+          "new_email": "new_368@example.com",
+          "verified": true
+        }
+      },
+      {
+        "person_id": "20421b65-53fb-4d0f-8712-58d4113e09a0",
+        "institution_id": "f3d467b7-11ca-4e85-a5bf-19043c080c30",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "on_leave",
+          "date": "2025-04-25T08:18:26.206041",
+          "reversible": false
+        }
+      },
+      {
+        "person_id": "01287494-73a5-45c2-8063-ce9bae1cac30",
+        "institution_id": "11bf7cce-1591-4fcc-b36c-127e9b6532d8",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "on_leave",
+          "date": "2025-06-07T08:18:26.206051",
+          "reversible": true
+        }
+      },
+      {
+        "person_id": "a10f6f43-1336-4efe-8780-cdc8c3edd253",
+        "institution_id": "b7cbd81c-20f8-41e6-911d-3266afc42969",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_939db3fe6d144c2a",
+          "reset_by": "support",
+          "timestamp": "2026-04-19T08:18:26.206057"
+        }
+      },
+      {
+        "person_id": "f95354ff-593e-4576-ae02-24b1df1175ae",
+        "institution_id": "63d6aa1f-df67-431d-9cea-6caaa790c8c4",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_154c68381db54e9d",
+          "reset_by": "self",
+          "timestamp": "2026-04-19T08:18:26.206067"
+        }
+      },
+      {
+        "person_id": "622e3317-b6a5-480e-b6fa-8684fc1e9ac2",
+        "institution_id": "b7cbd81c-20f8-41e6-911d-3266afc42969",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "449 Maple St",
+          "city": "Krakow",
+          "zip": "10-396"
+        }
+      },
+      {
+        "person_id": "1c48d351-8144-4a0b-aec8-b5ac44f226fd",
+        "institution_id": "b7cbd81c-20f8-41e6-911d-3266afc42969",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_374@example.com",
+          "new_email": "new_374@example.com",
+          "verified": false
+        }
+      },
+      {
+        "person_id": "c4476832-25c3-413d-94fa-908cbc1b0ef3",
+        "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_8053723f5b054eb9",
+          "reset_by": "admin",
+          "timestamp": "2026-04-19T08:18:26.206099"
+        }
+      },
+      {
+        "person_id": "712565f0-74f8-4540-84e6-454c785966ec",
+        "institution_id": "f3d467b7-11ca-4e85-a5bf-19043c080c30",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_fca8834be66446d9",
+          "reset_by": "admin",
+          "timestamp": "2026-04-19T08:18:26.206110"
+        }
+      },
+      {
+        "person_id": "3e35a75c-e19b-4b5c-b179-ce408a87bb54",
+        "institution_id": "14766765-2fa0-42a9-92a9-55bb584002ae",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_377@example.com",
+          "new_email": "new_377@example.com",
+          "verified": false
+        }
+      },
+      {
+        "person_id": "6fda54e6-2b70-41f5-ad2e-fc98bb73f407",
+        "institution_id": "132a807d-d941-4172-9b2a-b9f9205f60df",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_45de18b5d9de4f1b",
+          "reset_by": "self",
+          "timestamp": "2026-04-19T08:18:26.206132"
+        }
+      },
+      {
+        "person_id": "68cd0797-2c0e-47b8-b541-ec3211391ec3",
+        "institution_id": "b74eeeb5-dfb4-4a91-a165-f856a892adcc",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "admin",
+          "granted_by": "system",
+          "scope": "temporary"
+        }
+      },
+      {
+        "person_id": "2e3c937a-ee61-423d-a9c6-7821d1b18189",
+        "institution_id": "f53d6228-05c3-40da-a1ee-6860eabf8580",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_380@example.com",
+          "new_email": "new_380@example.com",
+          "verified": false
+        }
+      },
+      {
+        "person_id": "553295bd-7254-4865-b7f4-09e588248c8f",
+        "institution_id": "f53d6228-05c3-40da-a1ee-6860eabf8580",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_381@example.com",
+          "new_email": "new_381@example.com",
+          "verified": true
+        }
+      },
+      {
+        "person_id": "d10c87c1-6055-4e91-910d-e2c5a655f048",
+        "institution_id": "6166ddcb-eb2a-4a82-9655-72eab915581c",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 1912,
+          "new_limit": 6904,
+          "currency": "PLN",
+          "approved_by": "manager"
+        }
+      },
+      {
+        "person_id": "143936d4-c86e-4446-98fa-813d8f8b6229",
+        "institution_id": "f3d467b7-11ca-4e85-a5bf-19043c080c30",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "suspended",
+          "date": "2026-04-03T08:18:26.206189",
+          "reversible": true
+        }
+      },
+      {
+        "person_id": "82af8a30-de79-420c-8803-32ee56ce952e",
+        "institution_id": "11bf7cce-1591-4fcc-b36c-127e9b6532d8",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_58cb885544494ad7",
+          "reset_by": "self",
+          "timestamp": "2026-04-19T08:18:26.206195"
+        }
+      },
+      {
+        "person_id": "7b2dceef-a6b5-46f7-8ce0-015a199b6e03",
+        "institution_id": "132a807d-d941-4172-9b2a-b9f9205f60df",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "retired",
+          "date": "2025-07-23T08:18:26.206208",
+          "reversible": true
+        }
+      },
+      {
+        "person_id": "f95354ff-593e-4576-ae02-24b1df1175ae",
+        "institution_id": "ddf8f657-5da2-4135-98c1-f8d42148cc22",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "on_leave",
+          "date": "2026-03-16T08:18:26.206219",
+          "reversible": false
+        }
+      },
+      {
+        "person_id": "c69cedb5-7e2d-4700-933b-b5eac03b5d67",
+        "institution_id": "14766765-2fa0-42a9-92a9-55bb584002ae",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "export",
+          "granted_by": "manager",
+          "scope": "temporary"
+        }
+      },
+      {
+        "person_id": "d02b0089-4323-4956-b08b-c1c86944fb2b",
+        "institution_id": "2fa03dfe-cc10-435d-82a3-bc986ee6fcd4",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "read",
+          "granted_by": "manager",
+          "scope": "full"
+        }
+      },
+      {
+        "person_id": "c4476832-25c3-413d-94fa-908cbc1b0ef3",
+        "institution_id": "f53d6228-05c3-40da-a1ee-6860eabf8580",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "310 Oak St",
+          "city": "Wroclaw",
+          "zip": "61-195"
+        }
+      },
+      {
+        "person_id": "07c50cf3-2ad1-4884-a3ab-ffb785892c6c",
+        "institution_id": "11bf7cce-1591-4fcc-b36c-127e9b6532d8",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_570e5752b01c4a7e",
+          "reset_by": "support",
+          "timestamp": "2026-04-19T08:18:26.206255"
+        }
+      },
+      {
+        "person_id": "172615b0-6ec5-4e1b-a304-b4e93daf20ab",
+        "institution_id": "f53d6228-05c3-40da-a1ee-6860eabf8580",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "630 Main St",
+          "city": "Warsaw",
+          "zip": "35-432"
+        }
+      },
+      {
+        "person_id": "50afb8af-7e9f-4242-b76d-0fbe590ad687",
+        "institution_id": "da741a09-f0b5-410f-8524-d5077cdec263",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "admin",
+          "granted_by": "system",
+          "scope": "temporary"
+        }
+      },
+      {
+        "person_id": "e31f7e1f-b8a6-4cce-a567-0a4920058e7c",
+        "institution_id": "63d6aa1f-df67-431d-9cea-6caaa790c8c4",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 2783,
+          "new_limit": 6022,
+          "currency": "PLN",
+          "approved_by": "system"
+        }
+      },
+      {
+        "person_id": "116c71c9-aa72-478e-a98e-73a98271c6dd",
+        "institution_id": "132a807d-d941-4172-9b2a-b9f9205f60df",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 2330,
+          "new_limit": 7018,
+          "currency": "PLN",
+          "approved_by": "director"
+        }
+      },
+      {
+        "person_id": "1b659548-e07f-4431-80e1-24c1aa34ff54",
+        "institution_id": "11bf7cce-1591-4fcc-b36c-127e9b6532d8",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_90046f02ee5d4f37",
+          "reset_by": "support",
+          "timestamp": "2026-04-19T08:18:26.206308"
+        }
+      },
+      {
+        "person_id": "f95354ff-593e-4576-ae02-24b1df1175ae",
+        "institution_id": "21a4cc0e-dcae-49bb-afbe-47eb85feb309",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "346 Main St",
+          "city": "Poznan",
+          "zip": "66-177"
+        }
+      },
+      {
+        "person_id": "d10c87c1-6055-4e91-910d-e2c5a655f048",
+        "institution_id": "14766765-2fa0-42a9-92a9-55bb584002ae",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "suspended",
+          "date": "2026-01-05T08:18:26.206332",
+          "reversible": false
+        }
+      },
+      {
+        "person_id": "1c48d351-8144-4a0b-aec8-b5ac44f226fd",
+        "institution_id": "8c52affa-7352-44ba-9c13-051e21ec965f",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 1082,
+          "new_limit": 2761,
+          "currency": "PLN",
+          "approved_by": "manager"
+        }
+      },
+      {
+        "person_id": "9b9b9952-6f3d-47dd-9c1d-3e208bf31992",
+        "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_aadafa31ea2c4b9b",
+          "reset_by": "self",
+          "timestamp": "2026-04-19T08:18:26.206348"
+        }
+      },
+      {
+        "person_id": "82af8a30-de79-420c-8803-32ee56ce952e",
+        "institution_id": "b74eeeb5-dfb4-4a91-a165-f856a892adcc",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 1736,
+          "new_limit": 4870,
+          "currency": "PLN",
+          "approved_by": "system"
+        }
+      },
+      {
+        "person_id": "85024574-eec1-4427-8677-22b3931fea82",
+        "institution_id": "b74eeeb5-dfb4-4a91-a165-f856a892adcc",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_401@example.com",
+          "new_email": "new_401@example.com",
+          "verified": false
+        }
+      },
+      {
+        "person_id": "aaf8d09c-fc13-46a5-bec9-5e4b948707e1",
+        "institution_id": "a0a67bcd-b98c-409e-9b17-8acaf16861f7",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "read",
+          "granted_by": "system",
+          "scope": "limited"
+        }
+      },
+      {
+        "person_id": "e2ccf878-a8e9-4bc6-898a-af803b7b869e",
+        "institution_id": "63d6aa1f-df67-431d-9cea-6caaa790c8c4",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 1099,
+          "new_limit": 4154,
+          "currency": "PLN",
+          "approved_by": "manager"
+        }
+      },
+      {
+        "person_id": "c0cdc7a3-3269-46db-bcec-34eae6036337",
+        "institution_id": "b74eeeb5-dfb4-4a91-a165-f856a892adcc",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_0bc5ee41408849ac",
+          "reset_by": "self",
+          "timestamp": "2026-04-19T08:18:26.206397"
+        }
+      },
+      {
+        "person_id": "d10c87c1-6055-4e91-910d-e2c5a655f048",
+        "institution_id": "ddf8f657-5da2-4135-98c1-f8d42148cc22",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_baace71843e44843",
+          "reset_by": "self",
+          "timestamp": "2026-04-19T08:18:26.206407"
+        }
+      },
+      {
+        "person_id": "a10f6f43-1336-4efe-8780-cdc8c3edd253",
+        "institution_id": "132a807d-d941-4172-9b2a-b9f9205f60df",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 3984,
+          "new_limit": 5280,
+          "currency": "PLN",
+          "approved_by": "manager"
+        }
+      },
+      {
+        "person_id": "718787ba-5077-4043-9f96-d2695d1c5e12",
+        "institution_id": "b7cbd81c-20f8-41e6-911d-3266afc42969",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 1931,
+          "new_limit": 4316,
+          "currency": "PLN",
+          "approved_by": "manager"
+        }
+      },
+      {
+        "person_id": "55bc7bcf-03d3-4f18-bc72-685c212672d8",
+        "institution_id": "f53d6228-05c3-40da-a1ee-6860eabf8580",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "731 Main St",
+          "city": "Krakow",
+          "zip": "34-439"
+        }
+      },
+      {
+        "person_id": "96c40673-ffb7-4d2f-8b8c-5271187dabd0",
+        "institution_id": "f53d6228-05c3-40da-a1ee-6860eabf8580",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "suspended",
+          "date": "2025-10-18T08:18:26.206450",
+          "reversible": false
+        }
+      },
+      {
+        "person_id": "a386c674-5d97-4877-9891-7a9b10c779e9",
+        "institution_id": "ddf8f657-5da2-4135-98c1-f8d42148cc22",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "delete",
+          "granted_by": "manager",
+          "scope": "temporary"
+        }
+      },
+      {
+        "person_id": "c30cdbad-b13d-4f0c-b362-9be653f4280d",
+        "institution_id": "b54c2a65-94fe-40ff-89d6-2c0b7e56c6dd",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "delete",
+          "granted_by": "admin",
+          "scope": "full"
+        }
+      },
+      {
+        "person_id": "641a722f-5eb9-4513-a4d1-ac6c1209a1e2",
+        "institution_id": "383e4d62-eafe-4f95-a3a0-0cecf401bacb",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "on_leave",
+          "date": "2025-09-30T08:18:26.206481",
+          "reversible": false
+        }
+      },
+      {
+        "person_id": "767f57ba-2e37-405e-971c-2dd02b55d2c3",
+        "institution_id": "2fa03dfe-cc10-435d-82a3-bc986ee6fcd4",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 4434,
+          "new_limit": 6648,
+          "currency": "PLN",
+          "approved_by": "system"
+        }
+      },
+      {
+        "person_id": "50afb8af-7e9f-4242-b76d-0fbe590ad687",
+        "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_414@example.com",
+          "new_email": "new_414@example.com",
+          "verified": true
+        }
+      },
+      {
+        "person_id": "b5667383-90bf-4011-9c70-b59ee1e4535e",
+        "institution_id": "fa0a8b57-0d0b-4359-8f37-e51ea50a3692",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "export",
+          "granted_by": "admin",
+          "scope": "temporary"
+        }
+      },
+      {
+        "person_id": "622e3317-b6a5-480e-b6fa-8684fc1e9ac2",
+        "institution_id": "21a4cc0e-dcae-49bb-afbe-47eb85feb309",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "terminated",
+          "date": "2025-08-20T08:18:26.206521",
+          "reversible": false
+        }
+      },
+      {
+        "person_id": "82af8a30-de79-420c-8803-32ee56ce952e",
+        "institution_id": "b7cbd81c-20f8-41e6-911d-3266afc42969",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_b9d729c590d54a08",
+          "reset_by": "support",
+          "timestamp": "2026-04-19T08:18:26.206526"
+        }
+      },
+      {
+        "person_id": "c4476832-25c3-413d-94fa-908cbc1b0ef3",
+        "institution_id": "132a807d-d941-4172-9b2a-b9f9205f60df",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 2398,
+          "new_limit": 6984,
+          "currency": "PLN",
+          "approved_by": "director"
+        }
+      },
+      {
+        "person_id": "8de7a940-ce11-49e4-9781-07a8a683afd9",
+        "institution_id": "f53d6228-05c3-40da-a1ee-6860eabf8580",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 4817,
+          "new_limit": 9211,
+          "currency": "PLN",
+          "approved_by": "director"
+        }
+      },
+      {
+        "person_id": "59917b7a-dd3f-43ce-8479-3124339a6e9d",
+        "institution_id": "11bf7cce-1591-4fcc-b36c-127e9b6532d8",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_e7b7ab7330174253",
+          "reset_by": "self",
+          "timestamp": "2026-04-19T08:18:26.206557"
+        }
+      },
+      {
+        "person_id": "290204f4-533c-44e9-8dcb-a3b8fc0a0f9d",
+        "institution_id": "b74eeeb5-dfb4-4a91-a165-f856a892adcc",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 2707,
+          "new_limit": 3892,
+          "currency": "PLN",
+          "approved_by": "system"
+        }
+      },
+      {
+        "person_id": "a386c674-5d97-4877-9891-7a9b10c779e9",
+        "institution_id": "a0a67bcd-b98c-409e-9b17-8acaf16861f7",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_a782d79c64bf4710",
+          "reset_by": "support",
+          "timestamp": "2026-04-19T08:18:26.206577"
+        }
+      },
+      {
+        "person_id": "c4476832-25c3-413d-94fa-908cbc1b0ef3",
+        "institution_id": "21a4cc0e-dcae-49bb-afbe-47eb85feb309",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "656 Maple St",
+          "city": "Wroclaw",
+          "zip": "82-201"
+        }
+      },
+      {
+        "person_id": "01287494-73a5-45c2-8063-ce9bae1cac30",
+        "institution_id": "fa0a8b57-0d0b-4359-8f37-e51ea50a3692",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "terminated",
+          "date": "2026-02-09T08:18:26.206601",
+          "reversible": true
+        }
+      },
+      {
+        "person_id": "08681301-40de-4270-8ffe-2bb5bdf36225",
+        "institution_id": "da741a09-f0b5-410f-8524-d5077cdec263",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 4709,
+          "new_limit": 9075,
+          "currency": "PLN",
+          "approved_by": "director"
+        }
+      },
+      {
+        "person_id": "256adf46-21c2-4668-9659-6952438f1e7e",
+        "institution_id": "8c52affa-7352-44ba-9c13-051e21ec965f",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_426@example.com",
+          "new_email": "new_426@example.com",
+          "verified": true
+        }
+      },
+      {
+        "person_id": "3c3b8562-f2ed-465a-bfc2-0495fc90183c",
+        "institution_id": "11bf7cce-1591-4fcc-b36c-127e9b6532d8",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "read",
+          "granted_by": "manager",
+          "scope": "limited"
+        }
+      },
+      {
+        "person_id": "5838770d-434e-4614-b67a-eb74e6a7d79a",
+        "institution_id": "f53d6228-05c3-40da-a1ee-6860eabf8580",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_b93ae39337c64df9",
+          "reset_by": "admin",
+          "timestamp": "2026-04-19T08:18:26.206647"
+        }
+      },
+      {
+        "person_id": "1851d911-1bb2-4685-9157-8d801590d2fa",
+        "institution_id": "da741a09-f0b5-410f-8524-d5077cdec263",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "retired",
+          "date": "2025-06-14T08:18:26.206662",
+          "reversible": true
+        }
+      },
+      {
+        "person_id": "77028427-184e-44bc-88c1-c6d827fc1e11",
+        "institution_id": "da741a09-f0b5-410f-8524-d5077cdec263",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "read",
+          "granted_by": "system",
+          "scope": "limited"
+        }
+      },
+      {
+        "person_id": "f95354ff-593e-4576-ae02-24b1df1175ae",
+        "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_431@example.com",
+          "new_email": "new_431@example.com",
+          "verified": true
+        }
+      },
+      {
+        "person_id": "76858655-9d6c-483c-a0a8-cf6eb703eff2",
+        "institution_id": "14766765-2fa0-42a9-92a9-55bb584002ae",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "write",
+          "granted_by": "manager",
+          "scope": "temporary"
+        }
+      },
+      {
+        "person_id": "3b47f4d4-cb6c-42de-9fca-935773182387",
+        "institution_id": "ddf8f657-5da2-4135-98c1-f8d42148cc22",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "export",
+          "granted_by": "admin",
+          "scope": "limited"
+        }
+      },
+      {
+        "person_id": "242bcd9c-fd47-4b46-a308-fc33e0d6c090",
+        "institution_id": "132a807d-d941-4172-9b2a-b9f9205f60df",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_d9a80ae6dfe14255",
+          "reset_by": "support",
+          "timestamp": "2026-04-19T08:18:26.206709"
+        }
+      },
+      {
+        "person_id": "043305b1-029a-4512-b19b-a6b5baf85fe6",
+        "institution_id": "6166ddcb-eb2a-4a82-9655-72eab915581c",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_435@example.com",
+          "new_email": "new_435@example.com",
+          "verified": false
+        }
+      },
+      {
+        "person_id": "712565f0-74f8-4540-84e6-454c785966ec",
+        "institution_id": "2fa03dfe-cc10-435d-82a3-bc986ee6fcd4",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "read",
+          "granted_by": "manager",
+          "scope": "full"
+        }
+      },
+      {
+        "person_id": "01287494-73a5-45c2-8063-ce9bae1cac30",
+        "institution_id": "b74eeeb5-dfb4-4a91-a165-f856a892adcc",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "931 Maple St",
+          "city": "Poznan",
+          "zip": "18-531"
+        }
+      },
+      {
+        "person_id": "e0ce1b3d-9e19-4fcd-b922-3b908f92d77f",
+        "institution_id": "21a4cc0e-dcae-49bb-afbe-47eb85feb309",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 1743,
+          "new_limit": 2789,
+          "currency": "PLN",
+          "approved_by": "system"
+        }
+      },
+      {
+        "person_id": "6da90a05-8b7b-46e2-a430-6e413de5770b",
+        "institution_id": "b54c2a65-94fe-40ff-89d6-2c0b7e56c6dd",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 2074,
+          "new_limit": 5823,
+          "currency": "PLN",
+          "approved_by": "manager"
+        }
+      },
+      {
+        "person_id": "a386c674-5d97-4877-9891-7a9b10c779e9",
+        "institution_id": "8c52affa-7352-44ba-9c13-051e21ec965f",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "read",
+          "granted_by": "admin",
+          "scope": "temporary"
+        }
+      },
+      {
+        "person_id": "0bf3cc73-d41d-4cb8-b83f-c77028ede55f",
+        "institution_id": "baf6ee36-f8ed-4104-8192-220234fe94b5",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "suspended",
+          "date": "2026-01-03T08:18:26.206784",
+          "reversible": false
+        }
+      },
+      {
+        "person_id": "07c50cf3-2ad1-4884-a3ab-ffb785892c6c",
+        "institution_id": "a0a67bcd-b98c-409e-9b17-8acaf16861f7",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_442@example.com",
+          "new_email": "new_442@example.com",
+          "verified": false
+        }
+      },
+      {
+        "person_id": "bc0e5f2f-15c7-4c15-bcfd-4d829ab35b9b",
+        "institution_id": "fa0a8b57-0d0b-4359-8f37-e51ea50a3692",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_443@example.com",
+          "new_email": "new_443@example.com",
+          "verified": true
+        }
+      },
+      {
+        "person_id": "4631fbc6-69a1-432a-932a-e02da7dd203f",
+        "institution_id": "63d6aa1f-df67-431d-9cea-6caaa790c8c4",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "516 Main St",
+          "city": "Gdansk",
+          "zip": "91-151"
+        }
+      },
+      {
+        "person_id": "d10c87c1-6055-4e91-910d-e2c5a655f048",
+        "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "admin",
+          "granted_by": "admin",
+          "scope": "temporary"
+        }
+      },
+      {
+        "person_id": "0bf3cc73-d41d-4cb8-b83f-c77028ede55f",
+        "institution_id": "11bf7cce-1591-4fcc-b36c-127e9b6532d8",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "terminated",
+          "date": "2025-05-29T08:18:26.206833",
+          "reversible": false
+        }
+      },
+      {
+        "person_id": "e23760b1-1b10-4ce5-a83c-b7b74fca7c9e",
+        "institution_id": "a0a67bcd-b98c-409e-9b17-8acaf16861f7",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "suspended",
+          "date": "2026-02-28T08:18:26.206843",
+          "reversible": false
+        }
+      },
+      {
+        "person_id": "0cb5dfe5-2311-43c7-b56c-c9497d584fc4",
+        "institution_id": "fa0a8b57-0d0b-4359-8f37-e51ea50a3692",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 4781,
+          "new_limit": 8205,
+          "currency": "PLN",
+          "approved_by": "director"
+        }
+      },
+      {
+        "person_id": "a10f6f43-1336-4efe-8780-cdc8c3edd253",
+        "institution_id": "6166ddcb-eb2a-4a82-9655-72eab915581c",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 4513,
+          "new_limit": 7719,
+          "currency": "PLN",
+          "approved_by": "manager"
+        }
+      },
+      {
+        "person_id": "bc0e5f2f-15c7-4c15-bcfd-4d829ab35b9b",
+        "institution_id": "fa0a8b57-0d0b-4359-8f37-e51ea50a3692",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_450@example.com",
+          "new_email": "new_450@example.com",
+          "verified": true
+        }
+      },
+      {
+        "person_id": "a10f6f43-1336-4efe-8780-cdc8c3edd253",
+        "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "104 Oak St",
+          "city": "Poznan",
+          "zip": "51-362"
+        }
+      },
+      {
+        "person_id": "96c40673-ffb7-4d2f-8b8c-5271187dabd0",
+        "institution_id": "b7cbd81c-20f8-41e6-911d-3266afc42969",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 2459,
+          "new_limit": 4155,
+          "currency": "PLN",
+          "approved_by": "manager"
+        }
+      },
+      {
+        "person_id": "50afb8af-7e9f-4242-b76d-0fbe590ad687",
+        "institution_id": "8c52affa-7352-44ba-9c13-051e21ec965f",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "write",
+          "granted_by": "system",
+          "scope": "full"
+        }
+      },
+      {
+        "person_id": "172615b0-6ec5-4e1b-a304-b4e93daf20ab",
+        "institution_id": "b54c2a65-94fe-40ff-89d6-2c0b7e56c6dd",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "572 Oak St",
+          "city": "Gdansk",
+          "zip": "02-568"
+        }
+      },
+      {
+        "person_id": "7b2dceef-a6b5-46f7-8ce0-015a199b6e03",
+        "institution_id": "baf6ee36-f8ed-4104-8192-220234fe94b5",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "suspended",
+          "date": "2025-11-03T08:18:26.206954",
+          "reversible": true
+        }
+      },
+      {
+        "person_id": "5d79e46a-4af1-4cd9-913c-e1b7e991445e",
+        "institution_id": "21a4cc0e-dcae-49bb-afbe-47eb85feb309",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 2119,
+          "new_limit": 4410,
+          "currency": "PLN",
+          "approved_by": "director"
+        }
+      },
+      {
+        "person_id": "61b4521b-48f7-4822-b575-f8e8a07bd189",
+        "institution_id": "b54c2a65-94fe-40ff-89d6-2c0b7e56c6dd",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "161 Oak St",
+          "city": "Poznan",
+          "zip": "72-222"
+        }
+      },
+      {
+        "person_id": "a2fe53fb-1e73-42c1-b7bc-bb74523b4af1",
+        "institution_id": "baf6ee36-f8ed-4104-8192-220234fe94b5",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "retired",
+          "date": "2026-03-20T08:18:26.206987",
+          "reversible": false
+        }
+      },
+      {
+        "person_id": "3b47f4d4-cb6c-42de-9fca-935773182387",
+        "institution_id": "132a807d-d941-4172-9b2a-b9f9205f60df",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_48305f9832e042f9",
+          "reset_by": "self",
+          "timestamp": "2026-04-19T08:18:26.206993"
+        }
+      },
+      {
+        "person_id": "4262213f-6fae-407b-9f78-a9bb1b097254",
+        "institution_id": "ddf8f657-5da2-4135-98c1-f8d42148cc22",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "36 Pine St",
+          "city": "Krakow",
+          "zip": "91-297"
+        }
+      },
+      {
+        "person_id": "7d09d74b-b857-4263-ad46-77665a596264",
+        "institution_id": "fa0a8b57-0d0b-4359-8f37-e51ea50a3692",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_5dc6efdf399146b8",
+          "reset_by": "support",
+          "timestamp": "2026-04-19T08:18:26.207013"
+        }
+      },
+      {
+        "person_id": "4631fbc6-69a1-432a-932a-e02da7dd203f",
+        "institution_id": "b7cbd81c-20f8-41e6-911d-3266afc42969",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "delete",
+          "granted_by": "manager",
+          "scope": "full"
+        }
+      },
+      {
+        "person_id": "767f57ba-2e37-405e-971c-2dd02b55d2c3",
+        "institution_id": "239e11a4-048d-4c7e-ae85-9113466fabff",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_f77d3e1d3d42459f",
+          "reset_by": "admin",
+          "timestamp": "2026-04-19T08:18:26.207033"
+        }
+      },
+      {
+        "person_id": "b1366cea-11d5-47f9-8b50-1fa9aa45a356",
+        "institution_id": "383e4d62-eafe-4f95-a3a0-0cecf401bacb",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_464@example.com",
+          "new_email": "new_464@example.com",
+          "verified": true
+        }
+      },
+      {
+        "person_id": "eb7b22ed-c5c8-42bd-8cd8-90b9adee3982",
+        "institution_id": "383e4d62-eafe-4f95-a3a0-0cecf401bacb",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_647a57f578504877",
+          "reset_by": "admin",
+          "timestamp": "2026-04-19T08:18:26.207053"
+        }
+      },
+      {
+        "person_id": "af0716ea-8441-4273-9478-b6aaf40835d5",
+        "institution_id": "fa0a8b57-0d0b-4359-8f37-e51ea50a3692",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "delete",
+          "granted_by": "manager",
+          "scope": "limited"
+        }
+      },
+      {
+        "person_id": "5d79e46a-4af1-4cd9-913c-e1b7e991445e",
+        "institution_id": "63d6aa1f-df67-431d-9cea-6caaa790c8c4",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "admin",
+          "granted_by": "manager",
+          "scope": "temporary"
+        }
+      },
+      {
+        "person_id": "995210a7-ee88-428a-9859-d956cb91fd9c",
+        "institution_id": "f53d6228-05c3-40da-a1ee-6860eabf8580",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_151e86ba6eea4ff4",
+          "reset_by": "admin",
+          "timestamp": "2026-04-19T08:18:26.207084"
+        }
+      },
+      {
+        "person_id": "af68fd5a-17be-4b6a-a930-4a293d852064",
+        "institution_id": "ddf8f657-5da2-4135-98c1-f8d42148cc22",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_2dba030e0df5493f",
+          "reset_by": "self",
+          "timestamp": "2026-04-19T08:18:26.207094"
+        }
+      },
+      {
+        "person_id": "e0ce1b3d-9e19-4fcd-b922-3b908f92d77f",
+        "institution_id": "a0a67bcd-b98c-409e-9b17-8acaf16861f7",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "admin",
+          "granted_by": "manager",
+          "scope": "temporary"
+        }
+      },
+      {
+        "person_id": "300dd0b8-2e5c-4915-8aa0-a9a87a8e5b5a",
+        "institution_id": "6166ddcb-eb2a-4a82-9655-72eab915581c",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_6148a3fbf32a4b82",
+          "reset_by": "admin",
+          "timestamp": "2026-04-19T08:18:26.207114"
+        }
+      },
+      {
+        "person_id": "d02b0089-4323-4956-b08b-c1c86944fb2b",
+        "institution_id": "8c52affa-7352-44ba-9c13-051e21ec965f",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_472@example.com",
+          "new_email": "new_472@example.com",
+          "verified": true
+        }
+      },
+      {
+        "person_id": "2e3c937a-ee61-423d-a9c6-7821d1b18189",
+        "institution_id": "ddf8f657-5da2-4135-98c1-f8d42148cc22",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "700 Maple St",
+          "city": "Krakow",
+          "zip": "73-241"
+        }
+      },
+      {
+        "person_id": "43b7b6cc-e669-413b-b323-4b4474deee25",
+        "institution_id": "baf6ee36-f8ed-4104-8192-220234fe94b5",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_474@example.com",
+          "new_email": "new_474@example.com",
+          "verified": true
+        }
+      },
+      {
+        "person_id": "3b47f4d4-cb6c-42de-9fca-935773182387",
+        "institution_id": "b7cbd81c-20f8-41e6-911d-3266afc42969",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "read",
+          "granted_by": "system",
+          "scope": "full"
+        }
+      },
+      {
+        "person_id": "256adf46-21c2-4668-9659-6952438f1e7e",
+        "institution_id": "baf6ee36-f8ed-4104-8192-220234fe94b5",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "on_leave",
+          "date": "2025-12-03T08:18:26.207168",
+          "reversible": true
+        }
+      },
+      {
+        "person_id": "c4476832-25c3-413d-94fa-908cbc1b0ef3",
+        "institution_id": "11bf7cce-1591-4fcc-b36c-127e9b6532d8",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "admin",
+          "granted_by": "manager",
+          "scope": "full"
+        }
+      },
+      {
+        "person_id": "143936d4-c86e-4446-98fa-813d8f8b6229",
+        "institution_id": "6166ddcb-eb2a-4a82-9655-72eab915581c",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "retired",
+          "date": "2025-12-22T08:18:26.207189",
+          "reversible": true
+        }
+      },
+      {
+        "person_id": "af0716ea-8441-4273-9478-b6aaf40835d5",
+        "institution_id": "8c52affa-7352-44ba-9c13-051e21ec965f",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "162 Main St",
+          "city": "Warsaw",
+          "zip": "39-695"
+        }
+      },
+      {
+        "person_id": "c0ab9e53-1ee5-49b5-b5f8-cc72bd4c02ec",
+        "institution_id": "baf6ee36-f8ed-4104-8192-220234fe94b5",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_6999a64bbc1741ba",
+          "reset_by": "admin",
+          "timestamp": "2026-04-19T08:18:26.207205"
+        }
+      },
+      {
+        "person_id": "1c48d351-8144-4a0b-aec8-b5ac44f226fd",
+        "institution_id": "8c52affa-7352-44ba-9c13-051e21ec965f",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 2347,
+          "new_limit": 4917,
+          "currency": "PLN",
+          "approved_by": "manager"
+        }
+      },
+      {
+        "person_id": "6fda54e6-2b70-41f5-ad2e-fc98bb73f407",
+        "institution_id": "21a4cc0e-dcae-49bb-afbe-47eb85feb309",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_482@example.com",
+          "new_email": "new_482@example.com",
+          "verified": true
+        }
+      },
+      {
+        "person_id": "61b4521b-48f7-4822-b575-f8e8a07bd189",
+        "institution_id": "b54c2a65-94fe-40ff-89d6-2c0b7e56c6dd",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 2103,
+          "new_limit": 4894,
+          "currency": "PLN",
+          "approved_by": "system"
+        }
+      },
+      {
+        "person_id": "82b8a850-376c-4057-9791-0271a76707fb",
+        "institution_id": "11bf7cce-1591-4fcc-b36c-127e9b6532d8",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_f13537f46c084f1f",
+          "reset_by": "self",
+          "timestamp": "2026-04-19T08:18:26.207534"
+        }
+      },
+      {
+        "person_id": "116c71c9-aa72-478e-a98e-73a98271c6dd",
+        "institution_id": "fa0a8b57-0d0b-4359-8f37-e51ea50a3692",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "export",
+          "granted_by": "admin",
+          "scope": "full"
+        }
+      },
+      {
+        "person_id": "4262213f-6fae-407b-9f78-a9bb1b097254",
+        "institution_id": "da741a09-f0b5-410f-8524-d5077cdec263",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "963 Main St",
+          "city": "Warsaw",
+          "zip": "97-415"
+        }
+      },
+      {
+        "person_id": "e2ccf878-a8e9-4bc6-898a-af803b7b869e",
+        "institution_id": "2fa03dfe-cc10-435d-82a3-bc986ee6fcd4",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_487@example.com",
+          "new_email": "new_487@example.com",
+          "verified": true
+        }
+      },
+      {
+        "person_id": "08681301-40de-4270-8ffe-2bb5bdf36225",
+        "institution_id": "21a4cc0e-dcae-49bb-afbe-47eb85feb309",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "admin",
+          "granted_by": "manager",
+          "scope": "limited"
+        }
+      },
+      {
+        "person_id": "bc0e5f2f-15c7-4c15-bcfd-4d829ab35b9b",
+        "institution_id": "fa0a8b57-0d0b-4359-8f37-e51ea50a3692",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_5ce6130af9144063",
+          "reset_by": "support",
+          "timestamp": "2026-04-19T08:18:26.207586"
+        }
+      },
+      {
+        "person_id": "f95354ff-593e-4576-ae02-24b1df1175ae",
+        "institution_id": "b54c2a65-94fe-40ff-89d6-2c0b7e56c6dd",
+        "change_code": "PASSWORD_RESET",
+        "payload": {
+          "new_password_hash": "hash_8b2c5df9019c4f58",
+          "reset_by": "support",
+          "timestamp": "2026-04-19T08:18:26.207596"
+        }
+      },
+      {
+        "person_id": "5838770d-434e-4614-b67a-eb74e6a7d79a",
+        "institution_id": "132a807d-d941-4172-9b2a-b9f9205f60df",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "retired",
+          "date": "2025-11-19T08:18:26.207609",
+          "reversible": true
+        }
+      },
+      {
+        "person_id": "82af8a30-de79-420c-8803-32ee56ce952e",
+        "institution_id": "b54c2a65-94fe-40ff-89d6-2c0b7e56c6dd",
+        "change_code": "EMAIL_CHANGE",
+        "payload": {
+          "old_email": "old_492@example.com",
+          "new_email": "new_492@example.com",
+          "verified": false
+        }
+      },
+      {
+        "person_id": "043305b1-029a-4512-b19b-a6b5baf85fe6",
+        "institution_id": "14766765-2fa0-42a9-92a9-55bb584002ae",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 4428,
+          "new_limit": 9377,
+          "currency": "PLN",
+          "approved_by": "manager"
+        }
+      },
+      {
+        "person_id": "af0716ea-8441-4273-9478-b6aaf40835d5",
+        "institution_id": "b74eeeb5-dfb4-4a91-a165-f856a892adcc",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "admin",
+          "granted_by": "manager",
+          "scope": "full"
+        }
+      },
+      {
+        "person_id": "1c48d351-8144-4a0b-aec8-b5ac44f226fd",
+        "institution_id": "baf6ee36-f8ed-4104-8192-220234fe94b5",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "18 Pine St",
+          "city": "Krakow",
+          "zip": "87-194"
+        }
+      },
+      {
+        "person_id": "37f21468-1691-4d07-b923-80bbde06685d",
+        "institution_id": "f53d6228-05c3-40da-a1ee-6860eabf8580",
+        "change_code": "PERMISSION_GRANT",
+        "payload": {
+          "permission": "write",
+          "granted_by": "system",
+          "scope": "limited"
+        }
+      },
+      {
+        "person_id": "59917b7a-dd3f-43ce-8479-3124339a6e9d",
+        "institution_id": "63d6aa1f-df67-431d-9cea-6caaa790c8c4",
+        "change_code": "STATUS_INACTIVE",
+        "payload": {
+          "reason": "suspended",
+          "date": "2025-10-05T08:18:26.207688",
+          "reversible": true
+        }
+      },
+      {
+        "person_id": "2f1d34e8-7831-4f3d-af60-ccdf06915fd6",
+        "institution_id": "21a4cc0e-dcae-49bb-afbe-47eb85feb309",
+        "change_code": "LIMIT_INCREASE",
+        "payload": {
+          "old_limit": 1588,
+          "new_limit": 3548,
+          "currency": "PLN",
+          "approved_by": "manager"
+        }
+      },
+      {
+        "person_id": "4631fbc6-69a1-432a-932a-e02da7dd203f",
+        "institution_id": "b54c2a65-94fe-40ff-89d6-2c0b7e56c6dd",
+        "change_code": "ADDRESS_UPDATE",
+        "payload": {
+          "street": "785 Oak St",
+          "city": "Warsaw",
+          "zip": "03-617"
+        }
+      }
+    ]
+  }
+}

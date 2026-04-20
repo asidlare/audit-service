@@ -1,0 +1,505 @@
+{
+  "timestamp": "2026-04-19T20:27:31.056461",
+  "test_configuration": {
+    "institution_id": "698864ba-a4e0-42b7-8b80-fedbb6a8daae",
+    "person_ids": [
+      "eea58e38-bbe7-476f-84e5-d02dff589ae2",
+      "eda335c8-4b61-459f-89dd-396579e6430c",
+      "cfa8aaf3-852c-4499-a23f-2c82184564eb"
+    ]
+  },
+  "tests": [
+    {
+      "event_type": "READ",
+      "person_id": "eea58e38-bbe7-476f-84e5-d02dff589ae2",
+      "institution_id": "698864ba-a4e0-42b7-8b80-fedbb6a8daae",
+      "api_insert": {
+        "endpoint": "POST /api_v1/log/read",
+        "response": {
+          "status": "success",
+          "event_id": "30ea4f4c-3c2e-11f1-b8bc-62e0f0c6e9a6"
+        }
+      },
+      "database_query": {
+        "query": "SELECT * FROM audit_by_person WHERE person_id = eea58e38-bbe7-476f-84e5-d02dff589ae2",
+        "found": true,
+        "retrieved_event": {
+          "person_id": "eea58e38-bbe7-476f-84e5-d02dff589ae2",
+          "event_time": "30ea4f4c-3c2e-11f1-b8bc-62e0f0c6e9a6",
+          "change_code": null,
+          "change_json": null,
+          "event_type": "READ",
+          "institution_id": "698864ba-a4e0-42b7-8b80-fedbb6a8daae",
+          "human_time": "2026-04-19T20:27:31.202030"
+        },
+        "total_events": 1
+      }
+    },
+    {
+      "event_type": "CHANGE",
+      "change_code": "PASSWORD_RESET",
+      "person_id": "eea58e38-bbe7-476f-84e5-d02dff589ae2",
+      "institution_id": "698864ba-a4e0-42b7-8b80-fedbb6a8daae",
+      "api_insert": {
+        "endpoint": "POST /api_v1/log/change",
+        "payload": {
+          "person_id": "eea58e38-bbe7-476f-84e5-d02dff589ae2",
+          "institution_id": "698864ba-a4e0-42b7-8b80-fedbb6a8daae",
+          "change_code": "PASSWORD_RESET",
+          "change_json": {
+            "new_password_hash": "hash_test123",
+            "reset_by": "admin",
+            "timestamp": "2026-04-19T20:27:31.993779"
+          }
+        },
+        "response": {
+          "status": "success",
+          "event_id": "3163bbb6-3c2e-11f1-b8bc-62e0f0c6e9a6"
+        }
+      },
+      "database_queries": {
+        "by_person": {
+          "query": "SELECT * FROM audit_by_person WHERE person_id = eea58e38-bbe7-476f-84e5-d02dff589ae2",
+          "found": true,
+          "retrieved_event": {
+            "person_id": "eea58e38-bbe7-476f-84e5-d02dff589ae2",
+            "event_time": "3163bbb6-3c2e-11f1-b8bc-62e0f0c6e9a6",
+            "change_code": "PASSWORD_RESET",
+            "change_json": {
+              "new_password_hash": "hash_test123",
+              "reset_by": "admin",
+              "timestamp": "2026-04-19T20:27:31.993779"
+            },
+            "event_type": "CHANGE",
+            "institution_id": "698864ba-a4e0-42b7-8b80-fedbb6a8daae",
+            "human_time": "2026-04-19T20:27:31.997791"
+          }
+        },
+        "by_institution": {
+          "query": "SELECT * FROM changes_by_inst WHERE institution_id = 698864ba-a4e0-42b7-8b80-fedbb6a8daae",
+          "found": true,
+          "retrieved_event": {
+            "institution_id": "698864ba-a4e0-42b7-8b80-fedbb6a8daae",
+            "changed_at": "3163bbb6-3c2e-11f1-b8bc-62e0f0c6e9a6",
+            "change_code": "PASSWORD_RESET",
+            "change_json": {
+              "new_password_hash": "hash_test123",
+              "reset_by": "admin",
+              "timestamp": "2026-04-19T20:27:31.993779"
+            },
+            "person_id": "eea58e38-bbe7-476f-84e5-d02dff589ae2",
+            "event_time": "3163bbb6-3c2e-11f1-b8bc-62e0f0c6e9a6",
+            "human_time": "2026-04-19T20:27:31.997791"
+          }
+        },
+        "by_code_filtered": {
+          "query": "SELECT * FROM changes_by_code WHERE change_code = 'PASSWORD_RESET' AND person_id = eea58e38-bbe7-476f-84e5-d02dff589ae2 ALLOW FILTERING",
+          "found": true,
+          "retrieved_event": {
+            "change_code": "PASSWORD_RESET",
+            "changed_at": "3163bbb6-3c2e-11f1-b8bc-62e0f0c6e9a6",
+            "change_json": {
+              "new_password_hash": "hash_test123",
+              "reset_by": "admin",
+              "timestamp": "2026-04-19T20:27:31.993779"
+            },
+            "institution_id": "698864ba-a4e0-42b7-8b80-fedbb6a8daae",
+            "person_id": "eea58e38-bbe7-476f-84e5-d02dff589ae2",
+            "event_time": "3163bbb6-3c2e-11f1-b8bc-62e0f0c6e9a6",
+            "human_time": "2026-04-19T20:27:31.997791"
+          }
+        }
+      },
+      "found_in_all_tables": true
+    },
+    {
+      "event_type": "CHANGE",
+      "change_code": "EMAIL_CHANGE",
+      "person_id": "eda335c8-4b61-459f-89dd-396579e6430c",
+      "institution_id": "698864ba-a4e0-42b7-8b80-fedbb6a8daae",
+      "api_insert": {
+        "endpoint": "POST /api_v1/log/change",
+        "payload": {
+          "person_id": "eda335c8-4b61-459f-89dd-396579e6430c",
+          "institution_id": "698864ba-a4e0-42b7-8b80-fedbb6a8daae",
+          "change_code": "EMAIL_CHANGE",
+          "change_json": {
+            "old_email": "old@test.com",
+            "new_email": "new@test.com",
+            "verified": true
+          }
+        },
+        "response": {
+          "status": "success",
+          "event_id": "31e59ece-3c2e-11f1-b8bc-62e0f0c6e9a6"
+        }
+      },
+      "database_queries": {
+        "by_person": {
+          "query": "SELECT * FROM audit_by_person WHERE person_id = eda335c8-4b61-459f-89dd-396579e6430c",
+          "found": true,
+          "retrieved_event": {
+            "person_id": "eda335c8-4b61-459f-89dd-396579e6430c",
+            "event_time": "31e59ece-3c2e-11f1-b8bc-62e0f0c6e9a6",
+            "change_code": "EMAIL_CHANGE",
+            "change_json": {
+              "old_email": "old@test.com",
+              "new_email": "new@test.com",
+              "verified": true
+            },
+            "event_type": "CHANGE",
+            "institution_id": "698864ba-a4e0-42b7-8b80-fedbb6a8daae",
+            "human_time": "2026-04-19T20:27:32.849019"
+          }
+        },
+        "by_institution": {
+          "query": "SELECT * FROM changes_by_inst WHERE institution_id = 698864ba-a4e0-42b7-8b80-fedbb6a8daae",
+          "found": true,
+          "retrieved_event": {
+            "institution_id": "698864ba-a4e0-42b7-8b80-fedbb6a8daae",
+            "changed_at": "31e59ece-3c2e-11f1-b8bc-62e0f0c6e9a6",
+            "change_code": "EMAIL_CHANGE",
+            "change_json": {
+              "old_email": "old@test.com",
+              "new_email": "new@test.com",
+              "verified": true
+            },
+            "person_id": "eda335c8-4b61-459f-89dd-396579e6430c",
+            "event_time": "31e59ece-3c2e-11f1-b8bc-62e0f0c6e9a6",
+            "human_time": "2026-04-19T20:27:32.849019"
+          }
+        },
+        "by_code_filtered": {
+          "query": "SELECT * FROM changes_by_code WHERE change_code = 'EMAIL_CHANGE' AND person_id = eda335c8-4b61-459f-89dd-396579e6430c ALLOW FILTERING",
+          "found": true,
+          "retrieved_event": {
+            "change_code": "EMAIL_CHANGE",
+            "changed_at": "31e59ece-3c2e-11f1-b8bc-62e0f0c6e9a6",
+            "change_json": {
+              "old_email": "old@test.com",
+              "new_email": "new@test.com",
+              "verified": true
+            },
+            "institution_id": "698864ba-a4e0-42b7-8b80-fedbb6a8daae",
+            "person_id": "eda335c8-4b61-459f-89dd-396579e6430c",
+            "event_time": "31e59ece-3c2e-11f1-b8bc-62e0f0c6e9a6",
+            "human_time": "2026-04-19T20:27:32.849019"
+          }
+        }
+      },
+      "found_in_all_tables": true
+    },
+    {
+      "event_type": "CHANGE",
+      "change_code": "ADDRESS_UPDATE",
+      "person_id": "cfa8aaf3-852c-4499-a23f-2c82184564eb",
+      "institution_id": "698864ba-a4e0-42b7-8b80-fedbb6a8daae",
+      "api_insert": {
+        "endpoint": "POST /api_v1/log/change",
+        "payload": {
+          "person_id": "cfa8aaf3-852c-4499-a23f-2c82184564eb",
+          "institution_id": "698864ba-a4e0-42b7-8b80-fedbb6a8daae",
+          "change_code": "ADDRESS_UPDATE",
+          "change_json": {
+            "street": "Test Street 123",
+            "city": "Warsaw",
+            "zip": "00-001"
+          }
+        },
+        "response": {
+          "status": "success",
+          "event_id": "3247d10c-3c2e-11f1-b8bc-62e0f0c6e9a6"
+        }
+      },
+      "database_queries": {
+        "by_person": {
+          "query": "SELECT * FROM audit_by_person WHERE person_id = cfa8aaf3-852c-4499-a23f-2c82184564eb",
+          "found": true,
+          "retrieved_event": {
+            "person_id": "cfa8aaf3-852c-4499-a23f-2c82184564eb",
+            "event_time": "3247d10c-3c2e-11f1-b8bc-62e0f0c6e9a6",
+            "change_code": "ADDRESS_UPDATE",
+            "change_json": {
+              "street": "Test Street 123",
+              "city": "Warsaw",
+              "zip": "00-001"
+            },
+            "event_type": "CHANGE",
+            "institution_id": "698864ba-a4e0-42b7-8b80-fedbb6a8daae",
+            "human_time": "2026-04-19T20:27:33.492558"
+          }
+        },
+        "by_institution": {
+          "query": "SELECT * FROM changes_by_inst WHERE institution_id = 698864ba-a4e0-42b7-8b80-fedbb6a8daae",
+          "found": true,
+          "retrieved_event": {
+            "institution_id": "698864ba-a4e0-42b7-8b80-fedbb6a8daae",
+            "changed_at": "3247d10c-3c2e-11f1-b8bc-62e0f0c6e9a6",
+            "change_code": "ADDRESS_UPDATE",
+            "change_json": {
+              "street": "Test Street 123",
+              "city": "Warsaw",
+              "zip": "00-001"
+            },
+            "person_id": "cfa8aaf3-852c-4499-a23f-2c82184564eb",
+            "event_time": "3247d10c-3c2e-11f1-b8bc-62e0f0c6e9a6",
+            "human_time": "2026-04-19T20:27:33.492558"
+          }
+        },
+        "by_code_filtered": {
+          "query": "SELECT * FROM changes_by_code WHERE change_code = 'ADDRESS_UPDATE' AND person_id = cfa8aaf3-852c-4499-a23f-2c82184564eb ALLOW FILTERING",
+          "found": true,
+          "retrieved_event": {
+            "change_code": "ADDRESS_UPDATE",
+            "changed_at": "3247d10c-3c2e-11f1-b8bc-62e0f0c6e9a6",
+            "change_json": {
+              "street": "Test Street 123",
+              "city": "Warsaw",
+              "zip": "00-001"
+            },
+            "institution_id": "698864ba-a4e0-42b7-8b80-fedbb6a8daae",
+            "person_id": "cfa8aaf3-852c-4499-a23f-2c82184564eb",
+            "event_time": "3247d10c-3c2e-11f1-b8bc-62e0f0c6e9a6",
+            "human_time": "2026-04-19T20:27:33.492558"
+          }
+        }
+      },
+      "found_in_all_tables": true
+    },
+    {
+      "event_type": "CHANGE",
+      "change_code": "PERMISSION_GRANT",
+      "person_id": "eea58e38-bbe7-476f-84e5-d02dff589ae2",
+      "institution_id": "698864ba-a4e0-42b7-8b80-fedbb6a8daae",
+      "api_insert": {
+        "endpoint": "POST /api_v1/log/change",
+        "payload": {
+          "person_id": "eea58e38-bbe7-476f-84e5-d02dff589ae2",
+          "institution_id": "698864ba-a4e0-42b7-8b80-fedbb6a8daae",
+          "change_code": "PERMISSION_GRANT",
+          "change_json": {
+            "permission": "admin",
+            "granted_by": "system",
+            "scope": "full"
+          }
+        },
+        "response": {
+          "status": "success",
+          "event_id": "32999a0a-3c2e-11f1-b8bc-62e0f0c6e9a6"
+        }
+      },
+      "database_queries": {
+        "by_person": {
+          "query": "SELECT * FROM audit_by_person WHERE person_id = eea58e38-bbe7-476f-84e5-d02dff589ae2",
+          "found": true,
+          "retrieved_event": {
+            "person_id": "eea58e38-bbe7-476f-84e5-d02dff589ae2",
+            "event_time": "32999a0a-3c2e-11f1-b8bc-62e0f0c6e9a6",
+            "change_code": "PERMISSION_GRANT",
+            "change_json": {
+              "permission": "admin",
+              "granted_by": "system",
+              "scope": "full"
+            },
+            "event_type": "CHANGE",
+            "institution_id": "698864ba-a4e0-42b7-8b80-fedbb6a8daae",
+            "human_time": "2026-04-19T20:27:34.028545"
+          }
+        },
+        "by_institution": {
+          "query": "SELECT * FROM changes_by_inst WHERE institution_id = 698864ba-a4e0-42b7-8b80-fedbb6a8daae",
+          "found": true,
+          "retrieved_event": {
+            "institution_id": "698864ba-a4e0-42b7-8b80-fedbb6a8daae",
+            "changed_at": "32999a0a-3c2e-11f1-b8bc-62e0f0c6e9a6",
+            "change_code": "PERMISSION_GRANT",
+            "change_json": {
+              "permission": "admin",
+              "granted_by": "system",
+              "scope": "full"
+            },
+            "person_id": "eea58e38-bbe7-476f-84e5-d02dff589ae2",
+            "event_time": "32999a0a-3c2e-11f1-b8bc-62e0f0c6e9a6",
+            "human_time": "2026-04-19T20:27:34.028545"
+          }
+        },
+        "by_code_filtered": {
+          "query": "SELECT * FROM changes_by_code WHERE change_code = 'PERMISSION_GRANT' AND person_id = eea58e38-bbe7-476f-84e5-d02dff589ae2 ALLOW FILTERING",
+          "found": true,
+          "retrieved_event": {
+            "change_code": "PERMISSION_GRANT",
+            "changed_at": "32999a0a-3c2e-11f1-b8bc-62e0f0c6e9a6",
+            "change_json": {
+              "permission": "admin",
+              "granted_by": "system",
+              "scope": "full"
+            },
+            "institution_id": "698864ba-a4e0-42b7-8b80-fedbb6a8daae",
+            "person_id": "eea58e38-bbe7-476f-84e5-d02dff589ae2",
+            "event_time": "32999a0a-3c2e-11f1-b8bc-62e0f0c6e9a6",
+            "human_time": "2026-04-19T20:27:34.028545"
+          }
+        }
+      },
+      "found_in_all_tables": true
+    },
+    {
+      "event_type": "CHANGE",
+      "change_code": "STATUS_INACTIVE",
+      "person_id": "eda335c8-4b61-459f-89dd-396579e6430c",
+      "institution_id": "698864ba-a4e0-42b7-8b80-fedbb6a8daae",
+      "api_insert": {
+        "endpoint": "POST /api_v1/log/change",
+        "payload": {
+          "person_id": "eda335c8-4b61-459f-89dd-396579e6430c",
+          "institution_id": "698864ba-a4e0-42b7-8b80-fedbb6a8daae",
+          "change_code": "STATUS_INACTIVE",
+          "change_json": {
+            "reason": "suspended",
+            "date": "2026-04-19T20:27:31.993832",
+            "reversible": true
+          }
+        },
+        "response": {
+          "status": "success",
+          "event_id": "32ebaef8-3c2e-11f1-b8bc-62e0f0c6e9a6"
+        }
+      },
+      "database_queries": {
+        "by_person": {
+          "query": "SELECT * FROM audit_by_person WHERE person_id = eda335c8-4b61-459f-89dd-396579e6430c",
+          "found": true,
+          "retrieved_event": {
+            "person_id": "eda335c8-4b61-459f-89dd-396579e6430c",
+            "event_time": "32ebaef8-3c2e-11f1-b8bc-62e0f0c6e9a6",
+            "change_code": "STATUS_INACTIVE",
+            "change_json": {
+              "reason": "suspended",
+              "date": "2026-04-19T20:27:31.993832",
+              "reversible": true
+            },
+            "event_type": "CHANGE",
+            "institution_id": "698864ba-a4e0-42b7-8b80-fedbb6a8daae",
+            "human_time": "2026-04-19T20:27:34.566476"
+          }
+        },
+        "by_institution": {
+          "query": "SELECT * FROM changes_by_inst WHERE institution_id = 698864ba-a4e0-42b7-8b80-fedbb6a8daae",
+          "found": true,
+          "retrieved_event": {
+            "institution_id": "698864ba-a4e0-42b7-8b80-fedbb6a8daae",
+            "changed_at": "32ebaef8-3c2e-11f1-b8bc-62e0f0c6e9a6",
+            "change_code": "STATUS_INACTIVE",
+            "change_json": {
+              "reason": "suspended",
+              "date": "2026-04-19T20:27:31.993832",
+              "reversible": true
+            },
+            "person_id": "eda335c8-4b61-459f-89dd-396579e6430c",
+            "event_time": "32ebaef8-3c2e-11f1-b8bc-62e0f0c6e9a6",
+            "human_time": "2026-04-19T20:27:34.566476"
+          }
+        },
+        "by_code_filtered": {
+          "query": "SELECT * FROM changes_by_code WHERE change_code = 'STATUS_INACTIVE' AND person_id = eda335c8-4b61-459f-89dd-396579e6430c ALLOW FILTERING",
+          "found": true,
+          "retrieved_event": {
+            "change_code": "STATUS_INACTIVE",
+            "changed_at": "32ebaef8-3c2e-11f1-b8bc-62e0f0c6e9a6",
+            "change_json": {
+              "reason": "suspended",
+              "date": "2026-04-19T20:27:31.993832",
+              "reversible": true
+            },
+            "institution_id": "698864ba-a4e0-42b7-8b80-fedbb6a8daae",
+            "person_id": "eda335c8-4b61-459f-89dd-396579e6430c",
+            "event_time": "32ebaef8-3c2e-11f1-b8bc-62e0f0c6e9a6",
+            "human_time": "2026-04-19T20:27:34.566476"
+          }
+        }
+      },
+      "found_in_all_tables": true
+    },
+    {
+      "event_type": "CHANGE",
+      "change_code": "LIMIT_INCREASE",
+      "person_id": "cfa8aaf3-852c-4499-a23f-2c82184564eb",
+      "institution_id": "698864ba-a4e0-42b7-8b80-fedbb6a8daae",
+      "api_insert": {
+        "endpoint": "POST /api_v1/log/change",
+        "payload": {
+          "person_id": "cfa8aaf3-852c-4499-a23f-2c82184564eb",
+          "institution_id": "698864ba-a4e0-42b7-8b80-fedbb6a8daae",
+          "change_code": "LIMIT_INCREASE",
+          "change_json": {
+            "old_limit": 1000,
+            "new_limit": 5000,
+            "currency": "PLN",
+            "approved_by": "manager"
+          }
+        },
+        "response": {
+          "status": "success",
+          "event_id": "333c7efa-3c2e-11f1-b8bc-62e0f0c6e9a6"
+        }
+      },
+      "database_queries": {
+        "by_person": {
+          "query": "SELECT * FROM audit_by_person WHERE person_id = cfa8aaf3-852c-4499-a23f-2c82184564eb",
+          "found": true,
+          "retrieved_event": {
+            "person_id": "cfa8aaf3-852c-4499-a23f-2c82184564eb",
+            "event_time": "333c7efa-3c2e-11f1-b8bc-62e0f0c6e9a6",
+            "change_code": "LIMIT_INCREASE",
+            "change_json": {
+              "old_limit": 1000,
+              "new_limit": 5000,
+              "currency": "PLN",
+              "approved_by": "manager"
+            },
+            "event_type": "CHANGE",
+            "institution_id": "698864ba-a4e0-42b7-8b80-fedbb6a8daae",
+            "human_time": "2026-04-19T20:27:35.096089"
+          }
+        },
+        "by_institution": {
+          "query": "SELECT * FROM changes_by_inst WHERE institution_id = 698864ba-a4e0-42b7-8b80-fedbb6a8daae",
+          "found": true,
+          "retrieved_event": {
+            "institution_id": "698864ba-a4e0-42b7-8b80-fedbb6a8daae",
+            "changed_at": "333c7efa-3c2e-11f1-b8bc-62e0f0c6e9a6",
+            "change_code": "LIMIT_INCREASE",
+            "change_json": {
+              "old_limit": 1000,
+              "new_limit": 5000,
+              "currency": "PLN",
+              "approved_by": "manager"
+            },
+            "person_id": "cfa8aaf3-852c-4499-a23f-2c82184564eb",
+            "event_time": "333c7efa-3c2e-11f1-b8bc-62e0f0c6e9a6",
+            "human_time": "2026-04-19T20:27:35.096089"
+          }
+        },
+        "by_code_filtered": {
+          "query": "SELECT * FROM changes_by_code WHERE change_code = 'LIMIT_INCREASE' AND person_id = cfa8aaf3-852c-4499-a23f-2c82184564eb ALLOW FILTERING",
+          "found": true,
+          "retrieved_event": {
+            "change_code": "LIMIT_INCREASE",
+            "changed_at": "333c7efa-3c2e-11f1-b8bc-62e0f0c6e9a6",
+            "change_json": {
+              "old_limit": 1000,
+              "new_limit": 5000,
+              "currency": "PLN",
+              "approved_by": "manager"
+            },
+            "institution_id": "698864ba-a4e0-42b7-8b80-fedbb6a8daae",
+            "person_id": "cfa8aaf3-852c-4499-a23f-2c82184564eb",
+            "event_time": "333c7efa-3c2e-11f1-b8bc-62e0f0c6e9a6",
+            "human_time": "2026-04-19T20:27:35.096089"
+          }
+        }
+      },
+      "found_in_all_tables": true
+    }
+  ]
+}
