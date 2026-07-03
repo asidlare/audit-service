@@ -1,13 +1,29 @@
 import asyncio
 import time
-from cassandra import ConsistencyLevel
-from cassandra.cluster import Cluster, Session, ResponseFuture, ResultSet
+from cassandra import ConsistencyLevel, OperationTimedOut, Unavailable
+from cassandra.cluster import (
+    Cluster,
+    NoHostAvailable,
+    ResponseFuture,
+    ResultSet,
+    Session,
+)
 from cassandra.policies import DCAwareRoundRobinPolicy
 from cassandra.io.asyncioreactor import AsyncioConnection
 from typing import Optional
 
 from app.logger import logger
 from app.services.schema import SCHEMA
+
+
+class QuorumUnavailableError(Exception):
+    """
+    Raised when Cassandra cannot achieve the required consistency level (QUORUM).
+
+    This typically occurs when too many nodes in the cluster are down
+    and the required majority cannot be satisfied.
+    """
+    pass
 
 
 class CassandraClient:
@@ -39,14 +55,42 @@ class CassandraClient:
         :param query: A CQL query string to be executed.
         :param parameters: A tuple containing parameters to be used in the query. Defaults to an empty tuple.
         :return: Result of the executed query.
-        :rtype: Any
+        :rtype: ResultSet
+        :raises QuorumUnavailableError: When QUORUM consistency level cannot be achieved or times out
         """
         loop = asyncio.get_event_loop()
         future: ResponseFuture = self.session.execute_async(query, parameters)
 
         # Convert Cassandra Future to asyncio Future
-        result = await loop.run_in_executor(None, future.result)
-        return result
+        try:
+            result = await loop.run_in_executor(None, future.result)
+            return result
+        except NoHostAvailable as e:
+            # NoHostAvailable wraps Unavailable exception when QUORUM cannot be achieved
+            # Check if the root cause is Unavailable (quorum failure)
+            if any(isinstance(err, Unavailable) for err in e.errors.values()):
+                logger.error(f"QUORUM unavailable: {e}")
+                raise QuorumUnavailableError(
+                    "Cannot achieve QUORUM consistency level. "
+                    "Insufficient nodes available in the cluster."
+                ) from e
+            # Re-raise other NoHostAvailable errors (e.g., all nodes down)
+            logger.error(f"No hosts available: {e}")
+            raise
+        except Unavailable as e:
+            # Direct Unavailable exception (less common, but possible)
+            logger.error(f"Consistency level unavailable: {e}")
+            raise QuorumUnavailableError(
+                f"Cannot achieve consistency level {e.consistency}. "
+                f"Required replicas: {e.required_replicas}, alive replicas: {e.alive_replicas}"
+            ) from e
+        except OperationTimedOut as e:
+            # Operation timed out while waiting for QUORUM
+            logger.error(f"Operation timed out: {e}")
+            raise QuorumUnavailableError(
+                "Operation timed out while waiting for QUORUM. "
+                "Cluster nodes may be overloaded or unavailable."
+            ) from e
 
     def connect(self, hosts: list[str], retry_count: int = 5, retry_delay: int = 10) -> None:
         """

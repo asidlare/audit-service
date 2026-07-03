@@ -6,7 +6,7 @@ The primary goal of this project was to build a **FastAPI application with an as
 
 Specific objectives:
 
-- Implement a production-style async Cassandra connection using FastAPI's `lifespan` context manager — connecting on startup, closing on shutdown — and evaluate how `cassandra-driver` with `AsyncioConnection` and `aiocassandra` behave in a real async environment.
+- Implement an async Cassandra connection using FastAPI's `lifespan` context manager — connecting on startup, closing on shutdown — and evaluate how `cassandra-driver` with `AsyncioConnection` and `aiocassandra` behave in a real async environment.
 - Verify how to **stabilize a containerized FastAPI application with a 3-node Cassandra cluster** in Docker Compose, including proper health checks, sequential startup, and dependency management — to observe real-world cluster behavior rather than simulating it.
 - Use a **QUORUM consistency level** (`ConsistencyLevel.QUORUM`), which requires 2 out of 3 nodes to confirm each read/write. This provides strong consistency while tolerating a single node failure — the minimum viable setup for testing distributed Cassandra behavior.
 - Apply a **DCAwareRoundRobinPolicy** load balancing policy to distribute queries evenly across all nodes in the local datacenter, with automatic fallback if a node goes down.
@@ -47,9 +47,7 @@ This project is intentionally a **learning and testing environment**, not a prod
     │cassandra-1 │          │  cassandra-2   │       │  cassandra-3   │
     │   (seed)   │          │                │       │                │
     │            │<─────────│  SEEDS=cass-1  │<──────│  SEEDS=cass-1  │
-    │ Token:     │  CLUSTER │                │CLUSTER│                │
-    │    0       │          │  Token:        │       │  Token:        │
-    │            │          │  5534023...484 │       │ -5534023...485 │
+    │            │  CLUSTER │                │CLUSTER│                │
     │ tmpfs: 2GB │          │  tmpfs: 2GB    │       │  tmpfs: 2GB    │
     │            │          │                │       │                │
     │ Health: OK │          │  Health: OK    │       │  Health: OK    │
@@ -95,46 +93,18 @@ This project is intentionally a **learning and testing environment**, not a prod
     Token Ring Distribution:
 
                     cassandra-1
-                   (token: 0)
                     /        \
                    /    o     \
                   /   Ring     \
                  /    Space     \
                 /                \
          cassandra-3        cassandra-2
-      (token: -5534...)    (token: 5534...)
 
     Benefits:
     • Even data distribution (120 degrees per node)
     • Load balancing across cluster
     • High availability (1 node can fail)
     • Realistic testing environment
-
-
-  ┌──────────────────────────────────────────────────────────────────────┐
-  │ WHY INITIAL TOKENS? - PREVENTING TOKEN COLLISION                     │
-  └──────────────────────────────────────────────────────────────────────┘
-
-    WITHOUT explicit tokens:               WITH explicit tokens:
-    ┌──────────────────────────┐          ┌──────────────────────────┐
-    │ Random token selection   │          │ Predictable layout       │
-    │ Possible collisions      │          │ Even distribution        │
-    │ Cluster instability      │          │ Fast startup             │
-    │ Bootstrap failures       │          │ Repeatable tests         │
-    │ Uneven data spread       │          │ No conflicts             │
-    └──────────────────────────┘          └──────────────────────────┘
-
-    Token Calculation (3 nodes, 64-bit range):
-    ┌────────────┬───────────────────────────────────────────┐
-    │ Node       │ Token Value                               │
-    ├────────────┼───────────────────────────────────────────┤
-    │ cassandra-1│ 0                                         │
-    │ cassandra-2│ 2^64 / 3  =  5534023222112865484          │
-    │ cassandra-3│ -2^64 / 3 = -5534023222112865485          │
-    └────────────┴───────────────────────────────────────────┘
-
-    Configuration:
-      JVM_OPTS=-Dcassandra.initial_token=<value>
 
 
   ┌──────────────────────────────────────────────────────────────────────┐
@@ -307,7 +277,7 @@ This project is intentionally a **learning and testing environment**, not a prod
   ┌─────────────────────────┬──────────────┬─────────────────────┐
   │ Metric                  │ Multi-Stage  │ Single Stage        │
   ├─────────────────────────┼──────────────┼─────────────────────┤
-  │ Final Image Size        │ smaller      │ big.                │
+  │ Final Image Size        │ smaller      │ big                 │
   │ Build Tools in Image    │ No           │ Yes (security risk) │
   │ Build Time (cached)     │ Fast         │ Moderate            │
   └─────────────────────────┴──────────────┴─────────────────────┘
@@ -329,7 +299,7 @@ This project is intentionally a **learning and testing environment**, not a prod
   │                      │          │  • Type validation                │
   ├──────────────────────┼──────────┼───────────────────────────────────┤
   │ uvicorn[standard]    │ >=0.32   │ ASGI Server                       │
-  │                      │          │  • Production-grade performance   │
+  │                      │          │  • High performance               │
   ├──────────────────────┼──────────┼───────────────────────────────────┤
   │ cassandra-driver     │ >=3.29   │ Apache Cassandra Client           │
   │                      │          │  • CQL query execution            │

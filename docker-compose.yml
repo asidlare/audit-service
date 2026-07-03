@@ -5,7 +5,6 @@ services:
     hostname: cassandra-1
     environment:
       - CASSANDRA_CLUSTER_NAME=AuditCluster
-      - JVM_OPTS=-Dcassandra.initial_token=0
     volumes:
       - type: tmpfs
         target: /var/lib/cassandra
@@ -27,7 +26,6 @@ services:
     environment:
       - CASSANDRA_CLUSTER_NAME=AuditCluster
       - CASSANDRA_SEEDS=cassandra-1
-      - JVM_OPTS=-Dcassandra.initial_token=5534023222112865484
     volumes:
       - type: tmpfs
         target: /var/lib/cassandra
@@ -52,7 +50,6 @@ services:
     environment:
       - CASSANDRA_CLUSTER_NAME=AuditCluster
       - CASSANDRA_SEEDS=cassandra-1
-      - JVM_OPTS=-Dcassandra.initial_token=-5534023222112865485
     volumes:
       - type: tmpfs
         target: /var/lib/cassandra
@@ -95,4 +92,5 @@ services:
 
 networks:
   audit_net:
+    name: audit_net
     driver: bridge
