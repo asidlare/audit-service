@@ -879,6 +879,222 @@ This project is intentionally a **learning and testing environment**, not a prod
   └────────────────────┴─────────────────────┴──────────────────────────┘
 ```
 
+## Failure Testing
+
+The project includes an automated failure testing script (`failure_testing.sh`) that validates Cassandra cluster behavior under node failures and network partitions. This demonstrates QUORUM consistency guarantees and fault tolerance in practice.
+
+### Why Failure Testing?
+
+Testing distributed systems requires **verifying behavior under failure conditions**, not just normal operation. The 3-node cluster with `QUORUM` consistency is designed to tolerate single node failures — this script proves it works as expected.
+
+### Test Scenarios
+
+The script runs three failure scenarios with interactive verification via Swagger UI:
+
+#### Test 1: Single Node Failure (QUORUM Maintained)
+
+**Scenario:** Pause `cassandra-2` while keeping `cassandra-1` and `cassandra-3` running.
+
+**Expected behavior:**
+
+- ✅ API continues to work (2/3 nodes available)
+- ✅ QUORUM satisfied (2 nodes respond)
+- ✅ `nodetool status` shows cassandra-2 as DOWN
+- ✅ Writes replicate to cassandra-1 and cassandra-3
+- ✅ Reads return consistent data
+
+**Mechanism:**
+
+```bash
+docker pause cassandra-2  # Freezes container (simulates crash)
+```
+
+Recovery:
+
+``` bash
+docker unpause cassandra-2  # Node rejoins cluster
+```
+
+Key learning:
+
+* Single node failure is transparent to the application
+* Load balancer (DCAwareRoundRobinPolicy) routes around failed node
+* Data remains accessible with strong consistency
+ 
+#### Test 2: Two Node Failure (QUORUM Lost)
+
+**Scenario:** Pause both cassandra-2 and cassandra-3, leaving only cassandra-1.
+
+**Expected behavior:**
+
+- ❌ API fails with timeout errors
+- ❌ QUORUM NOT satisfied (only 1/3 nodes, need 2/3)
+- ❌ Writes blocked (cannot guarantee replication)
+- ❌ Reads blocked (cannot guarantee consistency)
+
+**Mechanism:**
+
+``` bash
+docker pause cassandra-2
+docker pause cassandra-3  # Now only 1 node active
+```
+
+Recovery (staged):
+
+``` bash
+docker unpause cassandra-2  # Restore 2nd node → QUORUM restored ✅
+# API immediately starts working again
+
+docker unpause cassandra-3  # Full cluster restored
+```
+
+Key learning:
+
+* QUORUM prevents split-brain scenarios
+* System refuses to serve requests rather than return stale data
+* 2-node availability is the minimum for QUORUM (RF=3)
+* Recovery is immediate once quorum is restored
+ 
+#### Test 3: Network Partition
+
+**Scenario:** Disconnect cassandra-2 from the Docker network (simulates network failure).
+
+**Expected behavior:**
+
+- ✅ API continues to work (2/3 nodes reachable)
+- ✅ QUORUM satisfied via cassandra-1 and cassandra-3
+- ⚠️ cassandra-2 cannot participate in reads/writes
+- ⚠️ Gossip protocol detects partition
+- ⚠️ nodetool status shows cassandra-2 as DOWN (from cassandra-1's perspective)
+
+**Mechanism:**
+
+``` bash
+docker network disconnect audit_net cassandra-2  # Hard network failure
+```
+
+Recovery:
+
+``` bash
+docker network connect audit_net cassandra-2  # Network restored
+# Gossip protocol automatically re-integrates node
+# Hinted handoff may replay missed writes
+```
+
+Key learning:
+* Network partitions are handled gracefully
+* Cluster remains available as long as QUORUM nodes can communicate
+* Automatic recovery when network is restored
+ 
+#### Running Failure Tests
+
+**Prerequisites:**
+
+Cluster must be fully healthy (all 3 nodes up)
+API must be running and seeded with data
+
+**Execute:**
+
+``` bash
+bash failure_testing.sh
+```
+
+**Workflow:**
+
+The script is interactive — it pauses at each step to allow manual verification via Swagger UI (http://localhost:8000/docs).
+
+Example flow:
+
+``` 
+1. Script pauses cassandra-2
+2. You test API via Swagger (should work)
+3. Press ENTER to continue
+4. Script shows cluster status
+5. Script restores cassandra-2
+6. Repeat for next test...
+```
+
+Verification Commands
+The script automatically runs these diagnostic commands:
+
+#### Check cluster health
+
+```bash
+docker exec cassandra-1 nodetool status
+
+# Output example (cassandra-2 paused):
+# UN  cassandra-1  ...  UP    NORMAL
+# DN  cassandra-2  ...  DOWN  NORMAL  (paused)
+# UN  cassandra-3  ...  UP    NORMAL
+```
+
+``` bash
+# Check gossip state (network partition test)
+docker exec cassandra-2 nodetool gossipinfo | head -n 30
+```
+
+ 
+#### What to Look For During Tests
+
+| Test | Swagger UI Behavior | Expected Status Code | Notes                           |
+|------|---------------------|----------------------|---------------------------------|
+| Test 1 (1 node down) | ✅ All endpoints work | 200 | May see slight latency increase |
+| Test 2 (2 nodes down) | ❌ Timeout errors | 500 / timeout | QUORUM impossible               |
+| Test 2 (after 1 node restored) | ✅ Immediate recovery | 200 | No manual intervention          |
+| Test 3 (network partition) | ✅ All endpoints work | 200 | 2 nodes still reachable         |
+ 
+#### Technical Details
+
+Why docker pause instead of docker stop?
+
+* pause freezes the process (simulates sudden crash)
+* Container stays in cluster membership (realistic failure scenario)
+* Faster recovery than full restart
+* Preserves container state
+
+Why network disconnect?
+
+* Tests network partition scenarios (split-brain potential)
+* Different failure mode than process crash
+* Verifies gossip protocol behavior
+* Common in multi-datacenter or cloud deployments
+
+Health check behavior during failures:
+
+* Paused nodes fail health checks immediately
+* Docker marks them as unhealthy but doesn't restart (paused state)
+* Other nodes detect failure via gossip protocol (separate from Docker health)
+ 
+#### Limitations (Testing Environment)
+
+These tests use tmpfs volumes — data is lost on container stop. This means:
+
+- ✅ Tests demonstrate fault tolerance (QUORUM behavior)
+- ✅ Tests show automatic recovery (node rejoins cluster)
+- ❌ Tests do NOT demonstrate data durability (no persistent storage)
+- ❌ Tests do NOT demonstrate hinted handoff (data loss on restart)
+
+For production testing with persistent volumes, use docker stop/start instead of pause/unpause.
+ 
+#### Summary: What These Tests Prove
+
+| Property | Test Coverage |
+| - | - |
+| Availability | ✅ Cluster survives 1 node failure |
+| Consistency | ✅ QUORUM prevents split-brain |
+| Partition Tolerance | ✅ Network failures handled gracefully |
+| Automatic Recovery | ✅ Nodes rejoin without manual intervention |
+| Failure Detection | ✅ Gossip + health checks work together |
+| Load Balancing | ✅ Traffic routes around failed nodes |
+
+#### CAP Theorem in Practice: 
+
+This setup demonstrates CP (Consistency + Partition Tolerance) with available-when-possible behavior:
+
+- C: QUORUM ensures strong consistency
+- P: Tolerates network partitions (as long as QUORUM reachable)
+- A: Sacrifices availability when QUORUM lost (correct behavior)
+
 ## Swagger UI
 
 The Audit Service exposes a RESTful API documented with OpenAPI/Swagger. You can access the interactive API documentation at:
